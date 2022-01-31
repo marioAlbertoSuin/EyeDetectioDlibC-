@@ -1,0 +1,2 @@
+/bin/ar qc libneon_test.a  CMakeFiles/neon_test.dir/neon_test.cpp.o
+/bin/ranlib libneon_test.a

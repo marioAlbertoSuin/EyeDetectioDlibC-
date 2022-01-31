@@ -1,0 +1,672 @@
+[
+{
+  "directory": "/home/administrador/Documents/eye-detection/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/administrador/Documents/eye-detection -I/home/administrador/Documents/dlib-19.7/dlib/..   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/eyeDetection.dir/main.cpp.o -c /home/administrador/Documents/eye-detection/main.cpp",
+  "file": "/home/administrador/Documents/eye-detection/main.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/administrador/Documents/eye-detection -I/home/administrador/Documents/dlib-19.7/dlib/..   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/eyeDetection.dir/bmp.cpp.o -c /home/administrador/Documents/eye-detection/bmp.cpp",
+  "file": "/home/administrador/Documents/eye-detection/bmp.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/administrador/Documents/eye-detection -I/home/administrador/Documents/dlib-19.7/dlib/..   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/eyeDetection.dir/HibridMedianfilter.cpp.o -c /home/administrador/Documents/eye-detection/HibridMedianfilter.cpp",
+  "file": "/home/administrador/Documents/eye-detection/HibridMedianfilter.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/administrador/Documents/eye-detection -I/home/administrador/Documents/dlib-19.7/dlib/..   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/eyeDetection.dir/array.cpp.o -c /home/administrador/Documents/eye-detection/array.cpp",
+  "file": "/home/administrador/Documents/eye-detection/array.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/administrador/Documents/eye-detection -I/home/administrador/Documents/dlib-19.7/dlib/..   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/eyeDetection.dir/system_metrics.cpp.o -c /home/administrador/Documents/eye-detection/system_metrics.cpp",
+  "file": "/home/administrador/Documents/eye-detection/system_metrics.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/administrador/Documents/eye-detection -I/home/administrador/Documents/dlib-19.7/dlib/..   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/eyeDetection.dir/memcount.cpp.o -c /home/administrador/Documents/eye-detection/memcount.cpp",
+  "file": "/home/administrador/Documents/eye-detection/memcount.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/base64/base64_kernel_1.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/base64/base64_kernel_1.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/base64/base64_kernel_1.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/bigint/bigint_kernel_1.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/bigint/bigint_kernel_1.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/bigint/bigint_kernel_1.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/bigint/bigint_kernel_2.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/bigint/bigint_kernel_2.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/bigint/bigint_kernel_2.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/bit_stream/bit_stream_kernel_1.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/bit_stream/bit_stream_kernel_1.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/entropy_decoder/entropy_decoder_kernel_1.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/entropy_decoder/entropy_decoder_kernel_1.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/entropy_decoder/entropy_decoder_kernel_2.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/entropy_decoder/entropy_decoder_kernel_2.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/entropy_encoder/entropy_encoder_kernel_1.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/entropy_encoder/entropy_encoder_kernel_1.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/entropy_encoder/entropy_encoder_kernel_2.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/entropy_encoder/entropy_encoder_kernel_2.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/md5/md5_kernel_1.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/md5/md5_kernel_1.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/md5/md5_kernel_1.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/tokenizer/tokenizer_kernel_1.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/tokenizer/tokenizer_kernel_1.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/unicode/unicode.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/unicode/unicode.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/unicode/unicode.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/data_io/image_dataset_metadata.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/data_io/image_dataset_metadata.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/data_io/image_dataset_metadata.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/data_io/mnist.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/data_io/mnist.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/data_io/mnist.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/dnn/cpu_dlib.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/dnn/cpu_dlib.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/dnn/cpu_dlib.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/dnn/tensor_tools.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/dnn/tensor_tools.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/dnn/tensor_tools.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/sockets/sockets_kernel_1.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/sockets/sockets_kernel_1.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/sockets/sockets_kernel_1.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/bsp/bsp.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/bsp/bsp.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/bsp/bsp.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/dir_nav/dir_nav_kernel_1.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/dir_nav/dir_nav_kernel_1.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/dir_nav/dir_nav_kernel_2.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/dir_nav/dir_nav_kernel_2.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/dir_nav/dir_nav_extensions.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/dir_nav/dir_nav_extensions.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/linker/linker_kernel_1.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/linker/linker_kernel_1.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/linker/linker_kernel_1.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/logger/extra_logger_headers.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/logger/extra_logger_headers.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/logger/extra_logger_headers.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/logger/logger_kernel_1.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/logger/logger_kernel_1.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/logger/logger_kernel_1.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/logger/logger_config_file.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/logger/logger_config_file.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/logger/logger_config_file.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/misc_api/misc_api_kernel_1.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/misc_api/misc_api_kernel_1.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/misc_api/misc_api_kernel_2.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/misc_api/misc_api_kernel_2.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/sockets/sockets_extensions.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/sockets/sockets_extensions.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/sockets/sockets_extensions.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/sockets/sockets_kernel_2.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/sockets/sockets_kernel_2.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/sockets/sockets_kernel_2.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/sockstreambuf/sockstreambuf.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/sockstreambuf/sockstreambuf.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/sockstreambuf/sockstreambuf_unbuffered.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/sockstreambuf/sockstreambuf_unbuffered.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/server/server_kernel.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/server/server_kernel.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/server/server_kernel.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/server/server_iostream.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/server/server_iostream.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/server/server_iostream.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/server/server_http.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/server/server_http.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/server/server_http.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/threads/multithreaded_object_extension.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/threads/multithreaded_object_extension.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/threads/multithreaded_object_extension.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/threads/threaded_object_extension.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/threads/threaded_object_extension.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/threads/threaded_object_extension.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/threads/threads_kernel_1.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/threads/threads_kernel_1.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/threads/threads_kernel_1.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/threads/threads_kernel_2.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/threads/threads_kernel_2.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/threads/threads_kernel_2.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/threads/threads_kernel_shared.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/threads/threads_kernel_shared.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/threads/threads_kernel_shared.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/threads/thread_pool_extension.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/threads/thread_pool_extension.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/threads/thread_pool_extension.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/threads/async.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/threads/async.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/threads/async.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/timer/timer.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/timer/timer.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/timer/timer.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/stack_trace.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/stack_trace.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/stack_trace.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/gui_widgets/fonts.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/gui_widgets/fonts.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/gui_widgets/fonts.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/gui_widgets/widgets.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/gui_widgets/widgets.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/gui_widgets/widgets.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/gui_widgets/drawable.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/gui_widgets/drawable.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/gui_widgets/drawable.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/gui_widgets/canvas_drawing.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/gui_widgets/canvas_drawing.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/gui_widgets/style.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/gui_widgets/style.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/gui_widgets/style.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/gui_widgets/base_widgets.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/gui_widgets/base_widgets.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/gui_widgets/base_widgets.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/gui_core/gui_core_kernel_1.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/gui_core/gui_core_kernel_1.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/gui_core/gui_core_kernel_2.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/gui_core/gui_core_kernel_2.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-gcc-9 -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib  -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -o CMakeFiles/dlib.dir/external/libpng/png.c.o   -c /home/administrador/Documents/dlib-19.7/dlib/external/libpng/png.c",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/libpng/png.c"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-gcc-9 -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib  -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -o CMakeFiles/dlib.dir/external/libpng/pngerror.c.o   -c /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngerror.c",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngerror.c"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-gcc-9 -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib  -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -o CMakeFiles/dlib.dir/external/libpng/pngget.c.o   -c /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngget.c",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngget.c"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-gcc-9 -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib  -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -o CMakeFiles/dlib.dir/external/libpng/pngmem.c.o   -c /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngmem.c",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngmem.c"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-gcc-9 -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib  -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -o CMakeFiles/dlib.dir/external/libpng/pngpread.c.o   -c /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngpread.c",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngpread.c"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-gcc-9 -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib  -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -o CMakeFiles/dlib.dir/external/libpng/pngread.c.o   -c /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngread.c",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngread.c"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-gcc-9 -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib  -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -o CMakeFiles/dlib.dir/external/libpng/pngrio.c.o   -c /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngrio.c",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngrio.c"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-gcc-9 -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib  -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -o CMakeFiles/dlib.dir/external/libpng/pngrtran.c.o   -c /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngrtran.c",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngrtran.c"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-gcc-9 -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib  -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -o CMakeFiles/dlib.dir/external/libpng/pngrutil.c.o   -c /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngrutil.c",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngrutil.c"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-gcc-9 -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib  -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -o CMakeFiles/dlib.dir/external/libpng/pngset.c.o   -c /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngset.c",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngset.c"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-gcc-9 -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib  -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -o CMakeFiles/dlib.dir/external/libpng/pngtrans.c.o   -c /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngtrans.c",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngtrans.c"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-gcc-9 -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib  -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -o CMakeFiles/dlib.dir/external/libpng/pngwio.c.o   -c /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngwio.c",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngwio.c"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-gcc-9 -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib  -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -o CMakeFiles/dlib.dir/external/libpng/pngwrite.c.o   -c /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngwrite.c",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngwrite.c"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-gcc-9 -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib  -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -o CMakeFiles/dlib.dir/external/libpng/pngwtran.c.o   -c /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngwtran.c",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngwtran.c"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-gcc-9 -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib  -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -o CMakeFiles/dlib.dir/external/libpng/pngwutil.c.o   -c /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngwutil.c",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngwutil.c"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-gcc-9 -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib  -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -o CMakeFiles/dlib.dir/external/zlib/adler32.c.o   -c /home/administrador/Documents/dlib-19.7/dlib/external/zlib/adler32.c",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/zlib/adler32.c"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-gcc-9 -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib  -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -o CMakeFiles/dlib.dir/external/zlib/compress.c.o   -c /home/administrador/Documents/dlib-19.7/dlib/external/zlib/compress.c",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/zlib/compress.c"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-gcc-9 -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib  -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -o CMakeFiles/dlib.dir/external/zlib/crc32.c.o   -c /home/administrador/Documents/dlib-19.7/dlib/external/zlib/crc32.c",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/zlib/crc32.c"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-gcc-9 -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib  -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -o CMakeFiles/dlib.dir/external/zlib/deflate.c.o   -c /home/administrador/Documents/dlib-19.7/dlib/external/zlib/deflate.c",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/zlib/deflate.c"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-gcc-9 -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib  -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -o CMakeFiles/dlib.dir/external/zlib/gzclose.c.o   -c /home/administrador/Documents/dlib-19.7/dlib/external/zlib/gzclose.c",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/zlib/gzclose.c"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-gcc-9 -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib  -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -o CMakeFiles/dlib.dir/external/zlib/gzlib.c.o   -c /home/administrador/Documents/dlib-19.7/dlib/external/zlib/gzlib.c",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/zlib/gzlib.c"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-gcc-9 -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib  -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -o CMakeFiles/dlib.dir/external/zlib/gzread.c.o   -c /home/administrador/Documents/dlib-19.7/dlib/external/zlib/gzread.c",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/zlib/gzread.c"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-gcc-9 -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib  -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -o CMakeFiles/dlib.dir/external/zlib/gzwrite.c.o   -c /home/administrador/Documents/dlib-19.7/dlib/external/zlib/gzwrite.c",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/zlib/gzwrite.c"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-gcc-9 -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib  -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -o CMakeFiles/dlib.dir/external/zlib/infback.c.o   -c /home/administrador/Documents/dlib-19.7/dlib/external/zlib/infback.c",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/zlib/infback.c"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-gcc-9 -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib  -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -o CMakeFiles/dlib.dir/external/zlib/inffast.c.o   -c /home/administrador/Documents/dlib-19.7/dlib/external/zlib/inffast.c",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/zlib/inffast.c"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-gcc-9 -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib  -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -o CMakeFiles/dlib.dir/external/zlib/inflate.c.o   -c /home/administrador/Documents/dlib-19.7/dlib/external/zlib/inflate.c",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/zlib/inflate.c"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-gcc-9 -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib  -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -o CMakeFiles/dlib.dir/external/zlib/inftrees.c.o   -c /home/administrador/Documents/dlib-19.7/dlib/external/zlib/inftrees.c",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/zlib/inftrees.c"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-gcc-9 -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib  -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -o CMakeFiles/dlib.dir/external/zlib/trees.c.o   -c /home/administrador/Documents/dlib-19.7/dlib/external/zlib/trees.c",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/zlib/trees.c"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-gcc-9 -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib  -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -o CMakeFiles/dlib.dir/external/zlib/uncompr.c.o   -c /home/administrador/Documents/dlib-19.7/dlib/external/zlib/uncompr.c",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/zlib/uncompr.c"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-gcc-9 -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib  -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -o CMakeFiles/dlib.dir/external/zlib/zutil.c.o   -c /home/administrador/Documents/dlib-19.7/dlib/external/zlib/zutil.c",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/zlib/zutil.c"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/image_loader/png_loader.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/image_loader/png_loader.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/image_loader/png_loader.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/image_saver/save_png.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/image_saver/save_png.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/image_saver/save_png.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/external/libjpeg/jcomapi.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcomapi.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcomapi.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/external/libjpeg/jdapimin.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdapimin.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdapimin.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/external/libjpeg/jdapistd.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdapistd.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdapistd.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdatasrc.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdatasrc.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdcoefct.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdcoefct.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/external/libjpeg/jdcolor.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdcolor.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdcolor.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jddctmgr.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jddctmgr.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/external/libjpeg/jdhuff.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdhuff.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdhuff.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/external/libjpeg/jdinput.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdinput.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdinput.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/external/libjpeg/jdmainct.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdmainct.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdmainct.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/external/libjpeg/jdmarker.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdmarker.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdmarker.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/external/libjpeg/jdmaster.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdmaster.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdmaster.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/external/libjpeg/jdmerge.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdmerge.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdmerge.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/external/libjpeg/jdphuff.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdphuff.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdphuff.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/external/libjpeg/jdpostct.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdpostct.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdpostct.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/external/libjpeg/jdsample.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdsample.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdsample.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/external/libjpeg/jerror.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jerror.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jerror.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/external/libjpeg/jidctflt.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jidctflt.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jidctflt.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/external/libjpeg/jidctfst.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jidctfst.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jidctfst.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/external/libjpeg/jidctint.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jidctint.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jidctint.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/external/libjpeg/jidctred.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jidctred.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jidctred.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jmemmgr.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jmemmgr.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jmemnobs.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jmemnobs.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/external/libjpeg/jquant1.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jquant1.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jquant1.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/external/libjpeg/jquant2.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jquant2.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jquant2.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/external/libjpeg/jutils.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jutils.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jutils.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/external/libjpeg/jcapimin.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcapimin.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcapimin.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/external/libjpeg/jdatadst.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdatadst.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdatadst.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/external/libjpeg/jcparam.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcparam.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcparam.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/external/libjpeg/jcapistd.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcapistd.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcapistd.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/external/libjpeg/jcmarker.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcmarker.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcmarker.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/external/libjpeg/jcinit.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcinit.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcinit.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/external/libjpeg/jcmaster.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcmaster.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcmaster.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcdctmgr.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcdctmgr.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/external/libjpeg/jccoefct.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jccoefct.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jccoefct.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/external/libjpeg/jccolor.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jccolor.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jccolor.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/external/libjpeg/jchuff.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jchuff.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jchuff.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/external/libjpeg/jcmainct.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcmainct.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcmainct.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/external/libjpeg/jcphuff.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcphuff.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcphuff.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/external/libjpeg/jcprepct.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcprepct.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcprepct.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/external/libjpeg/jcsample.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcsample.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcsample.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/external/libjpeg/jfdctint.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jfdctint.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jfdctint.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jfdctflt.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jfdctflt.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jfdctfst.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jfdctfst.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/image_loader/jpeg_loader.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/image_loader/jpeg_loader.cpp"
+},
+{
+  "directory": "/home/administrador/Documents/eye-detection/build/dlib_build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DDLIB_JPEG_STATIC -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib   -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11 -o CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/image_saver/save_jpeg.cpp",
+  "file": "/home/administrador/Documents/dlib-19.7/dlib/image_saver/save_jpeg.cpp"
+}
+]

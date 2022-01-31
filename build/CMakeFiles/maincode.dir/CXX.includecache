@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/administrador/Documents/eye-detection/HibridMedianfilter.cpp
+HibridMedianfilter.h
+/home/administrador/Documents/eye-detection/HibridMedianfilter.h
+
+/home/administrador/Documents/eye-detection/HibridMedianfilter.h
+iostream
+-
+fstream
+/home/administrador/Documents/eye-detection/fstream
+string
+/home/administrador/Documents/eye-detection/string
+
+/home/administrador/Documents/eye-detection/array.cpp
+stdio.h
+-
+stdlib.h
+/home/administrador/Documents/eye-detection/stdlib.h
+string.h
+-
+
+/home/administrador/Documents/eye-detection/array.h
+
+/home/administrador/Documents/eye-detection/bmp.cpp
+iostream
+-
+fstream
+-
+stdlib.h
+-
+array.h
+/home/administrador/Documents/eye-detection/array.h
+bmp.h
+/home/administrador/Documents/eye-detection/bmp.h
+
+/home/administrador/Documents/eye-detection/bmp.h
+
