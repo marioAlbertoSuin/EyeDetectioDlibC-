@@ -4,6 +4,8 @@ add_definitions(-std=c++11)
 include(CTest)
 enable_testing()
 
+
+
 #add_subdirectory(../dlib-19.23 dlib_build)
 include(../dlib-19.7/dlib/cmake)
 include_directories(${PROJECT_SOURCE_DIR})
@@ -19,7 +21,6 @@ link_directories(${dlib_LIBRARY_DIRS})
 TARGET_LINK_LIBRARIES(${PROJECT_NAME} dlib )
 
 #target_link_libraries(eyeDetection ${dlib_libs})
-
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
 include(CPack)

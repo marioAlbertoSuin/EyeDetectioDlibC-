@@ -1,9 +1,1 @@
 
-i,nombre,CPU(%),memoria(kB),tiempo(ms),MSE,PSNR,Ventana
-1,1,16.6211,81940,3656.34,3.62957,39.2622,3
-i,nombre,CPU(%),memoria(kB),tiempo(ms),MSE,PSNR,Ventana
-1,1,16.5127,81936,4303.32,3.62957,39.2622,3
-i,nombre,CPU(%),memoria(kB),tiempo(ms),MSE,PSNR,Ventana
-1,1,16.7153,82004,3444.74,14.1947,33.3395,5
-i,nombre,CPU(%),memoria(kB),tiempo(ms),MSE,PSNR,Ventana
-1,1,16.4208,81696,3345.4,14.1947,33.3395,5
