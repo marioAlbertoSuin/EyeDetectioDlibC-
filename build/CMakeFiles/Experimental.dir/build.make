@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/administrador/Documents/eye-detection
+CMAKE_SOURCE_DIR = /home/marcelo/Documentos/tesis/EyeDetectioDlibC-
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/administrador/Documents/eye-detection/build
+CMAKE_BINARY_DIR = /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build
 
 # Utility rule file for Experimental.
 
@@ -71,6 +71,6 @@ CMakeFiles/Experimental.dir/clean:
 .PHONY : CMakeFiles/Experimental.dir/clean
 
 CMakeFiles/Experimental.dir/depend:
-	cd /home/administrador/Documents/eye-detection/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/administrador/Documents/eye-detection /home/administrador/Documents/eye-detection /home/administrador/Documents/eye-detection/build /home/administrador/Documents/eye-detection/build /home/administrador/Documents/eye-detection/build/CMakeFiles/Experimental.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/marcelo/Documentos/tesis/EyeDetectioDlibC- /home/marcelo/Documentos/tesis/EyeDetectioDlibC- /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles/Experimental.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Experimental.dir/depend
 

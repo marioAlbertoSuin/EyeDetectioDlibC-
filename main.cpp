@@ -24,7 +24,7 @@ unsigned long tid;
 // -----------------------------------------------------------------------------------------
 using namespace dlib;
 using namespace std;
-int tam_ventana = 5;
+int tam_ventana = 3;
 // FUNCION PARA CALCULAR CALIDAD DE IMAGENES
 pair<double, double> calculatePSNR(unsigned char *in, unsigned char *out, int nr, int nc);
 
@@ -63,6 +63,7 @@ void filtroHM(string nombre)
         //median hibrid filtering
         HibridMedianfilter Firsttest("resul/" + nombre + ".bmp", "resul/" + nombre + "filter.bmp");
         Firsttest.applyfilter(tam_ventana);
+
         unsigned char *ima;  // originalFile
         unsigned char *bima; // processedFile
         int nr = 0;          // originalFile image width
@@ -124,25 +125,64 @@ string tokenize(string q)
 
 // ----------------------------------------------------------------------------------------
 // RECORTE DE LOS OJOS
-void cutImage_eyes(const std::string &path, int p1_x, int p2_x, int p1_y, int p2_y)
+void cutImage_eyes(const std::string &path, int LeftEyep1_x, int LeftEyep1_y, int LeftEyep2_x, int LeftEyep2_y,int RigthEyep1_x,int RigthEyep1_y,int RigthEyep2_x,int RigthEyep2_y)
 {
 
     string nombre = tokenize(path);
 
     //Cargar imagen
     array2d<rgb_pixel> img;
+    load_image(img, path);
     //imagenes de salida
     array2d<rgb_pixel> resul;
+    //array2d<rgb_pixel> eyes;
+    //array2d<rgb_pixel> resul2;
+    
+    //int h1 =(RigthEyep2_y+25)-(LeftEyep1_y);
+    //int w1 =(RigthEyep2_x+40)-(LeftEyep1_x);
+    //
+    
+    
 
-    resul.set_size(35, 200);
-    // resul2.set_size(35, 200);
-    load_image(img, path);
+    const std::array<dlib::dpoint, 4> &ptsOjosCompletos = 
+    {{dpoint(LeftEyep1_x -15, LeftEyep1_y - 15), 
+    dpoint(RigthEyep2_x + 7, RigthEyep2_y + 15), 
+    dpoint(LeftEyep1_x - 15, LeftEyep1_y + 15), 
+    dpoint(RigthEyep2_x + 20, RigthEyep2_y - 15)}};
+
+    
+    /*
+    int h1 =(RigthEyep2_y+15)-(RigthEyep1_y-15);
+    int w1 =(RigthEyep2_x+15)-(RigthEyep1_x-15);
+    resul2.set_size(w1, h1);
+    */
+    int h =(LeftEyep2_y)-(LeftEyep1_y);
+    int w =(LeftEyep2_x)-(LeftEyep1_x);
+    
     //corte de los ojos
-    array2d<rgb_pixel> &crop_img = resul;
-    const std::array<dlib::dpoint, 4> &pts = {{dpoint(p1_x - 10, p1_y - 10), dpoint(p2_x + 10, p2_y + 10), dpoint(p1_x - 10, p1_y + 10), dpoint(p2_x + 10, p2_y - 10)}};
-    dlib::extract_image_4points(img, crop_img, pts);
+    resul.set_size(w, h);
+    array2d<rgb_pixel> &crop_img = resul ;
+    //array2d<rgb_pixel> &crop_img2 = resul2;
+    
+    const std::array<dlib::dpoint, 4> &pts = 
+    {{dpoint(LeftEyep1_x - 15, LeftEyep1_y - 15), 
+    dpoint(LeftEyep2_x + 7, LeftEyep2_y + 15), 
+    dpoint(LeftEyep1_x - 15, LeftEyep1_y + 15), 
+    dpoint(LeftEyep2_x + 20, LeftEyep2_y - 15)}};
 
+    dlib::extract_image_4points(img, crop_img, pts);
     save_bmp(crop_img, "resul/" + nombre + ".bmp");
+    
+    /*
+    const std::array<dlib::dpoint, 4> &pts1 = 
+    {{dpoint(RigthEyep1_x - 10, RigthEyep1_y - 10), 
+    dpoint(RigthEyep2_x + 10, RigthEyep2_y + 10), 
+    dpoint(RigthEyep1_x - 20, RigthEyep1_y + 27), 
+    dpoint(RigthEyep2_x + 20, RigthEyep2_y - 27)}};
+
+    dlib::extract_image_4points(img, crop_img2, pts1);
+    save_bmp(crop_img2, "resul/Rigth" + nombre + ".bmp");
+    */
 }
 
 // ----------------------------------------------------------------------------------------
@@ -150,7 +190,7 @@ void cutImage_eyes(const std::string &path, int p1_x, int p2_x, int p1_y, int p2
 inline std::vector<image_window::overlay_line> Extraccion_puntos_ojos(
     const std::vector<full_object_detection> &dets,
     const std::string &path,
-    const rgb_pixel color = rgb_pixel(0, 255, 0))
+    const rgb_pixel color = rgb_pixel(17, 255, 0))
 {
     systemMetrics performance("perf");
     ofstream metrics;
@@ -165,11 +205,8 @@ inline std::vector<image_window::overlay_line> Extraccion_puntos_ojos(
     }
     performance.resetCounters();
     std::vector<image_window::overlay_line> lines;
-    unsigned long i = 0;
-    unsigned long j = 0;
 
-
-        for (i = 0; i < dets.size(); ++i)
+        for (unsigned long i = 0; i < dets.size(); ++i)
         {
             DLIB_CASSERT(dets[i].num_parts() == 68 || dets[i].num_parts() == 5,
                          "\t std::vector<image_window::overlay_line> render_face_detections()"
@@ -188,44 +225,52 @@ inline std::vector<image_window::overlay_line> Extraccion_puntos_ojos(
             else
             {
 
-                int p1_x = 0;
-                int p1_y = 0;
+                int LeftEyep1_x = 0;
+                int LeftEyep1_y = 0;
+                int LeftEyep2_x = 0;
+                int LeftEyep2_y = 0;
+                
+                
                 tid=37;
                 // Left eye
 
-                omp_set_num_threads(4);
-                #pragma omp parallel for private(tid)
-
-              //  for (unsigned long i = 37; i <= 41; ++i)
+              for (unsigned long i = 37; i <= 41; ++i)
                 {
-                    tid=tid+omp_get_num_threads();
-                    lines.push_back(image_window::overlay_line(d.part(tid), d.part(tid - 1), color));
-                     
-                   cout << "hilo" << tid;
+                    
+                    lines.push_back(image_window::overlay_line(d.part(i), d.part(i - 1), color));
                 }
                 
-                p1_x = d.part(37).x();
-                p1_y = d.part(37).y();
+                LeftEyep1_x = d.part(37).x();
+                LeftEyep1_y = d.part(37).y();
+                LeftEyep2_x = d.part(40).x();
+                LeftEyep2_y = d.part(40).y();
 
                 lines.push_back(image_window::overlay_line(d.part(36), d.part(41), color));
 
                 // Right eye
-                int p2_x = 0;
-                int p2_y = 0;
+                int RigthEyep1_x = 0;
+                int RigthEyep1_y = 0;
+                int RigthEyep2_x = 0;
+                int RigthEyep2_y = 0;
+
                 for (unsigned long i = 43; i <= 47; ++i)
                 {
                     lines.push_back(image_window::overlay_line(d.part(i), d.part(i - 1), color));
                 }
-                p2_x = d.part(46).x();
-                p2_y = d.part(46).y();
+
+                RigthEyep1_x = d.part(43).x();
+                RigthEyep1_y = d.part(43).y();
+                RigthEyep2_x = d.part(46).x();
+                RigthEyep2_y = d.part(46).y();
 
                 lines.push_back(image_window::overlay_line(d.part(42), d.part(47), color));
                 try
                 {
-                    cutImage_eyes(path, p1_x, p2_x, p1_y, p2_y);
+                    cutImage_eyes(path, LeftEyep1_x, LeftEyep1_y, LeftEyep2_x, LeftEyep2_y,RigthEyep1_x,RigthEyep1_y,RigthEyep2_x,RigthEyep2_y);
                 }
                 catch (const std::exception &)
                 {
+                    
                 }
                 performance.calculate();
                 double cpu = performance.getCpuPercent();
@@ -284,31 +329,26 @@ int main(int argc, char **argv)
             std::vector<rectangle> dets = detector(img);
             cout << "Number of faces detected: " << dets.size() << endl;
 
-            // Now we will go ask the shape_predictor to tell us the pose of
+            if(dets.size()==0){
+                continue;
+            }else{
+                // Now we will go ask the shape_predictor to tell us the pose of
             // each face we detected.
             std::vector<full_object_detection> shapes;
-
-            unsigned long j = 0;
-#pragma omp parallel
-
-            {
-#pragma omp for private(j, i)
-
-                for (j = 0; j < dets.size(); ++j)
+                for (unsigned long j = 0; j < dets.size(); ++j)
                 {
                     full_object_detection shape = sp(img, dets[j]);
                     cout << "number of parts: " << shape.num_parts() << endl;
                     cout << "pixel 37:  " << shape.part(37) << endl;
-                    cout << "pixel 38:  " << shape.part(38) << endl;
-                    cout << "pixel 45:  " << shape.part(45) << endl;
+                    cout << "pixel 40:  " << shape.part(40) << endl;
+                    cout << "pixel 43:  " << shape.part(43) << endl;
                     cout << "pixel 46: " << shape.part(46) << endl;
                     // You get the idea, you can get all the face part locations if
                     // you want them.  Here we just store them in shapes so we can
                     // put them on the screen.
                     shapes.push_back(shape);
                 }
-            }
-
+            
             //ojos
             win.clear_overlay();
             win.set_image(img);
@@ -316,22 +356,10 @@ int main(int argc, char **argv)
             string nombre = tokenize(argv[i]);
             filtroHM(nombre);
 
-            //---------------------------------------------------------------------------
-            /*
-            array2d<rgb_pixel> imgg;
-            load_image(imgg, "photo/32-ruido.jpg");
-            save_bmp(imgg, "resul/32-ruido.bmp");
-            HibridMedianfilter Firsttest("resul/32-ruido.bmp", "resul/32-Sinruido.bmp");
-            Firsttest.applyfilter(3);
-            */
+            }
 
-            //---------------------------------------------------------------------------------
-            //  calculate psnr and mse
-            // Now let's view our face poses on the screen.
-            //---------------------------------------------------------------------------
-            //--------------------------------------------------------
             cout << "Hit enter to process the next image..." << endl;
-            cin.get();
+            //cin.get();
         }
     }
     catch (exception &e)

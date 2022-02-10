@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/administrador/Documents/dlib-19.7/dlib/cmake_utils/test_for_neon
+CMAKE_SOURCE_DIR = /home/marcelo/Documentos/dlib-19.23/dlib/cmake_utils/test_for_neon
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/administrador/Documents/eye-detection/build/dlib_build/neon_test_build
+CMAKE_BINARY_DIR = /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build/neon_test_build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/neon_test.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/neon_test.dir/progress.make
 include CMakeFiles/neon_test.dir/flags.make
 
 CMakeFiles/neon_test.dir/neon_test.cpp.o: CMakeFiles/neon_test.dir/flags.make
-CMakeFiles/neon_test.dir/neon_test.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/cmake_utils/test_for_neon/neon_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/administrador/Documents/eye-detection/build/dlib_build/neon_test_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/neon_test.dir/neon_test.cpp.o"
-	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/neon_test.dir/neon_test.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/cmake_utils/test_for_neon/neon_test.cpp
+CMakeFiles/neon_test.dir/neon_test.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib/cmake_utils/test_for_neon/neon_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build/neon_test_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/neon_test.dir/neon_test.cpp.o"
+	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/neon_test.dir/neon_test.cpp.o -c /home/marcelo/Documentos/dlib-19.23/dlib/cmake_utils/test_for_neon/neon_test.cpp
 
 CMakeFiles/neon_test.dir/neon_test.cpp.i: cmake_force
 	@echo "Preprocessing CXX source to CMakeFiles/neon_test.dir/neon_test.cpp.i"
-	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/cmake_utils/test_for_neon/neon_test.cpp > CMakeFiles/neon_test.dir/neon_test.cpp.i
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/cmake_utils/test_for_neon/neon_test.cpp > CMakeFiles/neon_test.dir/neon_test.cpp.i
 
 CMakeFiles/neon_test.dir/neon_test.cpp.s: cmake_force
 	@echo "Compiling CXX source to assembly CMakeFiles/neon_test.dir/neon_test.cpp.s"
-	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/cmake_utils/test_for_neon/neon_test.cpp -o CMakeFiles/neon_test.dir/neon_test.cpp.s
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/cmake_utils/test_for_neon/neon_test.cpp -o CMakeFiles/neon_test.dir/neon_test.cpp.s
 
 # Object files for target neon_test
 neon_test_OBJECTS = \
@@ -80,7 +80,7 @@ neon_test_EXTERNAL_OBJECTS =
 libneon_test.a: CMakeFiles/neon_test.dir/neon_test.cpp.o
 libneon_test.a: CMakeFiles/neon_test.dir/build.make
 libneon_test.a: CMakeFiles/neon_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/administrador/Documents/eye-detection/build/dlib_build/neon_test_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libneon_test.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build/neon_test_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libneon_test.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/neon_test.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/neon_test.dir/link.txt --verbose=$(VERBOSE)
 
@@ -94,6 +94,6 @@ CMakeFiles/neon_test.dir/clean:
 .PHONY : CMakeFiles/neon_test.dir/clean
 
 CMakeFiles/neon_test.dir/depend:
-	cd /home/administrador/Documents/eye-detection/build/dlib_build/neon_test_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/administrador/Documents/dlib-19.7/dlib/cmake_utils/test_for_neon /home/administrador/Documents/dlib-19.7/dlib/cmake_utils/test_for_neon /home/administrador/Documents/eye-detection/build/dlib_build/neon_test_build /home/administrador/Documents/eye-detection/build/dlib_build/neon_test_build /home/administrador/Documents/eye-detection/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/DependInfo.cmake
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build/neon_test_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/marcelo/Documentos/dlib-19.23/dlib/cmake_utils/test_for_neon /home/marcelo/Documentos/dlib-19.23/dlib/cmake_utils/test_for_neon /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build/neon_test_build /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build/neon_test_build /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/DependInfo.cmake
 .PHONY : CMakeFiles/neon_test.dir/depend
 

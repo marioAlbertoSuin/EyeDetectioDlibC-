@@ -1,4 +1,4 @@
-# Install script for directory: /home/administrador/Documents/dlib-19.7/dlib
+# Install script for directory: /home/marcelo/Documentos/dlib-19.23/dlib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

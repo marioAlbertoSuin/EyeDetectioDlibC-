@@ -7,10 +7,10 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/home/administrador/Documents/dlib-19.7/dlib/cmake_utils/test_for_neon/CMakeLists.txt"
-  "/home/administrador/Documents/eye-detection/build/CMakeFiles/3.16.3/CMakeCCompiler.cmake"
-  "/home/administrador/Documents/eye-detection/build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake"
-  "/home/administrador/Documents/eye-detection/build/CMakeFiles/3.16.3/CMakeSystem.cmake"
+  "/home/marcelo/Documentos/dlib-19.23/dlib/cmake_utils/test_for_neon/CMakeLists.txt"
+  "/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles/3.16.3/CMakeCCompiler.cmake"
+  "/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake"
+  "/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles/3.16.3/CMakeSystem.cmake"
   "/usr/share/cmake-3.16/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.16/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake-3.16/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"

@@ -1,13 +1,13 @@
 cmake_minimum_required(VERSION 3.0.0)
 project(eyeDetection VERSION 0.1.0)
-add_definitions(-std=c++11)
+
 include(CTest)
 enable_testing()
 
 
 
 #add_subdirectory(../dlib-19.23 dlib_build)
-include(../dlib-19.7/dlib/cmake)
+include(../../dlib-19.23/dlib/cmake)
 include_directories(${PROJECT_SOURCE_DIR})
 
 add_executable(eyeDetection main.cpp bmp.cpp HibridMedianfilter.cpp array.cpp system_metrics.cpp memcount.cpp)

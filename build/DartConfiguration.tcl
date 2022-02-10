@@ -4,14 +4,14 @@
 
 
 # Configuration directories and files
-SourceDirectory: /home/administrador/Documents/eye-detection
-BuildDirectory: /home/administrador/Documents/eye-detection/build
+SourceDirectory: /home/marcelo/Documentos/tesis/EyeDetectioDlibC-
+BuildDirectory: /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: administrador-virtual-machine
+Site: marcelo-HP
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
 BuildName: Linux-x86_64-linux-gnu-g++-9
@@ -26,7 +26,7 @@ SubmitURL: http://
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/bin/cmake" "/home/administrador/Documents/eye-detection"
+ConfigureCommand: "/usr/bin/cmake" "/home/marcelo/Documentos/tesis/EyeDetectioDlibC-"
 MakeCommand: /usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 

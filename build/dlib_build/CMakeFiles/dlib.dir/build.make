@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/administrador/Documents/eye-detection
+CMAKE_SOURCE_DIR = /home/marcelo/Documentos/tesis/EyeDetectioDlibC-
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/administrador/Documents/eye-detection/build
+CMAKE_BINARY_DIR = /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build
 
 # Include any dependencies generated for this target.
 include dlib_build/CMakeFiles/dlib.dir/depend.make
@@ -58,1668 +58,1759 @@ include dlib_build/CMakeFiles/dlib.dir/progress.make
 include dlib_build/CMakeFiles/dlib.dir/flags.make
 
 dlib_build/CMakeFiles/dlib.dir/base64/base64_kernel_1.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/base64/base64_kernel_1.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/base64/base64_kernel_1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object dlib_build/CMakeFiles/dlib.dir/base64/base64_kernel_1.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/base64/base64_kernel_1.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/base64/base64_kernel_1.cpp
+dlib_build/CMakeFiles/dlib.dir/base64/base64_kernel_1.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib/base64/base64_kernel_1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object dlib_build/CMakeFiles/dlib.dir/base64/base64_kernel_1.cpp.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/base64/base64_kernel_1.cpp.o -c /home/marcelo/Documentos/dlib-19.23/dlib/base64/base64_kernel_1.cpp
 
 dlib_build/CMakeFiles/dlib.dir/base64/base64_kernel_1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/base64/base64_kernel_1.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/base64/base64_kernel_1.cpp > CMakeFiles/dlib.dir/base64/base64_kernel_1.cpp.i
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/base64/base64_kernel_1.cpp > CMakeFiles/dlib.dir/base64/base64_kernel_1.cpp.i
 
 dlib_build/CMakeFiles/dlib.dir/base64/base64_kernel_1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/base64/base64_kernel_1.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/base64/base64_kernel_1.cpp -o CMakeFiles/dlib.dir/base64/base64_kernel_1.cpp.s
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/base64/base64_kernel_1.cpp -o CMakeFiles/dlib.dir/base64/base64_kernel_1.cpp.s
 
 dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_1.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_1.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/bigint/bigint_kernel_1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_1.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/bigint/bigint_kernel_1.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/bigint/bigint_kernel_1.cpp
+dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_1.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib/bigint/bigint_kernel_1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_1.cpp.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/bigint/bigint_kernel_1.cpp.o -c /home/marcelo/Documentos/dlib-19.23/dlib/bigint/bigint_kernel_1.cpp
 
 dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/bigint/bigint_kernel_1.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/bigint/bigint_kernel_1.cpp > CMakeFiles/dlib.dir/bigint/bigint_kernel_1.cpp.i
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/bigint/bigint_kernel_1.cpp > CMakeFiles/dlib.dir/bigint/bigint_kernel_1.cpp.i
 
 dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/bigint/bigint_kernel_1.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/bigint/bigint_kernel_1.cpp -o CMakeFiles/dlib.dir/bigint/bigint_kernel_1.cpp.s
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/bigint/bigint_kernel_1.cpp -o CMakeFiles/dlib.dir/bigint/bigint_kernel_1.cpp.s
 
 dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_2.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_2.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/bigint/bigint_kernel_2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_2.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/bigint/bigint_kernel_2.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/bigint/bigint_kernel_2.cpp
+dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_2.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib/bigint/bigint_kernel_2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_2.cpp.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/bigint/bigint_kernel_2.cpp.o -c /home/marcelo/Documentos/dlib-19.23/dlib/bigint/bigint_kernel_2.cpp
 
 dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/bigint/bigint_kernel_2.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/bigint/bigint_kernel_2.cpp > CMakeFiles/dlib.dir/bigint/bigint_kernel_2.cpp.i
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/bigint/bigint_kernel_2.cpp > CMakeFiles/dlib.dir/bigint/bigint_kernel_2.cpp.i
 
 dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/bigint/bigint_kernel_2.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/bigint/bigint_kernel_2.cpp -o CMakeFiles/dlib.dir/bigint/bigint_kernel_2.cpp.s
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/bigint/bigint_kernel_2.cpp -o CMakeFiles/dlib.dir/bigint/bigint_kernel_2.cpp.s
 
 dlib_build/CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/bit_stream/bit_stream_kernel_1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object dlib_build/CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/bit_stream/bit_stream_kernel_1.cpp
+dlib_build/CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib/bit_stream/bit_stream_kernel_1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object dlib_build/CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.cpp.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.cpp.o -c /home/marcelo/Documentos/dlib-19.23/dlib/bit_stream/bit_stream_kernel_1.cpp
 
 dlib_build/CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/bit_stream/bit_stream_kernel_1.cpp > CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.cpp.i
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/bit_stream/bit_stream_kernel_1.cpp > CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.cpp.i
 
 dlib_build/CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/bit_stream/bit_stream_kernel_1.cpp -o CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.cpp.s
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/bit_stream/bit_stream_kernel_1.cpp -o CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.cpp.s
 
 dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/entropy_decoder/entropy_decoder_kernel_1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/entropy_decoder/entropy_decoder_kernel_1.cpp
+dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib/entropy_decoder/entropy_decoder_kernel_1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.cpp.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.cpp.o -c /home/marcelo/Documentos/dlib-19.23/dlib/entropy_decoder/entropy_decoder_kernel_1.cpp
 
 dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/entropy_decoder/entropy_decoder_kernel_1.cpp > CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.cpp.i
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/entropy_decoder/entropy_decoder_kernel_1.cpp > CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.cpp.i
 
 dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/entropy_decoder/entropy_decoder_kernel_1.cpp -o CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.cpp.s
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/entropy_decoder/entropy_decoder_kernel_1.cpp -o CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.cpp.s
 
 dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/entropy_decoder/entropy_decoder_kernel_2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/entropy_decoder/entropy_decoder_kernel_2.cpp
+dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib/entropy_decoder/entropy_decoder_kernel_2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.cpp.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.cpp.o -c /home/marcelo/Documentos/dlib-19.23/dlib/entropy_decoder/entropy_decoder_kernel_2.cpp
 
 dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/entropy_decoder/entropy_decoder_kernel_2.cpp > CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.cpp.i
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/entropy_decoder/entropy_decoder_kernel_2.cpp > CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.cpp.i
 
 dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/entropy_decoder/entropy_decoder_kernel_2.cpp -o CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.cpp.s
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/entropy_decoder/entropy_decoder_kernel_2.cpp -o CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.cpp.s
 
 dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/entropy_encoder/entropy_encoder_kernel_1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/entropy_encoder/entropy_encoder_kernel_1.cpp
+dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib/entropy_encoder/entropy_encoder_kernel_1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.cpp.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.cpp.o -c /home/marcelo/Documentos/dlib-19.23/dlib/entropy_encoder/entropy_encoder_kernel_1.cpp
 
 dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/entropy_encoder/entropy_encoder_kernel_1.cpp > CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.cpp.i
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/entropy_encoder/entropy_encoder_kernel_1.cpp > CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.cpp.i
 
 dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/entropy_encoder/entropy_encoder_kernel_1.cpp -o CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.cpp.s
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/entropy_encoder/entropy_encoder_kernel_1.cpp -o CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.cpp.s
 
 dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/entropy_encoder/entropy_encoder_kernel_2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/entropy_encoder/entropy_encoder_kernel_2.cpp
+dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib/entropy_encoder/entropy_encoder_kernel_2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.cpp.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.cpp.o -c /home/marcelo/Documentos/dlib-19.23/dlib/entropy_encoder/entropy_encoder_kernel_2.cpp
 
 dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/entropy_encoder/entropy_encoder_kernel_2.cpp > CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.cpp.i
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/entropy_encoder/entropy_encoder_kernel_2.cpp > CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.cpp.i
 
 dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/entropy_encoder/entropy_encoder_kernel_2.cpp -o CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.cpp.s
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/entropy_encoder/entropy_encoder_kernel_2.cpp -o CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.cpp.s
 
 dlib_build/CMakeFiles/dlib.dir/md5/md5_kernel_1.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/md5/md5_kernel_1.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/md5/md5_kernel_1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object dlib_build/CMakeFiles/dlib.dir/md5/md5_kernel_1.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/md5/md5_kernel_1.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/md5/md5_kernel_1.cpp
+dlib_build/CMakeFiles/dlib.dir/md5/md5_kernel_1.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib/md5/md5_kernel_1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object dlib_build/CMakeFiles/dlib.dir/md5/md5_kernel_1.cpp.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/md5/md5_kernel_1.cpp.o -c /home/marcelo/Documentos/dlib-19.23/dlib/md5/md5_kernel_1.cpp
 
 dlib_build/CMakeFiles/dlib.dir/md5/md5_kernel_1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/md5/md5_kernel_1.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/md5/md5_kernel_1.cpp > CMakeFiles/dlib.dir/md5/md5_kernel_1.cpp.i
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/md5/md5_kernel_1.cpp > CMakeFiles/dlib.dir/md5/md5_kernel_1.cpp.i
 
 dlib_build/CMakeFiles/dlib.dir/md5/md5_kernel_1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/md5/md5_kernel_1.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/md5/md5_kernel_1.cpp -o CMakeFiles/dlib.dir/md5/md5_kernel_1.cpp.s
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/md5/md5_kernel_1.cpp -o CMakeFiles/dlib.dir/md5/md5_kernel_1.cpp.s
 
 dlib_build/CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/tokenizer/tokenizer_kernel_1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object dlib_build/CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/tokenizer/tokenizer_kernel_1.cpp
+dlib_build/CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib/tokenizer/tokenizer_kernel_1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object dlib_build/CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.cpp.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.cpp.o -c /home/marcelo/Documentos/dlib-19.23/dlib/tokenizer/tokenizer_kernel_1.cpp
 
 dlib_build/CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/tokenizer/tokenizer_kernel_1.cpp > CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.cpp.i
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/tokenizer/tokenizer_kernel_1.cpp > CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.cpp.i
 
 dlib_build/CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/tokenizer/tokenizer_kernel_1.cpp -o CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.cpp.s
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/tokenizer/tokenizer_kernel_1.cpp -o CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.cpp.s
 
 dlib_build/CMakeFiles/dlib.dir/unicode/unicode.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/unicode/unicode.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/unicode/unicode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object dlib_build/CMakeFiles/dlib.dir/unicode/unicode.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/unicode/unicode.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/unicode/unicode.cpp
+dlib_build/CMakeFiles/dlib.dir/unicode/unicode.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib/unicode/unicode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object dlib_build/CMakeFiles/dlib.dir/unicode/unicode.cpp.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/unicode/unicode.cpp.o -c /home/marcelo/Documentos/dlib-19.23/dlib/unicode/unicode.cpp
 
 dlib_build/CMakeFiles/dlib.dir/unicode/unicode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/unicode/unicode.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/unicode/unicode.cpp > CMakeFiles/dlib.dir/unicode/unicode.cpp.i
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/unicode/unicode.cpp > CMakeFiles/dlib.dir/unicode/unicode.cpp.i
 
 dlib_build/CMakeFiles/dlib.dir/unicode/unicode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/unicode/unicode.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/unicode/unicode.cpp -o CMakeFiles/dlib.dir/unicode/unicode.cpp.s
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/unicode/unicode.cpp -o CMakeFiles/dlib.dir/unicode/unicode.cpp.s
 
-dlib_build/CMakeFiles/dlib.dir/data_io/image_dataset_metadata.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/data_io/image_dataset_metadata.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/data_io/image_dataset_metadata.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object dlib_build/CMakeFiles/dlib.dir/data_io/image_dataset_metadata.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/data_io/image_dataset_metadata.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/data_io/image_dataset_metadata.cpp
+dlib_build/CMakeFiles/dlib.dir/test_for_odr_violations.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/test_for_odr_violations.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib/test_for_odr_violations.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object dlib_build/CMakeFiles/dlib.dir/test_for_odr_violations.cpp.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/test_for_odr_violations.cpp.o -c /home/marcelo/Documentos/dlib-19.23/dlib/test_for_odr_violations.cpp
 
-dlib_build/CMakeFiles/dlib.dir/data_io/image_dataset_metadata.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/data_io/image_dataset_metadata.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/data_io/image_dataset_metadata.cpp > CMakeFiles/dlib.dir/data_io/image_dataset_metadata.cpp.i
+dlib_build/CMakeFiles/dlib.dir/test_for_odr_violations.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/test_for_odr_violations.cpp.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/test_for_odr_violations.cpp > CMakeFiles/dlib.dir/test_for_odr_violations.cpp.i
 
-dlib_build/CMakeFiles/dlib.dir/data_io/image_dataset_metadata.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/data_io/image_dataset_metadata.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/data_io/image_dataset_metadata.cpp -o CMakeFiles/dlib.dir/data_io/image_dataset_metadata.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/data_io/mnist.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/data_io/mnist.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/data_io/mnist.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object dlib_build/CMakeFiles/dlib.dir/data_io/mnist.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/data_io/mnist.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/data_io/mnist.cpp
-
-dlib_build/CMakeFiles/dlib.dir/data_io/mnist.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/data_io/mnist.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/data_io/mnist.cpp > CMakeFiles/dlib.dir/data_io/mnist.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/data_io/mnist.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/data_io/mnist.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/data_io/mnist.cpp -o CMakeFiles/dlib.dir/data_io/mnist.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/dnn/cpu_dlib.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/dnn/cpu_dlib.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/dnn/cpu_dlib.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object dlib_build/CMakeFiles/dlib.dir/dnn/cpu_dlib.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/dnn/cpu_dlib.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/dnn/cpu_dlib.cpp
-
-dlib_build/CMakeFiles/dlib.dir/dnn/cpu_dlib.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/dnn/cpu_dlib.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/dnn/cpu_dlib.cpp > CMakeFiles/dlib.dir/dnn/cpu_dlib.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/dnn/cpu_dlib.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/dnn/cpu_dlib.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/dnn/cpu_dlib.cpp -o CMakeFiles/dlib.dir/dnn/cpu_dlib.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/dnn/tensor_tools.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/dnn/tensor_tools.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/dnn/tensor_tools.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object dlib_build/CMakeFiles/dlib.dir/dnn/tensor_tools.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/dnn/tensor_tools.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/dnn/tensor_tools.cpp
-
-dlib_build/CMakeFiles/dlib.dir/dnn/tensor_tools.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/dnn/tensor_tools.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/dnn/tensor_tools.cpp > CMakeFiles/dlib.dir/dnn/tensor_tools.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/dnn/tensor_tools.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/dnn/tensor_tools.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/dnn/tensor_tools.cpp -o CMakeFiles/dlib.dir/dnn/tensor_tools.cpp.s
+dlib_build/CMakeFiles/dlib.dir/test_for_odr_violations.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/test_for_odr_violations.cpp.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/test_for_odr_violations.cpp -o CMakeFiles/dlib.dir/test_for_odr_violations.cpp.s
 
 dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_1.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_1.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/sockets/sockets_kernel_1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_1.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/sockets/sockets_kernel_1.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/sockets/sockets_kernel_1.cpp
+dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_1.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib/sockets/sockets_kernel_1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_1.cpp.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/sockets/sockets_kernel_1.cpp.o -c /home/marcelo/Documentos/dlib-19.23/dlib/sockets/sockets_kernel_1.cpp
 
 dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/sockets/sockets_kernel_1.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/sockets/sockets_kernel_1.cpp > CMakeFiles/dlib.dir/sockets/sockets_kernel_1.cpp.i
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/sockets/sockets_kernel_1.cpp > CMakeFiles/dlib.dir/sockets/sockets_kernel_1.cpp.i
 
 dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/sockets/sockets_kernel_1.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/sockets/sockets_kernel_1.cpp -o CMakeFiles/dlib.dir/sockets/sockets_kernel_1.cpp.s
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/sockets/sockets_kernel_1.cpp -o CMakeFiles/dlib.dir/sockets/sockets_kernel_1.cpp.s
 
 dlib_build/CMakeFiles/dlib.dir/bsp/bsp.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/bsp/bsp.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/bsp/bsp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object dlib_build/CMakeFiles/dlib.dir/bsp/bsp.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/bsp/bsp.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/bsp/bsp.cpp
+dlib_build/CMakeFiles/dlib.dir/bsp/bsp.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib/bsp/bsp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object dlib_build/CMakeFiles/dlib.dir/bsp/bsp.cpp.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/bsp/bsp.cpp.o -c /home/marcelo/Documentos/dlib-19.23/dlib/bsp/bsp.cpp
 
 dlib_build/CMakeFiles/dlib.dir/bsp/bsp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/bsp/bsp.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/bsp/bsp.cpp > CMakeFiles/dlib.dir/bsp/bsp.cpp.i
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/bsp/bsp.cpp > CMakeFiles/dlib.dir/bsp/bsp.cpp.i
 
 dlib_build/CMakeFiles/dlib.dir/bsp/bsp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/bsp/bsp.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/bsp/bsp.cpp -o CMakeFiles/dlib.dir/bsp/bsp.cpp.s
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/bsp/bsp.cpp -o CMakeFiles/dlib.dir/bsp/bsp.cpp.s
 
 dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/dir_nav/dir_nav_kernel_1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/dir_nav/dir_nav_kernel_1.cpp
+dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib/dir_nav/dir_nav_kernel_1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.cpp.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.cpp.o -c /home/marcelo/Documentos/dlib-19.23/dlib/dir_nav/dir_nav_kernel_1.cpp
 
 dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/dir_nav/dir_nav_kernel_1.cpp > CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.cpp.i
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/dir_nav/dir_nav_kernel_1.cpp > CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.cpp.i
 
 dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/dir_nav/dir_nav_kernel_1.cpp -o CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.cpp.s
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/dir_nav/dir_nav_kernel_1.cpp -o CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.cpp.s
 
 dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/dir_nav/dir_nav_kernel_2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/dir_nav/dir_nav_kernel_2.cpp
+dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib/dir_nav/dir_nav_kernel_2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.cpp.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.cpp.o -c /home/marcelo/Documentos/dlib-19.23/dlib/dir_nav/dir_nav_kernel_2.cpp
 
 dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/dir_nav/dir_nav_kernel_2.cpp > CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.cpp.i
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/dir_nav/dir_nav_kernel_2.cpp > CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.cpp.i
 
 dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/dir_nav/dir_nav_kernel_2.cpp -o CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.cpp.s
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/dir_nav/dir_nav_kernel_2.cpp -o CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.cpp.s
 
 dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/dir_nav/dir_nav_extensions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/dir_nav/dir_nav_extensions.cpp
+dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib/dir_nav/dir_nav_extensions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.cpp.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.cpp.o -c /home/marcelo/Documentos/dlib-19.23/dlib/dir_nav/dir_nav_extensions.cpp
 
 dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/dir_nav/dir_nav_extensions.cpp > CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.cpp.i
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/dir_nav/dir_nav_extensions.cpp > CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.cpp.i
 
 dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/dir_nav/dir_nav_extensions.cpp -o CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/linker/linker_kernel_1.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/linker/linker_kernel_1.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/linker/linker_kernel_1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object dlib_build/CMakeFiles/dlib.dir/linker/linker_kernel_1.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/linker/linker_kernel_1.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/linker/linker_kernel_1.cpp
-
-dlib_build/CMakeFiles/dlib.dir/linker/linker_kernel_1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/linker/linker_kernel_1.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/linker/linker_kernel_1.cpp > CMakeFiles/dlib.dir/linker/linker_kernel_1.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/linker/linker_kernel_1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/linker/linker_kernel_1.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/linker/linker_kernel_1.cpp -o CMakeFiles/dlib.dir/linker/linker_kernel_1.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/logger/extra_logger_headers.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/logger/extra_logger_headers.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/logger/extra_logger_headers.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object dlib_build/CMakeFiles/dlib.dir/logger/extra_logger_headers.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/logger/extra_logger_headers.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/logger/extra_logger_headers.cpp
-
-dlib_build/CMakeFiles/dlib.dir/logger/extra_logger_headers.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/logger/extra_logger_headers.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/logger/extra_logger_headers.cpp > CMakeFiles/dlib.dir/logger/extra_logger_headers.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/logger/extra_logger_headers.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/logger/extra_logger_headers.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/logger/extra_logger_headers.cpp -o CMakeFiles/dlib.dir/logger/extra_logger_headers.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/logger/logger_kernel_1.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/logger/logger_kernel_1.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/logger/logger_kernel_1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object dlib_build/CMakeFiles/dlib.dir/logger/logger_kernel_1.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/logger/logger_kernel_1.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/logger/logger_kernel_1.cpp
-
-dlib_build/CMakeFiles/dlib.dir/logger/logger_kernel_1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/logger/logger_kernel_1.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/logger/logger_kernel_1.cpp > CMakeFiles/dlib.dir/logger/logger_kernel_1.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/logger/logger_kernel_1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/logger/logger_kernel_1.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/logger/logger_kernel_1.cpp -o CMakeFiles/dlib.dir/logger/logger_kernel_1.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/logger/logger_config_file.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/logger/logger_config_file.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/logger/logger_config_file.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object dlib_build/CMakeFiles/dlib.dir/logger/logger_config_file.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/logger/logger_config_file.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/logger/logger_config_file.cpp
-
-dlib_build/CMakeFiles/dlib.dir/logger/logger_config_file.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/logger/logger_config_file.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/logger/logger_config_file.cpp > CMakeFiles/dlib.dir/logger/logger_config_file.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/logger/logger_config_file.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/logger/logger_config_file.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/logger/logger_config_file.cpp -o CMakeFiles/dlib.dir/logger/logger_config_file.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/misc_api/misc_api_kernel_1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/misc_api/misc_api_kernel_1.cpp
-
-dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/misc_api/misc_api_kernel_1.cpp > CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/misc_api/misc_api_kernel_1.cpp -o CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/misc_api/misc_api_kernel_2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/misc_api/misc_api_kernel_2.cpp
-
-dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/misc_api/misc_api_kernel_2.cpp > CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/misc_api/misc_api_kernel_2.cpp -o CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/sockets/sockets_extensions.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/sockets/sockets_extensions.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/sockets/sockets_extensions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object dlib_build/CMakeFiles/dlib.dir/sockets/sockets_extensions.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/sockets/sockets_extensions.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/sockets/sockets_extensions.cpp
-
-dlib_build/CMakeFiles/dlib.dir/sockets/sockets_extensions.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/sockets/sockets_extensions.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/sockets/sockets_extensions.cpp > CMakeFiles/dlib.dir/sockets/sockets_extensions.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/sockets/sockets_extensions.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/sockets/sockets_extensions.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/sockets/sockets_extensions.cpp -o CMakeFiles/dlib.dir/sockets/sockets_extensions.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_2.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_2.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/sockets/sockets_kernel_2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_2.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/sockets/sockets_kernel_2.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/sockets/sockets_kernel_2.cpp
-
-dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/sockets/sockets_kernel_2.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/sockets/sockets_kernel_2.cpp > CMakeFiles/dlib.dir/sockets/sockets_kernel_2.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/sockets/sockets_kernel_2.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/sockets/sockets_kernel_2.cpp -o CMakeFiles/dlib.dir/sockets/sockets_kernel_2.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/sockstreambuf/sockstreambuf.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/sockstreambuf/sockstreambuf.cpp
-
-dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/sockstreambuf/sockstreambuf.cpp > CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/sockstreambuf/sockstreambuf.cpp -o CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/sockstreambuf/sockstreambuf_unbuffered.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/sockstreambuf/sockstreambuf_unbuffered.cpp
-
-dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/sockstreambuf/sockstreambuf_unbuffered.cpp > CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/sockstreambuf/sockstreambuf_unbuffered.cpp -o CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/server/server_kernel.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/server/server_kernel.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/server/server_kernel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object dlib_build/CMakeFiles/dlib.dir/server/server_kernel.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/server/server_kernel.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/server/server_kernel.cpp
-
-dlib_build/CMakeFiles/dlib.dir/server/server_kernel.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/server/server_kernel.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/server/server_kernel.cpp > CMakeFiles/dlib.dir/server/server_kernel.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/server/server_kernel.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/server/server_kernel.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/server/server_kernel.cpp -o CMakeFiles/dlib.dir/server/server_kernel.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/server/server_iostream.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/server/server_iostream.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/server/server_iostream.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object dlib_build/CMakeFiles/dlib.dir/server/server_iostream.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/server/server_iostream.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/server/server_iostream.cpp
-
-dlib_build/CMakeFiles/dlib.dir/server/server_iostream.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/server/server_iostream.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/server/server_iostream.cpp > CMakeFiles/dlib.dir/server/server_iostream.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/server/server_iostream.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/server/server_iostream.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/server/server_iostream.cpp -o CMakeFiles/dlib.dir/server/server_iostream.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/server/server_http.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/server/server_http.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/server/server_http.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object dlib_build/CMakeFiles/dlib.dir/server/server_http.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/server/server_http.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/server/server_http.cpp
-
-dlib_build/CMakeFiles/dlib.dir/server/server_http.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/server/server_http.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/server/server_http.cpp > CMakeFiles/dlib.dir/server/server_http.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/server/server_http.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/server/server_http.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/server/server_http.cpp -o CMakeFiles/dlib.dir/server/server_http.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/threads/multithreaded_object_extension.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/threads/multithreaded_object_extension.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/threads/multithreaded_object_extension.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object dlib_build/CMakeFiles/dlib.dir/threads/multithreaded_object_extension.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/threads/multithreaded_object_extension.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/threads/multithreaded_object_extension.cpp
-
-dlib_build/CMakeFiles/dlib.dir/threads/multithreaded_object_extension.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/threads/multithreaded_object_extension.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/threads/multithreaded_object_extension.cpp > CMakeFiles/dlib.dir/threads/multithreaded_object_extension.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/threads/multithreaded_object_extension.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/threads/multithreaded_object_extension.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/threads/multithreaded_object_extension.cpp -o CMakeFiles/dlib.dir/threads/multithreaded_object_extension.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/threads/threaded_object_extension.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/threads/threaded_object_extension.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/threads/threaded_object_extension.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object dlib_build/CMakeFiles/dlib.dir/threads/threaded_object_extension.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/threads/threaded_object_extension.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/threads/threaded_object_extension.cpp
-
-dlib_build/CMakeFiles/dlib.dir/threads/threaded_object_extension.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/threads/threaded_object_extension.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/threads/threaded_object_extension.cpp > CMakeFiles/dlib.dir/threads/threaded_object_extension.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/threads/threaded_object_extension.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/threads/threaded_object_extension.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/threads/threaded_object_extension.cpp -o CMakeFiles/dlib.dir/threads/threaded_object_extension.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_1.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_1.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/threads/threads_kernel_1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_1.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/threads/threads_kernel_1.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/threads/threads_kernel_1.cpp
-
-dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/threads/threads_kernel_1.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/threads/threads_kernel_1.cpp > CMakeFiles/dlib.dir/threads/threads_kernel_1.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/threads/threads_kernel_1.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/threads/threads_kernel_1.cpp -o CMakeFiles/dlib.dir/threads/threads_kernel_1.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_2.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_2.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/threads/threads_kernel_2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_2.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/threads/threads_kernel_2.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/threads/threads_kernel_2.cpp
-
-dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/threads/threads_kernel_2.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/threads/threads_kernel_2.cpp > CMakeFiles/dlib.dir/threads/threads_kernel_2.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/threads/threads_kernel_2.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/threads/threads_kernel_2.cpp -o CMakeFiles/dlib.dir/threads/threads_kernel_2.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_shared.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_shared.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/threads/threads_kernel_shared.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_shared.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/threads/threads_kernel_shared.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/threads/threads_kernel_shared.cpp
-
-dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_shared.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/threads/threads_kernel_shared.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/threads/threads_kernel_shared.cpp > CMakeFiles/dlib.dir/threads/threads_kernel_shared.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_shared.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/threads/threads_kernel_shared.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/threads/threads_kernel_shared.cpp -o CMakeFiles/dlib.dir/threads/threads_kernel_shared.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/threads/thread_pool_extension.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/threads/thread_pool_extension.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/threads/thread_pool_extension.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object dlib_build/CMakeFiles/dlib.dir/threads/thread_pool_extension.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/threads/thread_pool_extension.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/threads/thread_pool_extension.cpp
-
-dlib_build/CMakeFiles/dlib.dir/threads/thread_pool_extension.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/threads/thread_pool_extension.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/threads/thread_pool_extension.cpp > CMakeFiles/dlib.dir/threads/thread_pool_extension.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/threads/thread_pool_extension.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/threads/thread_pool_extension.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/threads/thread_pool_extension.cpp -o CMakeFiles/dlib.dir/threads/thread_pool_extension.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/threads/async.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/threads/async.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/threads/async.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object dlib_build/CMakeFiles/dlib.dir/threads/async.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/threads/async.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/threads/async.cpp
-
-dlib_build/CMakeFiles/dlib.dir/threads/async.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/threads/async.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/threads/async.cpp > CMakeFiles/dlib.dir/threads/async.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/threads/async.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/threads/async.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/threads/async.cpp -o CMakeFiles/dlib.dir/threads/async.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/timer/timer.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/timer/timer.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/timer/timer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object dlib_build/CMakeFiles/dlib.dir/timer/timer.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/timer/timer.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/timer/timer.cpp
-
-dlib_build/CMakeFiles/dlib.dir/timer/timer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/timer/timer.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/timer/timer.cpp > CMakeFiles/dlib.dir/timer/timer.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/timer/timer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/timer/timer.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/timer/timer.cpp -o CMakeFiles/dlib.dir/timer/timer.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/stack_trace.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/stack_trace.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/stack_trace.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object dlib_build/CMakeFiles/dlib.dir/stack_trace.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/stack_trace.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/stack_trace.cpp
-
-dlib_build/CMakeFiles/dlib.dir/stack_trace.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/stack_trace.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/stack_trace.cpp > CMakeFiles/dlib.dir/stack_trace.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/stack_trace.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/stack_trace.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/stack_trace.cpp -o CMakeFiles/dlib.dir/stack_trace.cpp.s
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/dir_nav/dir_nav_extensions.cpp -o CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.cpp.s
 
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/fonts.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/gui_widgets/fonts.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/gui_widgets/fonts.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_widgets/fonts.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/gui_widgets/fonts.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/gui_widgets/fonts.cpp
+dlib_build/CMakeFiles/dlib.dir/gui_widgets/fonts.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib/gui_widgets/fonts.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_widgets/fonts.cpp.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/gui_widgets/fonts.cpp.o -c /home/marcelo/Documentos/dlib-19.23/dlib/gui_widgets/fonts.cpp
 
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/fonts.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/gui_widgets/fonts.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/gui_widgets/fonts.cpp > CMakeFiles/dlib.dir/gui_widgets/fonts.cpp.i
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/gui_widgets/fonts.cpp > CMakeFiles/dlib.dir/gui_widgets/fonts.cpp.i
 
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/fonts.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/gui_widgets/fonts.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/gui_widgets/fonts.cpp -o CMakeFiles/dlib.dir/gui_widgets/fonts.cpp.s
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/gui_widgets/fonts.cpp -o CMakeFiles/dlib.dir/gui_widgets/fonts.cpp.s
+
+dlib_build/CMakeFiles/dlib.dir/linker/linker_kernel_1.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/linker/linker_kernel_1.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib/linker/linker_kernel_1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object dlib_build/CMakeFiles/dlib.dir/linker/linker_kernel_1.cpp.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/linker/linker_kernel_1.cpp.o -c /home/marcelo/Documentos/dlib-19.23/dlib/linker/linker_kernel_1.cpp
+
+dlib_build/CMakeFiles/dlib.dir/linker/linker_kernel_1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/linker/linker_kernel_1.cpp.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/linker/linker_kernel_1.cpp > CMakeFiles/dlib.dir/linker/linker_kernel_1.cpp.i
+
+dlib_build/CMakeFiles/dlib.dir/linker/linker_kernel_1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/linker/linker_kernel_1.cpp.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/linker/linker_kernel_1.cpp -o CMakeFiles/dlib.dir/linker/linker_kernel_1.cpp.s
+
+dlib_build/CMakeFiles/dlib.dir/logger/extra_logger_headers.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/logger/extra_logger_headers.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib/logger/extra_logger_headers.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object dlib_build/CMakeFiles/dlib.dir/logger/extra_logger_headers.cpp.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/logger/extra_logger_headers.cpp.o -c /home/marcelo/Documentos/dlib-19.23/dlib/logger/extra_logger_headers.cpp
+
+dlib_build/CMakeFiles/dlib.dir/logger/extra_logger_headers.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/logger/extra_logger_headers.cpp.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/logger/extra_logger_headers.cpp > CMakeFiles/dlib.dir/logger/extra_logger_headers.cpp.i
+
+dlib_build/CMakeFiles/dlib.dir/logger/extra_logger_headers.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/logger/extra_logger_headers.cpp.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/logger/extra_logger_headers.cpp -o CMakeFiles/dlib.dir/logger/extra_logger_headers.cpp.s
+
+dlib_build/CMakeFiles/dlib.dir/logger/logger_kernel_1.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/logger/logger_kernel_1.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib/logger/logger_kernel_1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object dlib_build/CMakeFiles/dlib.dir/logger/logger_kernel_1.cpp.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/logger/logger_kernel_1.cpp.o -c /home/marcelo/Documentos/dlib-19.23/dlib/logger/logger_kernel_1.cpp
+
+dlib_build/CMakeFiles/dlib.dir/logger/logger_kernel_1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/logger/logger_kernel_1.cpp.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/logger/logger_kernel_1.cpp > CMakeFiles/dlib.dir/logger/logger_kernel_1.cpp.i
+
+dlib_build/CMakeFiles/dlib.dir/logger/logger_kernel_1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/logger/logger_kernel_1.cpp.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/logger/logger_kernel_1.cpp -o CMakeFiles/dlib.dir/logger/logger_kernel_1.cpp.s
+
+dlib_build/CMakeFiles/dlib.dir/logger/logger_config_file.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/logger/logger_config_file.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib/logger/logger_config_file.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object dlib_build/CMakeFiles/dlib.dir/logger/logger_config_file.cpp.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/logger/logger_config_file.cpp.o -c /home/marcelo/Documentos/dlib-19.23/dlib/logger/logger_config_file.cpp
+
+dlib_build/CMakeFiles/dlib.dir/logger/logger_config_file.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/logger/logger_config_file.cpp.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/logger/logger_config_file.cpp > CMakeFiles/dlib.dir/logger/logger_config_file.cpp.i
+
+dlib_build/CMakeFiles/dlib.dir/logger/logger_config_file.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/logger/logger_config_file.cpp.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/logger/logger_config_file.cpp -o CMakeFiles/dlib.dir/logger/logger_config_file.cpp.s
+
+dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib/misc_api/misc_api_kernel_1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.cpp.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.cpp.o -c /home/marcelo/Documentos/dlib-19.23/dlib/misc_api/misc_api_kernel_1.cpp
+
+dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.cpp.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/misc_api/misc_api_kernel_1.cpp > CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.cpp.i
+
+dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.cpp.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/misc_api/misc_api_kernel_1.cpp -o CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.cpp.s
+
+dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib/misc_api/misc_api_kernel_2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.cpp.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.cpp.o -c /home/marcelo/Documentos/dlib-19.23/dlib/misc_api/misc_api_kernel_2.cpp
+
+dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.cpp.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/misc_api/misc_api_kernel_2.cpp > CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.cpp.i
+
+dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.cpp.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/misc_api/misc_api_kernel_2.cpp -o CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.cpp.s
+
+dlib_build/CMakeFiles/dlib.dir/sockets/sockets_extensions.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/sockets/sockets_extensions.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib/sockets/sockets_extensions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object dlib_build/CMakeFiles/dlib.dir/sockets/sockets_extensions.cpp.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/sockets/sockets_extensions.cpp.o -c /home/marcelo/Documentos/dlib-19.23/dlib/sockets/sockets_extensions.cpp
+
+dlib_build/CMakeFiles/dlib.dir/sockets/sockets_extensions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/sockets/sockets_extensions.cpp.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/sockets/sockets_extensions.cpp > CMakeFiles/dlib.dir/sockets/sockets_extensions.cpp.i
+
+dlib_build/CMakeFiles/dlib.dir/sockets/sockets_extensions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/sockets/sockets_extensions.cpp.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/sockets/sockets_extensions.cpp -o CMakeFiles/dlib.dir/sockets/sockets_extensions.cpp.s
+
+dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_2.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_2.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib/sockets/sockets_kernel_2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_2.cpp.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/sockets/sockets_kernel_2.cpp.o -c /home/marcelo/Documentos/dlib-19.23/dlib/sockets/sockets_kernel_2.cpp
+
+dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/sockets/sockets_kernel_2.cpp.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/sockets/sockets_kernel_2.cpp > CMakeFiles/dlib.dir/sockets/sockets_kernel_2.cpp.i
+
+dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/sockets/sockets_kernel_2.cpp.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/sockets/sockets_kernel_2.cpp -o CMakeFiles/dlib.dir/sockets/sockets_kernel_2.cpp.s
+
+dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib/sockstreambuf/sockstreambuf.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.cpp.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.cpp.o -c /home/marcelo/Documentos/dlib-19.23/dlib/sockstreambuf/sockstreambuf.cpp
+
+dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.cpp.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/sockstreambuf/sockstreambuf.cpp > CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.cpp.i
+
+dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.cpp.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/sockstreambuf/sockstreambuf.cpp -o CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.cpp.s
+
+dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib/sockstreambuf/sockstreambuf_unbuffered.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.cpp.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.cpp.o -c /home/marcelo/Documentos/dlib-19.23/dlib/sockstreambuf/sockstreambuf_unbuffered.cpp
+
+dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.cpp.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/sockstreambuf/sockstreambuf_unbuffered.cpp > CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.cpp.i
+
+dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.cpp.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/sockstreambuf/sockstreambuf_unbuffered.cpp -o CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.cpp.s
+
+dlib_build/CMakeFiles/dlib.dir/server/server_kernel.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/server/server_kernel.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib/server/server_kernel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object dlib_build/CMakeFiles/dlib.dir/server/server_kernel.cpp.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/server/server_kernel.cpp.o -c /home/marcelo/Documentos/dlib-19.23/dlib/server/server_kernel.cpp
+
+dlib_build/CMakeFiles/dlib.dir/server/server_kernel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/server/server_kernel.cpp.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/server/server_kernel.cpp > CMakeFiles/dlib.dir/server/server_kernel.cpp.i
+
+dlib_build/CMakeFiles/dlib.dir/server/server_kernel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/server/server_kernel.cpp.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/server/server_kernel.cpp -o CMakeFiles/dlib.dir/server/server_kernel.cpp.s
+
+dlib_build/CMakeFiles/dlib.dir/server/server_iostream.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/server/server_iostream.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib/server/server_iostream.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object dlib_build/CMakeFiles/dlib.dir/server/server_iostream.cpp.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/server/server_iostream.cpp.o -c /home/marcelo/Documentos/dlib-19.23/dlib/server/server_iostream.cpp
+
+dlib_build/CMakeFiles/dlib.dir/server/server_iostream.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/server/server_iostream.cpp.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/server/server_iostream.cpp > CMakeFiles/dlib.dir/server/server_iostream.cpp.i
+
+dlib_build/CMakeFiles/dlib.dir/server/server_iostream.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/server/server_iostream.cpp.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/server/server_iostream.cpp -o CMakeFiles/dlib.dir/server/server_iostream.cpp.s
+
+dlib_build/CMakeFiles/dlib.dir/server/server_http.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/server/server_http.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib/server/server_http.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object dlib_build/CMakeFiles/dlib.dir/server/server_http.cpp.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/server/server_http.cpp.o -c /home/marcelo/Documentos/dlib-19.23/dlib/server/server_http.cpp
+
+dlib_build/CMakeFiles/dlib.dir/server/server_http.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/server/server_http.cpp.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/server/server_http.cpp > CMakeFiles/dlib.dir/server/server_http.cpp.i
+
+dlib_build/CMakeFiles/dlib.dir/server/server_http.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/server/server_http.cpp.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/server/server_http.cpp -o CMakeFiles/dlib.dir/server/server_http.cpp.s
+
+dlib_build/CMakeFiles/dlib.dir/threads/multithreaded_object_extension.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/threads/multithreaded_object_extension.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib/threads/multithreaded_object_extension.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object dlib_build/CMakeFiles/dlib.dir/threads/multithreaded_object_extension.cpp.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/threads/multithreaded_object_extension.cpp.o -c /home/marcelo/Documentos/dlib-19.23/dlib/threads/multithreaded_object_extension.cpp
+
+dlib_build/CMakeFiles/dlib.dir/threads/multithreaded_object_extension.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/threads/multithreaded_object_extension.cpp.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/threads/multithreaded_object_extension.cpp > CMakeFiles/dlib.dir/threads/multithreaded_object_extension.cpp.i
+
+dlib_build/CMakeFiles/dlib.dir/threads/multithreaded_object_extension.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/threads/multithreaded_object_extension.cpp.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/threads/multithreaded_object_extension.cpp -o CMakeFiles/dlib.dir/threads/multithreaded_object_extension.cpp.s
+
+dlib_build/CMakeFiles/dlib.dir/threads/threaded_object_extension.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/threads/threaded_object_extension.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib/threads/threaded_object_extension.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object dlib_build/CMakeFiles/dlib.dir/threads/threaded_object_extension.cpp.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/threads/threaded_object_extension.cpp.o -c /home/marcelo/Documentos/dlib-19.23/dlib/threads/threaded_object_extension.cpp
+
+dlib_build/CMakeFiles/dlib.dir/threads/threaded_object_extension.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/threads/threaded_object_extension.cpp.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/threads/threaded_object_extension.cpp > CMakeFiles/dlib.dir/threads/threaded_object_extension.cpp.i
+
+dlib_build/CMakeFiles/dlib.dir/threads/threaded_object_extension.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/threads/threaded_object_extension.cpp.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/threads/threaded_object_extension.cpp -o CMakeFiles/dlib.dir/threads/threaded_object_extension.cpp.s
+
+dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_1.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_1.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib/threads/threads_kernel_1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_1.cpp.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/threads/threads_kernel_1.cpp.o -c /home/marcelo/Documentos/dlib-19.23/dlib/threads/threads_kernel_1.cpp
+
+dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/threads/threads_kernel_1.cpp.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/threads/threads_kernel_1.cpp > CMakeFiles/dlib.dir/threads/threads_kernel_1.cpp.i
+
+dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/threads/threads_kernel_1.cpp.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/threads/threads_kernel_1.cpp -o CMakeFiles/dlib.dir/threads/threads_kernel_1.cpp.s
+
+dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_2.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_2.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib/threads/threads_kernel_2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_2.cpp.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/threads/threads_kernel_2.cpp.o -c /home/marcelo/Documentos/dlib-19.23/dlib/threads/threads_kernel_2.cpp
+
+dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/threads/threads_kernel_2.cpp.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/threads/threads_kernel_2.cpp > CMakeFiles/dlib.dir/threads/threads_kernel_2.cpp.i
+
+dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/threads/threads_kernel_2.cpp.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/threads/threads_kernel_2.cpp -o CMakeFiles/dlib.dir/threads/threads_kernel_2.cpp.s
+
+dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_shared.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_shared.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib/threads/threads_kernel_shared.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_shared.cpp.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/threads/threads_kernel_shared.cpp.o -c /home/marcelo/Documentos/dlib-19.23/dlib/threads/threads_kernel_shared.cpp
+
+dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_shared.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/threads/threads_kernel_shared.cpp.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/threads/threads_kernel_shared.cpp > CMakeFiles/dlib.dir/threads/threads_kernel_shared.cpp.i
+
+dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_shared.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/threads/threads_kernel_shared.cpp.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/threads/threads_kernel_shared.cpp -o CMakeFiles/dlib.dir/threads/threads_kernel_shared.cpp.s
+
+dlib_build/CMakeFiles/dlib.dir/threads/thread_pool_extension.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/threads/thread_pool_extension.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib/threads/thread_pool_extension.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object dlib_build/CMakeFiles/dlib.dir/threads/thread_pool_extension.cpp.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/threads/thread_pool_extension.cpp.o -c /home/marcelo/Documentos/dlib-19.23/dlib/threads/thread_pool_extension.cpp
+
+dlib_build/CMakeFiles/dlib.dir/threads/thread_pool_extension.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/threads/thread_pool_extension.cpp.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/threads/thread_pool_extension.cpp > CMakeFiles/dlib.dir/threads/thread_pool_extension.cpp.i
+
+dlib_build/CMakeFiles/dlib.dir/threads/thread_pool_extension.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/threads/thread_pool_extension.cpp.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/threads/thread_pool_extension.cpp -o CMakeFiles/dlib.dir/threads/thread_pool_extension.cpp.s
+
+dlib_build/CMakeFiles/dlib.dir/threads/async.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/threads/async.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib/threads/async.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object dlib_build/CMakeFiles/dlib.dir/threads/async.cpp.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/threads/async.cpp.o -c /home/marcelo/Documentos/dlib-19.23/dlib/threads/async.cpp
+
+dlib_build/CMakeFiles/dlib.dir/threads/async.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/threads/async.cpp.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/threads/async.cpp > CMakeFiles/dlib.dir/threads/async.cpp.i
+
+dlib_build/CMakeFiles/dlib.dir/threads/async.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/threads/async.cpp.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/threads/async.cpp -o CMakeFiles/dlib.dir/threads/async.cpp.s
+
+dlib_build/CMakeFiles/dlib.dir/timer/timer.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/timer/timer.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib/timer/timer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object dlib_build/CMakeFiles/dlib.dir/timer/timer.cpp.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/timer/timer.cpp.o -c /home/marcelo/Documentos/dlib-19.23/dlib/timer/timer.cpp
+
+dlib_build/CMakeFiles/dlib.dir/timer/timer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/timer/timer.cpp.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/timer/timer.cpp > CMakeFiles/dlib.dir/timer/timer.cpp.i
+
+dlib_build/CMakeFiles/dlib.dir/timer/timer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/timer/timer.cpp.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/timer/timer.cpp -o CMakeFiles/dlib.dir/timer/timer.cpp.s
+
+dlib_build/CMakeFiles/dlib.dir/stack_trace.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/stack_trace.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib/stack_trace.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object dlib_build/CMakeFiles/dlib.dir/stack_trace.cpp.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/stack_trace.cpp.o -c /home/marcelo/Documentos/dlib-19.23/dlib/stack_trace.cpp
+
+dlib_build/CMakeFiles/dlib.dir/stack_trace.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/stack_trace.cpp.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/stack_trace.cpp > CMakeFiles/dlib.dir/stack_trace.cpp.i
+
+dlib_build/CMakeFiles/dlib.dir/stack_trace.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/stack_trace.cpp.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/stack_trace.cpp -o CMakeFiles/dlib.dir/stack_trace.cpp.s
+
+dlib_build/CMakeFiles/dlib.dir/cuda/cpu_dlib.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/cuda/cpu_dlib.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib/cuda/cpu_dlib.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object dlib_build/CMakeFiles/dlib.dir/cuda/cpu_dlib.cpp.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/cuda/cpu_dlib.cpp.o -c /home/marcelo/Documentos/dlib-19.23/dlib/cuda/cpu_dlib.cpp
+
+dlib_build/CMakeFiles/dlib.dir/cuda/cpu_dlib.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/cuda/cpu_dlib.cpp.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/cuda/cpu_dlib.cpp > CMakeFiles/dlib.dir/cuda/cpu_dlib.cpp.i
+
+dlib_build/CMakeFiles/dlib.dir/cuda/cpu_dlib.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/cuda/cpu_dlib.cpp.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/cuda/cpu_dlib.cpp -o CMakeFiles/dlib.dir/cuda/cpu_dlib.cpp.s
+
+dlib_build/CMakeFiles/dlib.dir/cuda/tensor_tools.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/cuda/tensor_tools.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib/cuda/tensor_tools.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object dlib_build/CMakeFiles/dlib.dir/cuda/tensor_tools.cpp.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/cuda/tensor_tools.cpp.o -c /home/marcelo/Documentos/dlib-19.23/dlib/cuda/tensor_tools.cpp
+
+dlib_build/CMakeFiles/dlib.dir/cuda/tensor_tools.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/cuda/tensor_tools.cpp.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/cuda/tensor_tools.cpp > CMakeFiles/dlib.dir/cuda/tensor_tools.cpp.i
+
+dlib_build/CMakeFiles/dlib.dir/cuda/tensor_tools.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/cuda/tensor_tools.cpp.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/cuda/tensor_tools.cpp -o CMakeFiles/dlib.dir/cuda/tensor_tools.cpp.s
+
+dlib_build/CMakeFiles/dlib.dir/data_io/image_dataset_metadata.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/data_io/image_dataset_metadata.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib/data_io/image_dataset_metadata.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object dlib_build/CMakeFiles/dlib.dir/data_io/image_dataset_metadata.cpp.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/data_io/image_dataset_metadata.cpp.o -c /home/marcelo/Documentos/dlib-19.23/dlib/data_io/image_dataset_metadata.cpp
+
+dlib_build/CMakeFiles/dlib.dir/data_io/image_dataset_metadata.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/data_io/image_dataset_metadata.cpp.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/data_io/image_dataset_metadata.cpp > CMakeFiles/dlib.dir/data_io/image_dataset_metadata.cpp.i
+
+dlib_build/CMakeFiles/dlib.dir/data_io/image_dataset_metadata.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/data_io/image_dataset_metadata.cpp.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/data_io/image_dataset_metadata.cpp -o CMakeFiles/dlib.dir/data_io/image_dataset_metadata.cpp.s
+
+dlib_build/CMakeFiles/dlib.dir/data_io/mnist.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/data_io/mnist.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib/data_io/mnist.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object dlib_build/CMakeFiles/dlib.dir/data_io/mnist.cpp.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/data_io/mnist.cpp.o -c /home/marcelo/Documentos/dlib-19.23/dlib/data_io/mnist.cpp
+
+dlib_build/CMakeFiles/dlib.dir/data_io/mnist.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/data_io/mnist.cpp.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/data_io/mnist.cpp > CMakeFiles/dlib.dir/data_io/mnist.cpp.i
+
+dlib_build/CMakeFiles/dlib.dir/data_io/mnist.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/data_io/mnist.cpp.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/data_io/mnist.cpp -o CMakeFiles/dlib.dir/data_io/mnist.cpp.s
+
+dlib_build/CMakeFiles/dlib.dir/data_io/cifar.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/data_io/cifar.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib/data_io/cifar.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object dlib_build/CMakeFiles/dlib.dir/data_io/cifar.cpp.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/data_io/cifar.cpp.o -c /home/marcelo/Documentos/dlib-19.23/dlib/data_io/cifar.cpp
+
+dlib_build/CMakeFiles/dlib.dir/data_io/cifar.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/data_io/cifar.cpp.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/data_io/cifar.cpp > CMakeFiles/dlib.dir/data_io/cifar.cpp.i
+
+dlib_build/CMakeFiles/dlib.dir/data_io/cifar.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/data_io/cifar.cpp.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/data_io/cifar.cpp -o CMakeFiles/dlib.dir/data_io/cifar.cpp.s
+
+dlib_build/CMakeFiles/dlib.dir/global_optimization/global_function_search.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/global_optimization/global_function_search.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib/global_optimization/global_function_search.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object dlib_build/CMakeFiles/dlib.dir/global_optimization/global_function_search.cpp.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/global_optimization/global_function_search.cpp.o -c /home/marcelo/Documentos/dlib-19.23/dlib/global_optimization/global_function_search.cpp
+
+dlib_build/CMakeFiles/dlib.dir/global_optimization/global_function_search.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/global_optimization/global_function_search.cpp.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/global_optimization/global_function_search.cpp > CMakeFiles/dlib.dir/global_optimization/global_function_search.cpp.i
+
+dlib_build/CMakeFiles/dlib.dir/global_optimization/global_function_search.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/global_optimization/global_function_search.cpp.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/global_optimization/global_function_search.cpp -o CMakeFiles/dlib.dir/global_optimization/global_function_search.cpp.s
+
+dlib_build/CMakeFiles/dlib.dir/filtering/kalman_filter.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/filtering/kalman_filter.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib/filtering/kalman_filter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object dlib_build/CMakeFiles/dlib.dir/filtering/kalman_filter.cpp.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/filtering/kalman_filter.cpp.o -c /home/marcelo/Documentos/dlib-19.23/dlib/filtering/kalman_filter.cpp
+
+dlib_build/CMakeFiles/dlib.dir/filtering/kalman_filter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/filtering/kalman_filter.cpp.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/filtering/kalman_filter.cpp > CMakeFiles/dlib.dir/filtering/kalman_filter.cpp.i
+
+dlib_build/CMakeFiles/dlib.dir/filtering/kalman_filter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/filtering/kalman_filter.cpp.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/filtering/kalman_filter.cpp -o CMakeFiles/dlib.dir/filtering/kalman_filter.cpp.s
+
+dlib_build/CMakeFiles/dlib.dir/svm/auto.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/svm/auto.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib/svm/auto.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object dlib_build/CMakeFiles/dlib.dir/svm/auto.cpp.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/svm/auto.cpp.o -c /home/marcelo/Documentos/dlib-19.23/dlib/svm/auto.cpp
+
+dlib_build/CMakeFiles/dlib.dir/svm/auto.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/svm/auto.cpp.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/svm/auto.cpp > CMakeFiles/dlib.dir/svm/auto.cpp.i
+
+dlib_build/CMakeFiles/dlib.dir/svm/auto.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/svm/auto.cpp.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/svm/auto.cpp -o CMakeFiles/dlib.dir/svm/auto.cpp.s
 
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/widgets.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/gui_widgets/widgets.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/gui_widgets/widgets.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_widgets/widgets.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/gui_widgets/widgets.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/gui_widgets/widgets.cpp
+dlib_build/CMakeFiles/dlib.dir/gui_widgets/widgets.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib/gui_widgets/widgets.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_widgets/widgets.cpp.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/gui_widgets/widgets.cpp.o -c /home/marcelo/Documentos/dlib-19.23/dlib/gui_widgets/widgets.cpp
 
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/widgets.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/gui_widgets/widgets.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/gui_widgets/widgets.cpp > CMakeFiles/dlib.dir/gui_widgets/widgets.cpp.i
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/gui_widgets/widgets.cpp > CMakeFiles/dlib.dir/gui_widgets/widgets.cpp.i
 
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/widgets.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/gui_widgets/widgets.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/gui_widgets/widgets.cpp -o CMakeFiles/dlib.dir/gui_widgets/widgets.cpp.s
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/gui_widgets/widgets.cpp -o CMakeFiles/dlib.dir/gui_widgets/widgets.cpp.s
 
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/drawable.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/gui_widgets/drawable.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/gui_widgets/drawable.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_widgets/drawable.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/gui_widgets/drawable.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/gui_widgets/drawable.cpp
+dlib_build/CMakeFiles/dlib.dir/gui_widgets/drawable.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib/gui_widgets/drawable.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_widgets/drawable.cpp.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/gui_widgets/drawable.cpp.o -c /home/marcelo/Documentos/dlib-19.23/dlib/gui_widgets/drawable.cpp
 
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/drawable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/gui_widgets/drawable.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/gui_widgets/drawable.cpp > CMakeFiles/dlib.dir/gui_widgets/drawable.cpp.i
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/gui_widgets/drawable.cpp > CMakeFiles/dlib.dir/gui_widgets/drawable.cpp.i
 
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/drawable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/gui_widgets/drawable.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/gui_widgets/drawable.cpp -o CMakeFiles/dlib.dir/gui_widgets/drawable.cpp.s
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/gui_widgets/drawable.cpp -o CMakeFiles/dlib.dir/gui_widgets/drawable.cpp.s
 
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/gui_widgets/canvas_drawing.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/gui_widgets/canvas_drawing.cpp
+dlib_build/CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib/gui_widgets/canvas_drawing.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.cpp.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.cpp.o -c /home/marcelo/Documentos/dlib-19.23/dlib/gui_widgets/canvas_drawing.cpp
 
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/gui_widgets/canvas_drawing.cpp > CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.cpp.i
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/gui_widgets/canvas_drawing.cpp > CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.cpp.i
 
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/gui_widgets/canvas_drawing.cpp -o CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.cpp.s
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/gui_widgets/canvas_drawing.cpp -o CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.cpp.s
 
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/style.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/gui_widgets/style.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/gui_widgets/style.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_widgets/style.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/gui_widgets/style.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/gui_widgets/style.cpp
+dlib_build/CMakeFiles/dlib.dir/gui_widgets/style.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib/gui_widgets/style.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_widgets/style.cpp.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/gui_widgets/style.cpp.o -c /home/marcelo/Documentos/dlib-19.23/dlib/gui_widgets/style.cpp
 
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/style.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/gui_widgets/style.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/gui_widgets/style.cpp > CMakeFiles/dlib.dir/gui_widgets/style.cpp.i
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/gui_widgets/style.cpp > CMakeFiles/dlib.dir/gui_widgets/style.cpp.i
 
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/style.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/gui_widgets/style.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/gui_widgets/style.cpp -o CMakeFiles/dlib.dir/gui_widgets/style.cpp.s
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/gui_widgets/style.cpp -o CMakeFiles/dlib.dir/gui_widgets/style.cpp.s
 
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/base_widgets.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/gui_widgets/base_widgets.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/gui_widgets/base_widgets.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_widgets/base_widgets.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/gui_widgets/base_widgets.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/gui_widgets/base_widgets.cpp
+dlib_build/CMakeFiles/dlib.dir/gui_widgets/base_widgets.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib/gui_widgets/base_widgets.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_widgets/base_widgets.cpp.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/gui_widgets/base_widgets.cpp.o -c /home/marcelo/Documentos/dlib-19.23/dlib/gui_widgets/base_widgets.cpp
 
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/base_widgets.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/gui_widgets/base_widgets.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/gui_widgets/base_widgets.cpp > CMakeFiles/dlib.dir/gui_widgets/base_widgets.cpp.i
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/gui_widgets/base_widgets.cpp > CMakeFiles/dlib.dir/gui_widgets/base_widgets.cpp.i
 
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/base_widgets.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/gui_widgets/base_widgets.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/gui_widgets/base_widgets.cpp -o CMakeFiles/dlib.dir/gui_widgets/base_widgets.cpp.s
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/gui_widgets/base_widgets.cpp -o CMakeFiles/dlib.dir/gui_widgets/base_widgets.cpp.s
 
 dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/gui_core/gui_core_kernel_1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/gui_core/gui_core_kernel_1.cpp
+dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib/gui_core/gui_core_kernel_1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.cpp.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.cpp.o -c /home/marcelo/Documentos/dlib-19.23/dlib/gui_core/gui_core_kernel_1.cpp
 
 dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/gui_core/gui_core_kernel_1.cpp > CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.cpp.i
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/gui_core/gui_core_kernel_1.cpp > CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.cpp.i
 
 dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/gui_core/gui_core_kernel_1.cpp -o CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.cpp.s
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/gui_core/gui_core_kernel_1.cpp -o CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.cpp.s
 
 dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/gui_core/gui_core_kernel_2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/gui_core/gui_core_kernel_2.cpp
+dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib/gui_core/gui_core_kernel_2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.cpp.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.cpp.o -c /home/marcelo/Documentos/dlib-19.23/dlib/gui_core/gui_core_kernel_2.cpp
 
 dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/gui_core/gui_core_kernel_2.cpp > CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.cpp.i
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/gui_core/gui_core_kernel_2.cpp > CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.cpp.i
 
 dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/gui_core/gui_core_kernel_2.cpp -o CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.cpp.s
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/gui_core/gui_core_kernel_2.cpp -o CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.cpp.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/arm/arm_init.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libpng/arm/arm_init.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/arm/arm_init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/arm/arm_init.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libpng/arm/arm_init.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/arm/arm_init.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/arm/arm_init.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libpng/arm/arm_init.c.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/arm/arm_init.c > CMakeFiles/dlib.dir/external/libpng/arm/arm_init.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/arm/arm_init.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libpng/arm/arm_init.c.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/arm/arm_init.c -o CMakeFiles/dlib.dir/external/libpng/arm/arm_init.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/arm/filter_neon_intrinsics.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libpng/arm/filter_neon_intrinsics.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/arm/filter_neon_intrinsics.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/arm/filter_neon_intrinsics.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libpng/arm/filter_neon_intrinsics.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/arm/filter_neon_intrinsics.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/arm/filter_neon_intrinsics.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libpng/arm/filter_neon_intrinsics.c.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/arm/filter_neon_intrinsics.c > CMakeFiles/dlib.dir/external/libpng/arm/filter_neon_intrinsics.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libpng/arm/filter_neon_intrinsics.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libpng/arm/filter_neon_intrinsics.c.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/arm/filter_neon_intrinsics.c -o CMakeFiles/dlib.dir/external/libpng/arm/filter_neon_intrinsics.c.s
 
 dlib_build/CMakeFiles/dlib.dir/external/libpng/png.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/libpng/png.c.o: /home/administrador/Documents/dlib-19.7/dlib/external/libpng/png.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/png.c.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libpng/png.c.o   -c /home/administrador/Documents/dlib-19.7/dlib/external/libpng/png.c
+dlib_build/CMakeFiles/dlib.dir/external/libpng/png.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/png.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/png.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libpng/png.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/png.c
 
 dlib_build/CMakeFiles/dlib.dir/external/libpng/png.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libpng/png.c.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/libpng/png.c > CMakeFiles/dlib.dir/external/libpng/png.c.i
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/png.c > CMakeFiles/dlib.dir/external/libpng/png.c.i
 
 dlib_build/CMakeFiles/dlib.dir/external/libpng/png.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libpng/png.c.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/libpng/png.c -o CMakeFiles/dlib.dir/external/libpng/png.c.s
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/png.c -o CMakeFiles/dlib.dir/external/libpng/png.c.s
 
 dlib_build/CMakeFiles/dlib.dir/external/libpng/pngerror.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/libpng/pngerror.c.o: /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngerror.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngerror.c.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libpng/pngerror.c.o   -c /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngerror.c
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngerror.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/pngerror.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngerror.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libpng/pngerror.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/pngerror.c
 
 dlib_build/CMakeFiles/dlib.dir/external/libpng/pngerror.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libpng/pngerror.c.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngerror.c > CMakeFiles/dlib.dir/external/libpng/pngerror.c.i
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/pngerror.c > CMakeFiles/dlib.dir/external/libpng/pngerror.c.i
 
 dlib_build/CMakeFiles/dlib.dir/external/libpng/pngerror.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libpng/pngerror.c.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngerror.c -o CMakeFiles/dlib.dir/external/libpng/pngerror.c.s
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/pngerror.c -o CMakeFiles/dlib.dir/external/libpng/pngerror.c.s
 
 dlib_build/CMakeFiles/dlib.dir/external/libpng/pngget.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/libpng/pngget.c.o: /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngget.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngget.c.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libpng/pngget.c.o   -c /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngget.c
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngget.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/pngget.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngget.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libpng/pngget.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/pngget.c
 
 dlib_build/CMakeFiles/dlib.dir/external/libpng/pngget.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libpng/pngget.c.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngget.c > CMakeFiles/dlib.dir/external/libpng/pngget.c.i
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/pngget.c > CMakeFiles/dlib.dir/external/libpng/pngget.c.i
 
 dlib_build/CMakeFiles/dlib.dir/external/libpng/pngget.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libpng/pngget.c.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngget.c -o CMakeFiles/dlib.dir/external/libpng/pngget.c.s
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/pngget.c -o CMakeFiles/dlib.dir/external/libpng/pngget.c.s
 
 dlib_build/CMakeFiles/dlib.dir/external/libpng/pngmem.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/libpng/pngmem.c.o: /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngmem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngmem.c.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libpng/pngmem.c.o   -c /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngmem.c
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngmem.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/pngmem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngmem.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libpng/pngmem.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/pngmem.c
 
 dlib_build/CMakeFiles/dlib.dir/external/libpng/pngmem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libpng/pngmem.c.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngmem.c > CMakeFiles/dlib.dir/external/libpng/pngmem.c.i
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/pngmem.c > CMakeFiles/dlib.dir/external/libpng/pngmem.c.i
 
 dlib_build/CMakeFiles/dlib.dir/external/libpng/pngmem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libpng/pngmem.c.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngmem.c -o CMakeFiles/dlib.dir/external/libpng/pngmem.c.s
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/pngmem.c -o CMakeFiles/dlib.dir/external/libpng/pngmem.c.s
 
 dlib_build/CMakeFiles/dlib.dir/external/libpng/pngpread.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/libpng/pngpread.c.o: /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngpread.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngpread.c.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libpng/pngpread.c.o   -c /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngpread.c
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngpread.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/pngpread.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngpread.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libpng/pngpread.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/pngpread.c
 
 dlib_build/CMakeFiles/dlib.dir/external/libpng/pngpread.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libpng/pngpread.c.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngpread.c > CMakeFiles/dlib.dir/external/libpng/pngpread.c.i
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/pngpread.c > CMakeFiles/dlib.dir/external/libpng/pngpread.c.i
 
 dlib_build/CMakeFiles/dlib.dir/external/libpng/pngpread.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libpng/pngpread.c.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngpread.c -o CMakeFiles/dlib.dir/external/libpng/pngpread.c.s
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/pngpread.c -o CMakeFiles/dlib.dir/external/libpng/pngpread.c.s
 
 dlib_build/CMakeFiles/dlib.dir/external/libpng/pngread.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/libpng/pngread.c.o: /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngread.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngread.c.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libpng/pngread.c.o   -c /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngread.c
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngread.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/pngread.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngread.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libpng/pngread.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/pngread.c
 
 dlib_build/CMakeFiles/dlib.dir/external/libpng/pngread.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libpng/pngread.c.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngread.c > CMakeFiles/dlib.dir/external/libpng/pngread.c.i
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/pngread.c > CMakeFiles/dlib.dir/external/libpng/pngread.c.i
 
 dlib_build/CMakeFiles/dlib.dir/external/libpng/pngread.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libpng/pngread.c.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngread.c -o CMakeFiles/dlib.dir/external/libpng/pngread.c.s
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/pngread.c -o CMakeFiles/dlib.dir/external/libpng/pngread.c.s
 
 dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrio.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrio.c.o: /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngrio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrio.c.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libpng/pngrio.c.o   -c /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngrio.c
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrio.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/pngrio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrio.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libpng/pngrio.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/pngrio.c
 
 dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libpng/pngrio.c.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngrio.c > CMakeFiles/dlib.dir/external/libpng/pngrio.c.i
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/pngrio.c > CMakeFiles/dlib.dir/external/libpng/pngrio.c.i
 
 dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libpng/pngrio.c.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngrio.c -o CMakeFiles/dlib.dir/external/libpng/pngrio.c.s
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/pngrio.c -o CMakeFiles/dlib.dir/external/libpng/pngrio.c.s
 
 dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrtran.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrtran.c.o: /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngrtran.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrtran.c.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libpng/pngrtran.c.o   -c /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngrtran.c
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrtran.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/pngrtran.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrtran.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libpng/pngrtran.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/pngrtran.c
 
 dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrtran.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libpng/pngrtran.c.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngrtran.c > CMakeFiles/dlib.dir/external/libpng/pngrtran.c.i
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/pngrtran.c > CMakeFiles/dlib.dir/external/libpng/pngrtran.c.i
 
 dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrtran.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libpng/pngrtran.c.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngrtran.c -o CMakeFiles/dlib.dir/external/libpng/pngrtran.c.s
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/pngrtran.c -o CMakeFiles/dlib.dir/external/libpng/pngrtran.c.s
 
 dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrutil.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrutil.c.o: /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngrutil.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrutil.c.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libpng/pngrutil.c.o   -c /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngrutil.c
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrutil.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/pngrutil.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrutil.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libpng/pngrutil.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/pngrutil.c
 
 dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrutil.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libpng/pngrutil.c.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngrutil.c > CMakeFiles/dlib.dir/external/libpng/pngrutil.c.i
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/pngrutil.c > CMakeFiles/dlib.dir/external/libpng/pngrutil.c.i
 
 dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrutil.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libpng/pngrutil.c.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngrutil.c -o CMakeFiles/dlib.dir/external/libpng/pngrutil.c.s
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/pngrutil.c -o CMakeFiles/dlib.dir/external/libpng/pngrutil.c.s
 
 dlib_build/CMakeFiles/dlib.dir/external/libpng/pngset.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/libpng/pngset.c.o: /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngset.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngset.c.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libpng/pngset.c.o   -c /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngset.c
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngset.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/pngset.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngset.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libpng/pngset.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/pngset.c
 
 dlib_build/CMakeFiles/dlib.dir/external/libpng/pngset.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libpng/pngset.c.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngset.c > CMakeFiles/dlib.dir/external/libpng/pngset.c.i
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/pngset.c > CMakeFiles/dlib.dir/external/libpng/pngset.c.i
 
 dlib_build/CMakeFiles/dlib.dir/external/libpng/pngset.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libpng/pngset.c.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngset.c -o CMakeFiles/dlib.dir/external/libpng/pngset.c.s
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/pngset.c -o CMakeFiles/dlib.dir/external/libpng/pngset.c.s
 
 dlib_build/CMakeFiles/dlib.dir/external/libpng/pngtrans.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/libpng/pngtrans.c.o: /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngtrans.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngtrans.c.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libpng/pngtrans.c.o   -c /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngtrans.c
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngtrans.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/pngtrans.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngtrans.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libpng/pngtrans.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/pngtrans.c
 
 dlib_build/CMakeFiles/dlib.dir/external/libpng/pngtrans.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libpng/pngtrans.c.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngtrans.c > CMakeFiles/dlib.dir/external/libpng/pngtrans.c.i
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/pngtrans.c > CMakeFiles/dlib.dir/external/libpng/pngtrans.c.i
 
 dlib_build/CMakeFiles/dlib.dir/external/libpng/pngtrans.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libpng/pngtrans.c.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngtrans.c -o CMakeFiles/dlib.dir/external/libpng/pngtrans.c.s
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/pngtrans.c -o CMakeFiles/dlib.dir/external/libpng/pngtrans.c.s
 
 dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwio.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwio.c.o: /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngwio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwio.c.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libpng/pngwio.c.o   -c /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngwio.c
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwio.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/pngwio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwio.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libpng/pngwio.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/pngwio.c
 
 dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libpng/pngwio.c.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngwio.c > CMakeFiles/dlib.dir/external/libpng/pngwio.c.i
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/pngwio.c > CMakeFiles/dlib.dir/external/libpng/pngwio.c.i
 
 dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libpng/pngwio.c.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngwio.c -o CMakeFiles/dlib.dir/external/libpng/pngwio.c.s
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/pngwio.c -o CMakeFiles/dlib.dir/external/libpng/pngwio.c.s
 
 dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwrite.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwrite.c.o: /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngwrite.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwrite.c.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libpng/pngwrite.c.o   -c /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngwrite.c
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwrite.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/pngwrite.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwrite.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libpng/pngwrite.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/pngwrite.c
 
 dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwrite.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libpng/pngwrite.c.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngwrite.c > CMakeFiles/dlib.dir/external/libpng/pngwrite.c.i
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/pngwrite.c > CMakeFiles/dlib.dir/external/libpng/pngwrite.c.i
 
 dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwrite.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libpng/pngwrite.c.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngwrite.c -o CMakeFiles/dlib.dir/external/libpng/pngwrite.c.s
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/pngwrite.c -o CMakeFiles/dlib.dir/external/libpng/pngwrite.c.s
 
 dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwtran.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwtran.c.o: /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngwtran.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwtran.c.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libpng/pngwtran.c.o   -c /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngwtran.c
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwtran.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/pngwtran.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwtran.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libpng/pngwtran.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/pngwtran.c
 
 dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwtran.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libpng/pngwtran.c.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngwtran.c > CMakeFiles/dlib.dir/external/libpng/pngwtran.c.i
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/pngwtran.c > CMakeFiles/dlib.dir/external/libpng/pngwtran.c.i
 
 dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwtran.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libpng/pngwtran.c.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngwtran.c -o CMakeFiles/dlib.dir/external/libpng/pngwtran.c.s
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/pngwtran.c -o CMakeFiles/dlib.dir/external/libpng/pngwtran.c.s
 
 dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwutil.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwutil.c.o: /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngwutil.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwutil.c.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libpng/pngwutil.c.o   -c /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngwutil.c
+dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwutil.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/pngwutil.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwutil.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libpng/pngwutil.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/pngwutil.c
 
 dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwutil.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libpng/pngwutil.c.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngwutil.c > CMakeFiles/dlib.dir/external/libpng/pngwutil.c.i
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/pngwutil.c > CMakeFiles/dlib.dir/external/libpng/pngwutil.c.i
 
 dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwutil.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libpng/pngwutil.c.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/libpng/pngwutil.c -o CMakeFiles/dlib.dir/external/libpng/pngwutil.c.s
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libpng/pngwutil.c -o CMakeFiles/dlib.dir/external/libpng/pngwutil.c.s
 
 dlib_build/CMakeFiles/dlib.dir/external/zlib/adler32.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/zlib/adler32.c.o: /home/administrador/Documents/dlib-19.7/dlib/external/zlib/adler32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/adler32.c.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/zlib/adler32.c.o   -c /home/administrador/Documents/dlib-19.7/dlib/external/zlib/adler32.c
+dlib_build/CMakeFiles/dlib.dir/external/zlib/adler32.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/zlib/adler32.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/adler32.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/zlib/adler32.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/zlib/adler32.c
 
 dlib_build/CMakeFiles/dlib.dir/external/zlib/adler32.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/zlib/adler32.c.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/zlib/adler32.c > CMakeFiles/dlib.dir/external/zlib/adler32.c.i
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/zlib/adler32.c > CMakeFiles/dlib.dir/external/zlib/adler32.c.i
 
 dlib_build/CMakeFiles/dlib.dir/external/zlib/adler32.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/zlib/adler32.c.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/zlib/adler32.c -o CMakeFiles/dlib.dir/external/zlib/adler32.c.s
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/zlib/adler32.c -o CMakeFiles/dlib.dir/external/zlib/adler32.c.s
 
 dlib_build/CMakeFiles/dlib.dir/external/zlib/compress.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/zlib/compress.c.o: /home/administrador/Documents/dlib-19.7/dlib/external/zlib/compress.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/compress.c.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/zlib/compress.c.o   -c /home/administrador/Documents/dlib-19.7/dlib/external/zlib/compress.c
+dlib_build/CMakeFiles/dlib.dir/external/zlib/compress.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/zlib/compress.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/compress.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/zlib/compress.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/zlib/compress.c
 
 dlib_build/CMakeFiles/dlib.dir/external/zlib/compress.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/zlib/compress.c.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/zlib/compress.c > CMakeFiles/dlib.dir/external/zlib/compress.c.i
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/zlib/compress.c > CMakeFiles/dlib.dir/external/zlib/compress.c.i
 
 dlib_build/CMakeFiles/dlib.dir/external/zlib/compress.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/zlib/compress.c.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/zlib/compress.c -o CMakeFiles/dlib.dir/external/zlib/compress.c.s
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/zlib/compress.c -o CMakeFiles/dlib.dir/external/zlib/compress.c.s
 
 dlib_build/CMakeFiles/dlib.dir/external/zlib/crc32.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/zlib/crc32.c.o: /home/administrador/Documents/dlib-19.7/dlib/external/zlib/crc32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/crc32.c.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/zlib/crc32.c.o   -c /home/administrador/Documents/dlib-19.7/dlib/external/zlib/crc32.c
+dlib_build/CMakeFiles/dlib.dir/external/zlib/crc32.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/zlib/crc32.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/crc32.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/zlib/crc32.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/zlib/crc32.c
 
 dlib_build/CMakeFiles/dlib.dir/external/zlib/crc32.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/zlib/crc32.c.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/zlib/crc32.c > CMakeFiles/dlib.dir/external/zlib/crc32.c.i
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/zlib/crc32.c > CMakeFiles/dlib.dir/external/zlib/crc32.c.i
 
 dlib_build/CMakeFiles/dlib.dir/external/zlib/crc32.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/zlib/crc32.c.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/zlib/crc32.c -o CMakeFiles/dlib.dir/external/zlib/crc32.c.s
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/zlib/crc32.c -o CMakeFiles/dlib.dir/external/zlib/crc32.c.s
 
 dlib_build/CMakeFiles/dlib.dir/external/zlib/deflate.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/zlib/deflate.c.o: /home/administrador/Documents/dlib-19.7/dlib/external/zlib/deflate.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/deflate.c.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/zlib/deflate.c.o   -c /home/administrador/Documents/dlib-19.7/dlib/external/zlib/deflate.c
+dlib_build/CMakeFiles/dlib.dir/external/zlib/deflate.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/zlib/deflate.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/deflate.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/zlib/deflate.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/zlib/deflate.c
 
 dlib_build/CMakeFiles/dlib.dir/external/zlib/deflate.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/zlib/deflate.c.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/zlib/deflate.c > CMakeFiles/dlib.dir/external/zlib/deflate.c.i
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/zlib/deflate.c > CMakeFiles/dlib.dir/external/zlib/deflate.c.i
 
 dlib_build/CMakeFiles/dlib.dir/external/zlib/deflate.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/zlib/deflate.c.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/zlib/deflate.c -o CMakeFiles/dlib.dir/external/zlib/deflate.c.s
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/zlib/deflate.c -o CMakeFiles/dlib.dir/external/zlib/deflate.c.s
 
 dlib_build/CMakeFiles/dlib.dir/external/zlib/gzclose.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/zlib/gzclose.c.o: /home/administrador/Documents/dlib-19.7/dlib/external/zlib/gzclose.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/gzclose.c.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/zlib/gzclose.c.o   -c /home/administrador/Documents/dlib-19.7/dlib/external/zlib/gzclose.c
+dlib_build/CMakeFiles/dlib.dir/external/zlib/gzclose.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/zlib/gzclose.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/gzclose.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/zlib/gzclose.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/zlib/gzclose.c
 
 dlib_build/CMakeFiles/dlib.dir/external/zlib/gzclose.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/zlib/gzclose.c.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/zlib/gzclose.c > CMakeFiles/dlib.dir/external/zlib/gzclose.c.i
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/zlib/gzclose.c > CMakeFiles/dlib.dir/external/zlib/gzclose.c.i
 
 dlib_build/CMakeFiles/dlib.dir/external/zlib/gzclose.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/zlib/gzclose.c.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/zlib/gzclose.c -o CMakeFiles/dlib.dir/external/zlib/gzclose.c.s
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/zlib/gzclose.c -o CMakeFiles/dlib.dir/external/zlib/gzclose.c.s
 
 dlib_build/CMakeFiles/dlib.dir/external/zlib/gzlib.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/zlib/gzlib.c.o: /home/administrador/Documents/dlib-19.7/dlib/external/zlib/gzlib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/gzlib.c.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/zlib/gzlib.c.o   -c /home/administrador/Documents/dlib-19.7/dlib/external/zlib/gzlib.c
+dlib_build/CMakeFiles/dlib.dir/external/zlib/gzlib.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/zlib/gzlib.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/gzlib.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/zlib/gzlib.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/zlib/gzlib.c
 
 dlib_build/CMakeFiles/dlib.dir/external/zlib/gzlib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/zlib/gzlib.c.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/zlib/gzlib.c > CMakeFiles/dlib.dir/external/zlib/gzlib.c.i
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/zlib/gzlib.c > CMakeFiles/dlib.dir/external/zlib/gzlib.c.i
 
 dlib_build/CMakeFiles/dlib.dir/external/zlib/gzlib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/zlib/gzlib.c.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/zlib/gzlib.c -o CMakeFiles/dlib.dir/external/zlib/gzlib.c.s
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/zlib/gzlib.c -o CMakeFiles/dlib.dir/external/zlib/gzlib.c.s
 
 dlib_build/CMakeFiles/dlib.dir/external/zlib/gzread.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/zlib/gzread.c.o: /home/administrador/Documents/dlib-19.7/dlib/external/zlib/gzread.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/gzread.c.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/zlib/gzread.c.o   -c /home/administrador/Documents/dlib-19.7/dlib/external/zlib/gzread.c
+dlib_build/CMakeFiles/dlib.dir/external/zlib/gzread.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/zlib/gzread.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/gzread.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/zlib/gzread.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/zlib/gzread.c
 
 dlib_build/CMakeFiles/dlib.dir/external/zlib/gzread.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/zlib/gzread.c.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/zlib/gzread.c > CMakeFiles/dlib.dir/external/zlib/gzread.c.i
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/zlib/gzread.c > CMakeFiles/dlib.dir/external/zlib/gzread.c.i
 
 dlib_build/CMakeFiles/dlib.dir/external/zlib/gzread.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/zlib/gzread.c.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/zlib/gzread.c -o CMakeFiles/dlib.dir/external/zlib/gzread.c.s
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/zlib/gzread.c -o CMakeFiles/dlib.dir/external/zlib/gzread.c.s
 
 dlib_build/CMakeFiles/dlib.dir/external/zlib/gzwrite.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/zlib/gzwrite.c.o: /home/administrador/Documents/dlib-19.7/dlib/external/zlib/gzwrite.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/gzwrite.c.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/zlib/gzwrite.c.o   -c /home/administrador/Documents/dlib-19.7/dlib/external/zlib/gzwrite.c
+dlib_build/CMakeFiles/dlib.dir/external/zlib/gzwrite.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/zlib/gzwrite.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/gzwrite.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/zlib/gzwrite.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/zlib/gzwrite.c
 
 dlib_build/CMakeFiles/dlib.dir/external/zlib/gzwrite.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/zlib/gzwrite.c.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/zlib/gzwrite.c > CMakeFiles/dlib.dir/external/zlib/gzwrite.c.i
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/zlib/gzwrite.c > CMakeFiles/dlib.dir/external/zlib/gzwrite.c.i
 
 dlib_build/CMakeFiles/dlib.dir/external/zlib/gzwrite.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/zlib/gzwrite.c.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/zlib/gzwrite.c -o CMakeFiles/dlib.dir/external/zlib/gzwrite.c.s
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/zlib/gzwrite.c -o CMakeFiles/dlib.dir/external/zlib/gzwrite.c.s
 
 dlib_build/CMakeFiles/dlib.dir/external/zlib/infback.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/zlib/infback.c.o: /home/administrador/Documents/dlib-19.7/dlib/external/zlib/infback.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/infback.c.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/zlib/infback.c.o   -c /home/administrador/Documents/dlib-19.7/dlib/external/zlib/infback.c
+dlib_build/CMakeFiles/dlib.dir/external/zlib/infback.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/zlib/infback.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/infback.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/zlib/infback.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/zlib/infback.c
 
 dlib_build/CMakeFiles/dlib.dir/external/zlib/infback.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/zlib/infback.c.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/zlib/infback.c > CMakeFiles/dlib.dir/external/zlib/infback.c.i
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/zlib/infback.c > CMakeFiles/dlib.dir/external/zlib/infback.c.i
 
 dlib_build/CMakeFiles/dlib.dir/external/zlib/infback.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/zlib/infback.c.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/zlib/infback.c -o CMakeFiles/dlib.dir/external/zlib/infback.c.s
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/zlib/infback.c -o CMakeFiles/dlib.dir/external/zlib/infback.c.s
 
 dlib_build/CMakeFiles/dlib.dir/external/zlib/inffast.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/zlib/inffast.c.o: /home/administrador/Documents/dlib-19.7/dlib/external/zlib/inffast.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/inffast.c.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/zlib/inffast.c.o   -c /home/administrador/Documents/dlib-19.7/dlib/external/zlib/inffast.c
+dlib_build/CMakeFiles/dlib.dir/external/zlib/inffast.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/zlib/inffast.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/inffast.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/zlib/inffast.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/zlib/inffast.c
 
 dlib_build/CMakeFiles/dlib.dir/external/zlib/inffast.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/zlib/inffast.c.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/zlib/inffast.c > CMakeFiles/dlib.dir/external/zlib/inffast.c.i
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/zlib/inffast.c > CMakeFiles/dlib.dir/external/zlib/inffast.c.i
 
 dlib_build/CMakeFiles/dlib.dir/external/zlib/inffast.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/zlib/inffast.c.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/zlib/inffast.c -o CMakeFiles/dlib.dir/external/zlib/inffast.c.s
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/zlib/inffast.c -o CMakeFiles/dlib.dir/external/zlib/inffast.c.s
 
 dlib_build/CMakeFiles/dlib.dir/external/zlib/inflate.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/zlib/inflate.c.o: /home/administrador/Documents/dlib-19.7/dlib/external/zlib/inflate.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/inflate.c.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/zlib/inflate.c.o   -c /home/administrador/Documents/dlib-19.7/dlib/external/zlib/inflate.c
+dlib_build/CMakeFiles/dlib.dir/external/zlib/inflate.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/zlib/inflate.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/inflate.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/zlib/inflate.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/zlib/inflate.c
 
 dlib_build/CMakeFiles/dlib.dir/external/zlib/inflate.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/zlib/inflate.c.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/zlib/inflate.c > CMakeFiles/dlib.dir/external/zlib/inflate.c.i
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/zlib/inflate.c > CMakeFiles/dlib.dir/external/zlib/inflate.c.i
 
 dlib_build/CMakeFiles/dlib.dir/external/zlib/inflate.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/zlib/inflate.c.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/zlib/inflate.c -o CMakeFiles/dlib.dir/external/zlib/inflate.c.s
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/zlib/inflate.c -o CMakeFiles/dlib.dir/external/zlib/inflate.c.s
 
 dlib_build/CMakeFiles/dlib.dir/external/zlib/inftrees.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/zlib/inftrees.c.o: /home/administrador/Documents/dlib-19.7/dlib/external/zlib/inftrees.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/inftrees.c.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/zlib/inftrees.c.o   -c /home/administrador/Documents/dlib-19.7/dlib/external/zlib/inftrees.c
+dlib_build/CMakeFiles/dlib.dir/external/zlib/inftrees.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/zlib/inftrees.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/inftrees.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/zlib/inftrees.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/zlib/inftrees.c
 
 dlib_build/CMakeFiles/dlib.dir/external/zlib/inftrees.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/zlib/inftrees.c.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/zlib/inftrees.c > CMakeFiles/dlib.dir/external/zlib/inftrees.c.i
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/zlib/inftrees.c > CMakeFiles/dlib.dir/external/zlib/inftrees.c.i
 
 dlib_build/CMakeFiles/dlib.dir/external/zlib/inftrees.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/zlib/inftrees.c.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/zlib/inftrees.c -o CMakeFiles/dlib.dir/external/zlib/inftrees.c.s
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/zlib/inftrees.c -o CMakeFiles/dlib.dir/external/zlib/inftrees.c.s
 
 dlib_build/CMakeFiles/dlib.dir/external/zlib/trees.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/zlib/trees.c.o: /home/administrador/Documents/dlib-19.7/dlib/external/zlib/trees.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/trees.c.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/zlib/trees.c.o   -c /home/administrador/Documents/dlib-19.7/dlib/external/zlib/trees.c
+dlib_build/CMakeFiles/dlib.dir/external/zlib/trees.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/zlib/trees.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/trees.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/zlib/trees.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/zlib/trees.c
 
 dlib_build/CMakeFiles/dlib.dir/external/zlib/trees.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/zlib/trees.c.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/zlib/trees.c > CMakeFiles/dlib.dir/external/zlib/trees.c.i
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/zlib/trees.c > CMakeFiles/dlib.dir/external/zlib/trees.c.i
 
 dlib_build/CMakeFiles/dlib.dir/external/zlib/trees.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/zlib/trees.c.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/zlib/trees.c -o CMakeFiles/dlib.dir/external/zlib/trees.c.s
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/zlib/trees.c -o CMakeFiles/dlib.dir/external/zlib/trees.c.s
 
 dlib_build/CMakeFiles/dlib.dir/external/zlib/uncompr.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/zlib/uncompr.c.o: /home/administrador/Documents/dlib-19.7/dlib/external/zlib/uncompr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/uncompr.c.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/zlib/uncompr.c.o   -c /home/administrador/Documents/dlib-19.7/dlib/external/zlib/uncompr.c
+dlib_build/CMakeFiles/dlib.dir/external/zlib/uncompr.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/zlib/uncompr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/uncompr.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/zlib/uncompr.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/zlib/uncompr.c
 
 dlib_build/CMakeFiles/dlib.dir/external/zlib/uncompr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/zlib/uncompr.c.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/zlib/uncompr.c > CMakeFiles/dlib.dir/external/zlib/uncompr.c.i
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/zlib/uncompr.c > CMakeFiles/dlib.dir/external/zlib/uncompr.c.i
 
 dlib_build/CMakeFiles/dlib.dir/external/zlib/uncompr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/zlib/uncompr.c.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/zlib/uncompr.c -o CMakeFiles/dlib.dir/external/zlib/uncompr.c.s
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/zlib/uncompr.c -o CMakeFiles/dlib.dir/external/zlib/uncompr.c.s
 
 dlib_build/CMakeFiles/dlib.dir/external/zlib/zutil.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/zlib/zutil.c.o: /home/administrador/Documents/dlib-19.7/dlib/external/zlib/zutil.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/zutil.c.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/zlib/zutil.c.o   -c /home/administrador/Documents/dlib-19.7/dlib/external/zlib/zutil.c
+dlib_build/CMakeFiles/dlib.dir/external/zlib/zutil.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/zlib/zutil.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/zutil.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/zlib/zutil.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/zlib/zutil.c
 
 dlib_build/CMakeFiles/dlib.dir/external/zlib/zutil.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/zlib/zutil.c.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/zlib/zutil.c > CMakeFiles/dlib.dir/external/zlib/zutil.c.i
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/zlib/zutil.c > CMakeFiles/dlib.dir/external/zlib/zutil.c.i
 
 dlib_build/CMakeFiles/dlib.dir/external/zlib/zutil.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/zlib/zutil.c.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/zlib/zutil.c -o CMakeFiles/dlib.dir/external/zlib/zutil.c.s
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/zlib/zutil.c -o CMakeFiles/dlib.dir/external/zlib/zutil.c.s
 
 dlib_build/CMakeFiles/dlib.dir/image_loader/png_loader.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/image_loader/png_loader.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/image_loader/png_loader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object dlib_build/CMakeFiles/dlib.dir/image_loader/png_loader.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/image_loader/png_loader.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/image_loader/png_loader.cpp
+dlib_build/CMakeFiles/dlib.dir/image_loader/png_loader.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib/image_loader/png_loader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object dlib_build/CMakeFiles/dlib.dir/image_loader/png_loader.cpp.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/image_loader/png_loader.cpp.o -c /home/marcelo/Documentos/dlib-19.23/dlib/image_loader/png_loader.cpp
 
 dlib_build/CMakeFiles/dlib.dir/image_loader/png_loader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/image_loader/png_loader.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/image_loader/png_loader.cpp > CMakeFiles/dlib.dir/image_loader/png_loader.cpp.i
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/image_loader/png_loader.cpp > CMakeFiles/dlib.dir/image_loader/png_loader.cpp.i
 
 dlib_build/CMakeFiles/dlib.dir/image_loader/png_loader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/image_loader/png_loader.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/image_loader/png_loader.cpp -o CMakeFiles/dlib.dir/image_loader/png_loader.cpp.s
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/image_loader/png_loader.cpp -o CMakeFiles/dlib.dir/image_loader/png_loader.cpp.s
 
 dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/image_saver/save_png.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/image_saver/save_png.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/image_saver/save_png.cpp
+dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib/image_saver/save_png.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.cpp.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/image_saver/save_png.cpp.o -c /home/marcelo/Documentos/dlib-19.23/dlib/image_saver/save_png.cpp
 
 dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/image_saver/save_png.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/image_saver/save_png.cpp > CMakeFiles/dlib.dir/image_saver/save_png.cpp.i
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/image_saver/save_png.cpp > CMakeFiles/dlib.dir/image_saver/save_png.cpp.i
 
 dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/image_saver/save_png.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/image_saver/save_png.cpp -o CMakeFiles/dlib.dir/image_saver/save_png.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcomapi.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcomapi.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcomapi.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcomapi.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jcomapi.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcomapi.cpp
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcomapi.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jcomapi.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcomapi.cpp > CMakeFiles/dlib.dir/external/libjpeg/jcomapi.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcomapi.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jcomapi.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcomapi.cpp -o CMakeFiles/dlib.dir/external/libjpeg/jcomapi.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapimin.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapimin.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdapimin.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapimin.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jdapimin.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdapimin.cpp
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapimin.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jdapimin.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdapimin.cpp > CMakeFiles/dlib.dir/external/libjpeg/jdapimin.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapimin.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jdapimin.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdapimin.cpp -o CMakeFiles/dlib.dir/external/libjpeg/jdapimin.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapistd.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapistd.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdapistd.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapistd.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jdapistd.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdapistd.cpp
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapistd.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jdapistd.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdapistd.cpp > CMakeFiles/dlib.dir/external/libjpeg/jdapistd.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapistd.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jdapistd.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdapistd.cpp -o CMakeFiles/dlib.dir/external/libjpeg/jdapistd.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdatasrc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdatasrc.cpp
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdatasrc.cpp > CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdatasrc.cpp -o CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdcoefct.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdcoefct.cpp
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdcoefct.cpp > CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdcoefct.cpp -o CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcolor.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcolor.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdcolor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcolor.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jdcolor.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdcolor.cpp
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcolor.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jdcolor.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdcolor.cpp > CMakeFiles/dlib.dir/external/libjpeg/jdcolor.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcolor.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jdcolor.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdcolor.cpp -o CMakeFiles/dlib.dir/external/libjpeg/jdcolor.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jddctmgr.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jddctmgr.cpp
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jddctmgr.cpp > CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jddctmgr.cpp -o CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdhuff.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdhuff.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdhuff.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdhuff.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jdhuff.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdhuff.cpp
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdhuff.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jdhuff.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdhuff.cpp > CMakeFiles/dlib.dir/external/libjpeg/jdhuff.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdhuff.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jdhuff.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdhuff.cpp -o CMakeFiles/dlib.dir/external/libjpeg/jdhuff.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdinput.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdinput.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdinput.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdinput.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jdinput.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdinput.cpp
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdinput.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jdinput.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdinput.cpp > CMakeFiles/dlib.dir/external/libjpeg/jdinput.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdinput.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jdinput.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdinput.cpp -o CMakeFiles/dlib.dir/external/libjpeg/jdinput.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmainct.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmainct.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdmainct.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmainct.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jdmainct.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdmainct.cpp
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmainct.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jdmainct.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdmainct.cpp > CMakeFiles/dlib.dir/external/libjpeg/jdmainct.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmainct.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jdmainct.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdmainct.cpp -o CMakeFiles/dlib.dir/external/libjpeg/jdmainct.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmarker.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmarker.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdmarker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmarker.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jdmarker.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdmarker.cpp
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmarker.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jdmarker.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdmarker.cpp > CMakeFiles/dlib.dir/external/libjpeg/jdmarker.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmarker.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jdmarker.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdmarker.cpp -o CMakeFiles/dlib.dir/external/libjpeg/jdmarker.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmaster.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmaster.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdmaster.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmaster.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jdmaster.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdmaster.cpp
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmaster.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jdmaster.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdmaster.cpp > CMakeFiles/dlib.dir/external/libjpeg/jdmaster.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmaster.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jdmaster.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdmaster.cpp -o CMakeFiles/dlib.dir/external/libjpeg/jdmaster.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmerge.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmerge.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdmerge.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmerge.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jdmerge.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdmerge.cpp
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmerge.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jdmerge.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdmerge.cpp > CMakeFiles/dlib.dir/external/libjpeg/jdmerge.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmerge.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jdmerge.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdmerge.cpp -o CMakeFiles/dlib.dir/external/libjpeg/jdmerge.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdphuff.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdphuff.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdphuff.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdphuff.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jdphuff.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdphuff.cpp
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdphuff.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jdphuff.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdphuff.cpp > CMakeFiles/dlib.dir/external/libjpeg/jdphuff.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdphuff.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jdphuff.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdphuff.cpp -o CMakeFiles/dlib.dir/external/libjpeg/jdphuff.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdpostct.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdpostct.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdpostct.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdpostct.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jdpostct.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdpostct.cpp
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdpostct.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jdpostct.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdpostct.cpp > CMakeFiles/dlib.dir/external/libjpeg/jdpostct.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdpostct.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jdpostct.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdpostct.cpp -o CMakeFiles/dlib.dir/external/libjpeg/jdpostct.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdsample.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdsample.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdsample.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdsample.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jdsample.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdsample.cpp
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdsample.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jdsample.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdsample.cpp > CMakeFiles/dlib.dir/external/libjpeg/jdsample.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdsample.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jdsample.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdsample.cpp -o CMakeFiles/dlib.dir/external/libjpeg/jdsample.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jerror.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jerror.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jerror.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jerror.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jerror.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jerror.cpp
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jerror.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jerror.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jerror.cpp > CMakeFiles/dlib.dir/external/libjpeg/jerror.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jerror.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jerror.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jerror.cpp -o CMakeFiles/dlib.dir/external/libjpeg/jerror.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctflt.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctflt.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jidctflt.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctflt.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jidctflt.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jidctflt.cpp
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctflt.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jidctflt.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jidctflt.cpp > CMakeFiles/dlib.dir/external/libjpeg/jidctflt.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctflt.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jidctflt.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jidctflt.cpp -o CMakeFiles/dlib.dir/external/libjpeg/jidctflt.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctfst.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctfst.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jidctfst.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctfst.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jidctfst.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jidctfst.cpp
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctfst.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jidctfst.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jidctfst.cpp > CMakeFiles/dlib.dir/external/libjpeg/jidctfst.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctfst.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jidctfst.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jidctfst.cpp -o CMakeFiles/dlib.dir/external/libjpeg/jidctfst.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctint.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctint.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jidctint.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctint.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jidctint.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jidctint.cpp
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctint.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jidctint.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jidctint.cpp > CMakeFiles/dlib.dir/external/libjpeg/jidctint.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctint.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jidctint.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jidctint.cpp -o CMakeFiles/dlib.dir/external/libjpeg/jidctint.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctred.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctred.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jidctred.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctred.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jidctred.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jidctred.cpp
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctred.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jidctred.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jidctred.cpp > CMakeFiles/dlib.dir/external/libjpeg/jidctred.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctred.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jidctred.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jidctred.cpp -o CMakeFiles/dlib.dir/external/libjpeg/jidctred.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jmemmgr.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jmemmgr.cpp
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jmemmgr.cpp > CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jmemmgr.cpp -o CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jmemnobs.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jmemnobs.cpp
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jmemnobs.cpp > CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jmemnobs.cpp -o CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant1.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant1.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jquant1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant1.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jquant1.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jquant1.cpp
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jquant1.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jquant1.cpp > CMakeFiles/dlib.dir/external/libjpeg/jquant1.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jquant1.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jquant1.cpp -o CMakeFiles/dlib.dir/external/libjpeg/jquant1.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant2.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant2.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jquant2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant2.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jquant2.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jquant2.cpp
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jquant2.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jquant2.cpp > CMakeFiles/dlib.dir/external/libjpeg/jquant2.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jquant2.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jquant2.cpp -o CMakeFiles/dlib.dir/external/libjpeg/jquant2.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jutils.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jutils.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jutils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jutils.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jutils.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jutils.cpp
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jutils.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jutils.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jutils.cpp > CMakeFiles/dlib.dir/external/libjpeg/jutils.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jutils.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jutils.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jutils.cpp -o CMakeFiles/dlib.dir/external/libjpeg/jutils.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapimin.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapimin.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcapimin.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapimin.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jcapimin.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcapimin.cpp
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapimin.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jcapimin.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcapimin.cpp > CMakeFiles/dlib.dir/external/libjpeg/jcapimin.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapimin.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jcapimin.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcapimin.cpp -o CMakeFiles/dlib.dir/external/libjpeg/jcapimin.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatadst.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatadst.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdatadst.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatadst.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jdatadst.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdatadst.cpp
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatadst.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jdatadst.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdatadst.cpp > CMakeFiles/dlib.dir/external/libjpeg/jdatadst.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatadst.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jdatadst.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jdatadst.cpp -o CMakeFiles/dlib.dir/external/libjpeg/jdatadst.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcparam.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcparam.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcparam.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcparam.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jcparam.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcparam.cpp
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcparam.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jcparam.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcparam.cpp > CMakeFiles/dlib.dir/external/libjpeg/jcparam.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcparam.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jcparam.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcparam.cpp -o CMakeFiles/dlib.dir/external/libjpeg/jcparam.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapistd.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapistd.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcapistd.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapistd.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jcapistd.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcapistd.cpp
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapistd.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jcapistd.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcapistd.cpp > CMakeFiles/dlib.dir/external/libjpeg/jcapistd.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapistd.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jcapistd.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcapistd.cpp -o CMakeFiles/dlib.dir/external/libjpeg/jcapistd.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmarker.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmarker.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcmarker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmarker.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jcmarker.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcmarker.cpp
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmarker.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jcmarker.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcmarker.cpp > CMakeFiles/dlib.dir/external/libjpeg/jcmarker.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmarker.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jcmarker.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcmarker.cpp -o CMakeFiles/dlib.dir/external/libjpeg/jcmarker.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcinit.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcinit.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcinit.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcinit.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jcinit.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcinit.cpp
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcinit.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jcinit.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcinit.cpp > CMakeFiles/dlib.dir/external/libjpeg/jcinit.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcinit.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jcinit.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcinit.cpp -o CMakeFiles/dlib.dir/external/libjpeg/jcinit.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmaster.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmaster.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcmaster.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmaster.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jcmaster.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcmaster.cpp
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmaster.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jcmaster.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcmaster.cpp > CMakeFiles/dlib.dir/external/libjpeg/jcmaster.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmaster.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jcmaster.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcmaster.cpp -o CMakeFiles/dlib.dir/external/libjpeg/jcmaster.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcdctmgr.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcdctmgr.cpp
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcdctmgr.cpp > CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcdctmgr.cpp -o CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccoefct.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccoefct.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jccoefct.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccoefct.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jccoefct.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jccoefct.cpp
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccoefct.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jccoefct.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jccoefct.cpp > CMakeFiles/dlib.dir/external/libjpeg/jccoefct.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccoefct.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jccoefct.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jccoefct.cpp -o CMakeFiles/dlib.dir/external/libjpeg/jccoefct.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccolor.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccolor.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jccolor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccolor.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jccolor.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jccolor.cpp
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccolor.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jccolor.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jccolor.cpp > CMakeFiles/dlib.dir/external/libjpeg/jccolor.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccolor.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jccolor.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jccolor.cpp -o CMakeFiles/dlib.dir/external/libjpeg/jccolor.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jchuff.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jchuff.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jchuff.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jchuff.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jchuff.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jchuff.cpp
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jchuff.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jchuff.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jchuff.cpp > CMakeFiles/dlib.dir/external/libjpeg/jchuff.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jchuff.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jchuff.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jchuff.cpp -o CMakeFiles/dlib.dir/external/libjpeg/jchuff.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmainct.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmainct.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcmainct.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmainct.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jcmainct.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcmainct.cpp
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmainct.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jcmainct.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcmainct.cpp > CMakeFiles/dlib.dir/external/libjpeg/jcmainct.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmainct.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jcmainct.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcmainct.cpp -o CMakeFiles/dlib.dir/external/libjpeg/jcmainct.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcphuff.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcphuff.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcphuff.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcphuff.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jcphuff.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcphuff.cpp
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcphuff.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jcphuff.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcphuff.cpp > CMakeFiles/dlib.dir/external/libjpeg/jcphuff.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcphuff.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jcphuff.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcphuff.cpp -o CMakeFiles/dlib.dir/external/libjpeg/jcphuff.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcprepct.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcprepct.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcprepct.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcprepct.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jcprepct.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcprepct.cpp
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcprepct.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jcprepct.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcprepct.cpp > CMakeFiles/dlib.dir/external/libjpeg/jcprepct.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcprepct.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jcprepct.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcprepct.cpp -o CMakeFiles/dlib.dir/external/libjpeg/jcprepct.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcsample.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcsample.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcsample.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcsample.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jcsample.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcsample.cpp
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcsample.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jcsample.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcsample.cpp > CMakeFiles/dlib.dir/external/libjpeg/jcsample.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcsample.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jcsample.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jcsample.cpp -o CMakeFiles/dlib.dir/external/libjpeg/jcsample.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctint.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctint.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jfdctint.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctint.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jfdctint.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jfdctint.cpp
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctint.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jfdctint.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jfdctint.cpp > CMakeFiles/dlib.dir/external/libjpeg/jfdctint.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctint.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jfdctint.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jfdctint.cpp -o CMakeFiles/dlib.dir/external/libjpeg/jfdctint.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jfdctflt.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jfdctflt.cpp
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jfdctflt.cpp > CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jfdctflt.cpp -o CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.cpp.s
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jfdctfst.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jfdctfst.cpp
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jfdctfst.cpp > CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.cpp.i
-
-dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/external/libjpeg/jfdctfst.cpp -o CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.cpp.s
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/image_saver/save_png.cpp -o CMakeFiles/dlib.dir/image_saver/save_png.cpp.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jaricom.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jaricom.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jaricom.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jaricom.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jaricom.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jaricom.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jaricom.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jaricom.c.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jaricom.c > CMakeFiles/dlib.dir/external/libjpeg/jaricom.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jaricom.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jaricom.c.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jaricom.c -o CMakeFiles/dlib.dir/external/libjpeg/jaricom.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapimin.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapimin.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jcapimin.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapimin.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jcapimin.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jcapimin.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapimin.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jcapimin.c.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jcapimin.c > CMakeFiles/dlib.dir/external/libjpeg/jcapimin.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapimin.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jcapimin.c.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jcapimin.c -o CMakeFiles/dlib.dir/external/libjpeg/jcapimin.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapistd.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapistd.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jcapistd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapistd.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jcapistd.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jcapistd.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapistd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jcapistd.c.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jcapistd.c > CMakeFiles/dlib.dir/external/libjpeg/jcapistd.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapistd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jcapistd.c.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jcapistd.c -o CMakeFiles/dlib.dir/external/libjpeg/jcapistd.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcarith.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcarith.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jcarith.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcarith.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jcarith.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jcarith.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcarith.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jcarith.c.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jcarith.c > CMakeFiles/dlib.dir/external/libjpeg/jcarith.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcarith.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jcarith.c.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jcarith.c -o CMakeFiles/dlib.dir/external/libjpeg/jcarith.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccoefct.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccoefct.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jccoefct.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccoefct.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jccoefct.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jccoefct.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccoefct.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jccoefct.c.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jccoefct.c > CMakeFiles/dlib.dir/external/libjpeg/jccoefct.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccoefct.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jccoefct.c.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jccoefct.c -o CMakeFiles/dlib.dir/external/libjpeg/jccoefct.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccolor.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccolor.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jccolor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccolor.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jccolor.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jccolor.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccolor.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jccolor.c.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jccolor.c > CMakeFiles/dlib.dir/external/libjpeg/jccolor.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccolor.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jccolor.c.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jccolor.c -o CMakeFiles/dlib.dir/external/libjpeg/jccolor.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jcdctmgr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jcdctmgr.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.c.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jcdctmgr.c > CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.c.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jcdctmgr.c -o CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jchuff.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jchuff.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jchuff.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jchuff.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jchuff.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jchuff.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jchuff.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jchuff.c.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jchuff.c > CMakeFiles/dlib.dir/external/libjpeg/jchuff.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jchuff.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jchuff.c.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jchuff.c -o CMakeFiles/dlib.dir/external/libjpeg/jchuff.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcinit.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcinit.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jcinit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcinit.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jcinit.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jcinit.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcinit.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jcinit.c.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jcinit.c > CMakeFiles/dlib.dir/external/libjpeg/jcinit.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcinit.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jcinit.c.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jcinit.c -o CMakeFiles/dlib.dir/external/libjpeg/jcinit.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmainct.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmainct.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jcmainct.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmainct.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jcmainct.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jcmainct.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmainct.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jcmainct.c.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jcmainct.c > CMakeFiles/dlib.dir/external/libjpeg/jcmainct.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmainct.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jcmainct.c.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jcmainct.c -o CMakeFiles/dlib.dir/external/libjpeg/jcmainct.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmarker.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmarker.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jcmarker.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmarker.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jcmarker.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jcmarker.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmarker.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jcmarker.c.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jcmarker.c > CMakeFiles/dlib.dir/external/libjpeg/jcmarker.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmarker.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jcmarker.c.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jcmarker.c -o CMakeFiles/dlib.dir/external/libjpeg/jcmarker.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmaster.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmaster.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jcmaster.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmaster.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jcmaster.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jcmaster.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmaster.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jcmaster.c.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jcmaster.c > CMakeFiles/dlib.dir/external/libjpeg/jcmaster.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmaster.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jcmaster.c.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jcmaster.c -o CMakeFiles/dlib.dir/external/libjpeg/jcmaster.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcomapi.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcomapi.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jcomapi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcomapi.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jcomapi.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jcomapi.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcomapi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jcomapi.c.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jcomapi.c > CMakeFiles/dlib.dir/external/libjpeg/jcomapi.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcomapi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jcomapi.c.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jcomapi.c -o CMakeFiles/dlib.dir/external/libjpeg/jcomapi.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcparam.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcparam.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jcparam.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcparam.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jcparam.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jcparam.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcparam.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jcparam.c.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jcparam.c > CMakeFiles/dlib.dir/external/libjpeg/jcparam.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcparam.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jcparam.c.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jcparam.c -o CMakeFiles/dlib.dir/external/libjpeg/jcparam.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcprepct.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcprepct.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jcprepct.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcprepct.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jcprepct.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jcprepct.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcprepct.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jcprepct.c.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jcprepct.c > CMakeFiles/dlib.dir/external/libjpeg/jcprepct.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcprepct.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jcprepct.c.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jcprepct.c -o CMakeFiles/dlib.dir/external/libjpeg/jcprepct.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcsample.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcsample.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jcsample.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcsample.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jcsample.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jcsample.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcsample.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jcsample.c.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jcsample.c > CMakeFiles/dlib.dir/external/libjpeg/jcsample.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcsample.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jcsample.c.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jcsample.c -o CMakeFiles/dlib.dir/external/libjpeg/jcsample.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapimin.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapimin.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jdapimin.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapimin.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jdapimin.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jdapimin.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapimin.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jdapimin.c.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jdapimin.c > CMakeFiles/dlib.dir/external/libjpeg/jdapimin.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapimin.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jdapimin.c.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jdapimin.c -o CMakeFiles/dlib.dir/external/libjpeg/jdapimin.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapistd.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapistd.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jdapistd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapistd.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jdapistd.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jdapistd.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapistd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jdapistd.c.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jdapistd.c > CMakeFiles/dlib.dir/external/libjpeg/jdapistd.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapistd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jdapistd.c.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jdapistd.c -o CMakeFiles/dlib.dir/external/libjpeg/jdapistd.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdarith.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdarith.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jdarith.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdarith.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jdarith.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jdarith.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdarith.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jdarith.c.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jdarith.c > CMakeFiles/dlib.dir/external/libjpeg/jdarith.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdarith.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jdarith.c.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jdarith.c -o CMakeFiles/dlib.dir/external/libjpeg/jdarith.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatadst.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatadst.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jdatadst.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatadst.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jdatadst.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jdatadst.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatadst.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jdatadst.c.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jdatadst.c > CMakeFiles/dlib.dir/external/libjpeg/jdatadst.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatadst.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jdatadst.c.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jdatadst.c -o CMakeFiles/dlib.dir/external/libjpeg/jdatadst.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jdatasrc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jdatasrc.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.c.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jdatasrc.c > CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.c.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jdatasrc.c -o CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jdcoefct.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jdcoefct.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.c.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jdcoefct.c > CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.c.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jdcoefct.c -o CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcolor.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcolor.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jdcolor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcolor.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jdcolor.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jdcolor.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcolor.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jdcolor.c.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jdcolor.c > CMakeFiles/dlib.dir/external/libjpeg/jdcolor.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcolor.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jdcolor.c.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jdcolor.c -o CMakeFiles/dlib.dir/external/libjpeg/jdcolor.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jddctmgr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jddctmgr.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.c.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jddctmgr.c > CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.c.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jddctmgr.c -o CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdhuff.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdhuff.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jdhuff.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdhuff.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jdhuff.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jdhuff.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdhuff.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jdhuff.c.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jdhuff.c > CMakeFiles/dlib.dir/external/libjpeg/jdhuff.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdhuff.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jdhuff.c.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jdhuff.c -o CMakeFiles/dlib.dir/external/libjpeg/jdhuff.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdinput.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdinput.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jdinput.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdinput.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jdinput.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jdinput.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdinput.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jdinput.c.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jdinput.c > CMakeFiles/dlib.dir/external/libjpeg/jdinput.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdinput.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jdinput.c.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jdinput.c -o CMakeFiles/dlib.dir/external/libjpeg/jdinput.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmainct.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmainct.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jdmainct.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmainct.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jdmainct.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jdmainct.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmainct.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jdmainct.c.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jdmainct.c > CMakeFiles/dlib.dir/external/libjpeg/jdmainct.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmainct.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jdmainct.c.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jdmainct.c -o CMakeFiles/dlib.dir/external/libjpeg/jdmainct.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmarker.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmarker.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jdmarker.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmarker.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jdmarker.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jdmarker.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmarker.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jdmarker.c.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jdmarker.c > CMakeFiles/dlib.dir/external/libjpeg/jdmarker.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmarker.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jdmarker.c.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jdmarker.c -o CMakeFiles/dlib.dir/external/libjpeg/jdmarker.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmaster.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmaster.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jdmaster.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmaster.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jdmaster.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jdmaster.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmaster.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jdmaster.c.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jdmaster.c > CMakeFiles/dlib.dir/external/libjpeg/jdmaster.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmaster.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jdmaster.c.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jdmaster.c -o CMakeFiles/dlib.dir/external/libjpeg/jdmaster.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmerge.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmerge.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jdmerge.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmerge.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jdmerge.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jdmerge.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmerge.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jdmerge.c.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jdmerge.c > CMakeFiles/dlib.dir/external/libjpeg/jdmerge.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmerge.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jdmerge.c.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jdmerge.c -o CMakeFiles/dlib.dir/external/libjpeg/jdmerge.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdpostct.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdpostct.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jdpostct.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdpostct.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jdpostct.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jdpostct.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdpostct.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jdpostct.c.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jdpostct.c > CMakeFiles/dlib.dir/external/libjpeg/jdpostct.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdpostct.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jdpostct.c.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jdpostct.c -o CMakeFiles/dlib.dir/external/libjpeg/jdpostct.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdsample.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdsample.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jdsample.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdsample.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jdsample.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jdsample.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdsample.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jdsample.c.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jdsample.c > CMakeFiles/dlib.dir/external/libjpeg/jdsample.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdsample.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jdsample.c.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jdsample.c -o CMakeFiles/dlib.dir/external/libjpeg/jdsample.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jerror.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jerror.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jerror.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jerror.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jerror.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jerror.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jerror.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jerror.c.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jerror.c > CMakeFiles/dlib.dir/external/libjpeg/jerror.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jerror.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jerror.c.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jerror.c -o CMakeFiles/dlib.dir/external/libjpeg/jerror.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jfdctflt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jfdctflt.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.c.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jfdctflt.c > CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.c.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jfdctflt.c -o CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jfdctfst.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jfdctfst.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.c.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jfdctfst.c > CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.c.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jfdctfst.c -o CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctint.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctint.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jfdctint.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctint.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jfdctint.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jfdctint.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctint.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jfdctint.c.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jfdctint.c > CMakeFiles/dlib.dir/external/libjpeg/jfdctint.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctint.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jfdctint.c.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jfdctint.c -o CMakeFiles/dlib.dir/external/libjpeg/jfdctint.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctflt.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctflt.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jidctflt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctflt.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jidctflt.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jidctflt.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctflt.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jidctflt.c.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jidctflt.c > CMakeFiles/dlib.dir/external/libjpeg/jidctflt.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctflt.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jidctflt.c.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jidctflt.c -o CMakeFiles/dlib.dir/external/libjpeg/jidctflt.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctfst.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctfst.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jidctfst.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctfst.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jidctfst.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jidctfst.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctfst.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jidctfst.c.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jidctfst.c > CMakeFiles/dlib.dir/external/libjpeg/jidctfst.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctfst.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jidctfst.c.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jidctfst.c -o CMakeFiles/dlib.dir/external/libjpeg/jidctfst.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctint.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctint.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jidctint.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctint.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jidctint.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jidctint.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctint.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jidctint.c.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jidctint.c > CMakeFiles/dlib.dir/external/libjpeg/jidctint.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctint.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jidctint.c.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jidctint.c -o CMakeFiles/dlib.dir/external/libjpeg/jidctint.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jmemmgr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jmemmgr.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.c.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jmemmgr.c > CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.c.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jmemmgr.c -o CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jmemnobs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jmemnobs.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.c.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jmemnobs.c > CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.c.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jmemnobs.c -o CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant1.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant1.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jquant1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant1.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jquant1.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jquant1.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant1.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jquant1.c.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jquant1.c > CMakeFiles/dlib.dir/external/libjpeg/jquant1.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant1.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jquant1.c.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jquant1.c -o CMakeFiles/dlib.dir/external/libjpeg/jquant1.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant2.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant2.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jquant2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant2.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jquant2.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jquant2.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jquant2.c.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jquant2.c > CMakeFiles/dlib.dir/external/libjpeg/jquant2.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jquant2.c.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jquant2.c -o CMakeFiles/dlib.dir/external/libjpeg/jquant2.c.s
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jutils.c.o: dlib_build/CMakeFiles/dlib.dir/flags.make
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jutils.c.o: /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jutils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jutils.c.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlib.dir/external/libjpeg/jutils.c.o   -c /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jutils.c
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jutils.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libjpeg/jutils.c.i"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jutils.c > CMakeFiles/dlib.dir/external/libjpeg/jutils.c.i
+
+dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jutils.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libjpeg/jutils.c.s"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/external/libjpeg/jutils.c -o CMakeFiles/dlib.dir/external/libjpeg/jutils.c.s
 
 dlib_build/CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/image_loader/jpeg_loader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building CXX object dlib_build/CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/image_loader/jpeg_loader.cpp
+dlib_build/CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib/image_loader/jpeg_loader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building CXX object dlib_build/CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.o -c /home/marcelo/Documentos/dlib-19.23/dlib/image_loader/jpeg_loader.cpp
 
 dlib_build/CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/image_loader/jpeg_loader.cpp > CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.i
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/image_loader/jpeg_loader.cpp > CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.i
 
 dlib_build/CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/image_loader/jpeg_loader.cpp -o CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.s
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/image_loader/jpeg_loader.cpp -o CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.s
 
 dlib_build/CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.o: /home/administrador/Documents/dlib-19.7/dlib/image_saver/save_jpeg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building CXX object dlib_build/CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.o"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.o -c /home/administrador/Documents/dlib-19.7/dlib/image_saver/save_jpeg.cpp
+dlib_build/CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib/image_saver/save_jpeg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building CXX object dlib_build/CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.o"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.o -c /home/marcelo/Documentos/dlib-19.23/dlib/image_saver/save_jpeg.cpp
 
 dlib_build/CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.i"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/administrador/Documents/dlib-19.7/dlib/image_saver/save_jpeg.cpp > CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.i
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/dlib-19.23/dlib/image_saver/save_jpeg.cpp > CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.i
 
 dlib_build/CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.s"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/administrador/Documents/dlib-19.7/dlib/image_saver/save_jpeg.cpp -o CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.s
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/dlib-19.23/dlib/image_saver/save_jpeg.cpp -o CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.s
 
 # Object files for target dlib
 dlib_OBJECTS = \
@@ -1734,15 +1825,13 @@ dlib_OBJECTS = \
 "CMakeFiles/dlib.dir/md5/md5_kernel_1.cpp.o" \
 "CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.cpp.o" \
 "CMakeFiles/dlib.dir/unicode/unicode.cpp.o" \
-"CMakeFiles/dlib.dir/data_io/image_dataset_metadata.cpp.o" \
-"CMakeFiles/dlib.dir/data_io/mnist.cpp.o" \
-"CMakeFiles/dlib.dir/dnn/cpu_dlib.cpp.o" \
-"CMakeFiles/dlib.dir/dnn/tensor_tools.cpp.o" \
+"CMakeFiles/dlib.dir/test_for_odr_violations.cpp.o" \
 "CMakeFiles/dlib.dir/sockets/sockets_kernel_1.cpp.o" \
 "CMakeFiles/dlib.dir/bsp/bsp.cpp.o" \
 "CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.cpp.o" \
 "CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.cpp.o" \
 "CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.cpp.o" \
+"CMakeFiles/dlib.dir/gui_widgets/fonts.cpp.o" \
 "CMakeFiles/dlib.dir/linker/linker_kernel_1.cpp.o" \
 "CMakeFiles/dlib.dir/logger/extra_logger_headers.cpp.o" \
 "CMakeFiles/dlib.dir/logger/logger_kernel_1.cpp.o" \
@@ -1765,7 +1854,14 @@ dlib_OBJECTS = \
 "CMakeFiles/dlib.dir/threads/async.cpp.o" \
 "CMakeFiles/dlib.dir/timer/timer.cpp.o" \
 "CMakeFiles/dlib.dir/stack_trace.cpp.o" \
-"CMakeFiles/dlib.dir/gui_widgets/fonts.cpp.o" \
+"CMakeFiles/dlib.dir/cuda/cpu_dlib.cpp.o" \
+"CMakeFiles/dlib.dir/cuda/tensor_tools.cpp.o" \
+"CMakeFiles/dlib.dir/data_io/image_dataset_metadata.cpp.o" \
+"CMakeFiles/dlib.dir/data_io/mnist.cpp.o" \
+"CMakeFiles/dlib.dir/data_io/cifar.cpp.o" \
+"CMakeFiles/dlib.dir/global_optimization/global_function_search.cpp.o" \
+"CMakeFiles/dlib.dir/filtering/kalman_filter.cpp.o" \
+"CMakeFiles/dlib.dir/svm/auto.cpp.o" \
 "CMakeFiles/dlib.dir/gui_widgets/widgets.cpp.o" \
 "CMakeFiles/dlib.dir/gui_widgets/drawable.cpp.o" \
 "CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.cpp.o" \
@@ -1773,6 +1869,8 @@ dlib_OBJECTS = \
 "CMakeFiles/dlib.dir/gui_widgets/base_widgets.cpp.o" \
 "CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.cpp.o" \
 "CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.cpp.o" \
+"CMakeFiles/dlib.dir/external/libpng/arm/arm_init.c.o" \
+"CMakeFiles/dlib.dir/external/libpng/arm/filter_neon_intrinsics.c.o" \
 "CMakeFiles/dlib.dir/external/libpng/png.c.o" \
 "CMakeFiles/dlib.dir/external/libpng/pngerror.c.o" \
 "CMakeFiles/dlib.dir/external/libpng/pngget.c.o" \
@@ -1805,50 +1903,50 @@ dlib_OBJECTS = \
 "CMakeFiles/dlib.dir/external/zlib/zutil.c.o" \
 "CMakeFiles/dlib.dir/image_loader/png_loader.cpp.o" \
 "CMakeFiles/dlib.dir/image_saver/save_png.cpp.o" \
-"CMakeFiles/dlib.dir/external/libjpeg/jcomapi.cpp.o" \
-"CMakeFiles/dlib.dir/external/libjpeg/jdapimin.cpp.o" \
-"CMakeFiles/dlib.dir/external/libjpeg/jdapistd.cpp.o" \
-"CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.cpp.o" \
-"CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.cpp.o" \
-"CMakeFiles/dlib.dir/external/libjpeg/jdcolor.cpp.o" \
-"CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.cpp.o" \
-"CMakeFiles/dlib.dir/external/libjpeg/jdhuff.cpp.o" \
-"CMakeFiles/dlib.dir/external/libjpeg/jdinput.cpp.o" \
-"CMakeFiles/dlib.dir/external/libjpeg/jdmainct.cpp.o" \
-"CMakeFiles/dlib.dir/external/libjpeg/jdmarker.cpp.o" \
-"CMakeFiles/dlib.dir/external/libjpeg/jdmaster.cpp.o" \
-"CMakeFiles/dlib.dir/external/libjpeg/jdmerge.cpp.o" \
-"CMakeFiles/dlib.dir/external/libjpeg/jdphuff.cpp.o" \
-"CMakeFiles/dlib.dir/external/libjpeg/jdpostct.cpp.o" \
-"CMakeFiles/dlib.dir/external/libjpeg/jdsample.cpp.o" \
-"CMakeFiles/dlib.dir/external/libjpeg/jerror.cpp.o" \
-"CMakeFiles/dlib.dir/external/libjpeg/jidctflt.cpp.o" \
-"CMakeFiles/dlib.dir/external/libjpeg/jidctfst.cpp.o" \
-"CMakeFiles/dlib.dir/external/libjpeg/jidctint.cpp.o" \
-"CMakeFiles/dlib.dir/external/libjpeg/jidctred.cpp.o" \
-"CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.cpp.o" \
-"CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.cpp.o" \
-"CMakeFiles/dlib.dir/external/libjpeg/jquant1.cpp.o" \
-"CMakeFiles/dlib.dir/external/libjpeg/jquant2.cpp.o" \
-"CMakeFiles/dlib.dir/external/libjpeg/jutils.cpp.o" \
-"CMakeFiles/dlib.dir/external/libjpeg/jcapimin.cpp.o" \
-"CMakeFiles/dlib.dir/external/libjpeg/jdatadst.cpp.o" \
-"CMakeFiles/dlib.dir/external/libjpeg/jcparam.cpp.o" \
-"CMakeFiles/dlib.dir/external/libjpeg/jcapistd.cpp.o" \
-"CMakeFiles/dlib.dir/external/libjpeg/jcmarker.cpp.o" \
-"CMakeFiles/dlib.dir/external/libjpeg/jcinit.cpp.o" \
-"CMakeFiles/dlib.dir/external/libjpeg/jcmaster.cpp.o" \
-"CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.cpp.o" \
-"CMakeFiles/dlib.dir/external/libjpeg/jccoefct.cpp.o" \
-"CMakeFiles/dlib.dir/external/libjpeg/jccolor.cpp.o" \
-"CMakeFiles/dlib.dir/external/libjpeg/jchuff.cpp.o" \
-"CMakeFiles/dlib.dir/external/libjpeg/jcmainct.cpp.o" \
-"CMakeFiles/dlib.dir/external/libjpeg/jcphuff.cpp.o" \
-"CMakeFiles/dlib.dir/external/libjpeg/jcprepct.cpp.o" \
-"CMakeFiles/dlib.dir/external/libjpeg/jcsample.cpp.o" \
-"CMakeFiles/dlib.dir/external/libjpeg/jfdctint.cpp.o" \
-"CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.cpp.o" \
-"CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.cpp.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jaricom.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jcapimin.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jcapistd.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jcarith.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jccoefct.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jccolor.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jchuff.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jcinit.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jcmainct.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jcmarker.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jcmaster.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jcomapi.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jcparam.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jcprepct.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jcsample.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jdapimin.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jdapistd.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jdarith.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jdatadst.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jdcolor.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jdhuff.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jdinput.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jdmainct.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jdmarker.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jdmaster.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jdmerge.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jdpostct.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jdsample.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jerror.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jfdctint.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jidctflt.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jidctfst.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jidctint.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jquant1.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jquant2.c.o" \
+"CMakeFiles/dlib.dir/external/libjpeg/jutils.c.o" \
 "CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.o" \
 "CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.o"
 
@@ -1866,15 +1964,13 @@ dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_enc
 dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/md5/md5_kernel_1.cpp.o
 dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.cpp.o
 dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/unicode/unicode.cpp.o
-dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/data_io/image_dataset_metadata.cpp.o
-dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/data_io/mnist.cpp.o
-dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/dnn/cpu_dlib.cpp.o
-dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/dnn/tensor_tools.cpp.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/test_for_odr_violations.cpp.o
 dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_1.cpp.o
 dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/bsp/bsp.cpp.o
 dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.cpp.o
 dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.cpp.o
 dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.cpp.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/gui_widgets/fonts.cpp.o
 dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/linker/linker_kernel_1.cpp.o
 dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/logger/extra_logger_headers.cpp.o
 dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/logger/logger_kernel_1.cpp.o
@@ -1897,7 +1993,14 @@ dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/threads/thread_pool_extensi
 dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/threads/async.cpp.o
 dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/timer/timer.cpp.o
 dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/stack_trace.cpp.o
-dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/gui_widgets/fonts.cpp.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/cuda/cpu_dlib.cpp.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/cuda/tensor_tools.cpp.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/data_io/image_dataset_metadata.cpp.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/data_io/mnist.cpp.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/data_io/cifar.cpp.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/global_optimization/global_function_search.cpp.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/filtering/kalman_filter.cpp.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/svm/auto.cpp.o
 dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/gui_widgets/widgets.cpp.o
 dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/gui_widgets/drawable.cpp.o
 dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.cpp.o
@@ -1905,6 +2008,8 @@ dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/gui_widgets/style.cpp.o
 dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/gui_widgets/base_widgets.cpp.o
 dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.cpp.o
 dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.cpp.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libpng/arm/arm_init.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libpng/arm/filter_neon_intrinsics.c.o
 dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libpng/png.c.o
 dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libpng/pngerror.c.o
 dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libpng/pngget.c.o
@@ -1937,57 +2042,57 @@ dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/zlib/uncompr.c.o
 dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/zlib/zutil.c.o
 dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/image_loader/png_loader.cpp.o
 dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.cpp.o
-dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcomapi.cpp.o
-dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapimin.cpp.o
-dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapistd.cpp.o
-dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.cpp.o
-dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.cpp.o
-dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcolor.cpp.o
-dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.cpp.o
-dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdhuff.cpp.o
-dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdinput.cpp.o
-dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmainct.cpp.o
-dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmarker.cpp.o
-dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmaster.cpp.o
-dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmerge.cpp.o
-dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdphuff.cpp.o
-dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdpostct.cpp.o
-dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdsample.cpp.o
-dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jerror.cpp.o
-dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctflt.cpp.o
-dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctfst.cpp.o
-dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctint.cpp.o
-dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctred.cpp.o
-dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.cpp.o
-dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.cpp.o
-dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant1.cpp.o
-dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant2.cpp.o
-dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jutils.cpp.o
-dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapimin.cpp.o
-dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatadst.cpp.o
-dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcparam.cpp.o
-dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapistd.cpp.o
-dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmarker.cpp.o
-dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcinit.cpp.o
-dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmaster.cpp.o
-dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.cpp.o
-dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccoefct.cpp.o
-dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccolor.cpp.o
-dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jchuff.cpp.o
-dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmainct.cpp.o
-dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcphuff.cpp.o
-dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcprepct.cpp.o
-dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcsample.cpp.o
-dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctint.cpp.o
-dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.cpp.o
-dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.cpp.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jaricom.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapimin.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapistd.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcarith.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccoefct.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccolor.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jchuff.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcinit.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmainct.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmarker.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmaster.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcomapi.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcparam.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcprepct.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcsample.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapimin.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapistd.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdarith.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatadst.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcolor.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdhuff.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdinput.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmainct.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmarker.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmaster.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmerge.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdpostct.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdsample.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jerror.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctint.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctflt.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctfst.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctint.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant1.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant2.c.o
+dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jutils.c.o
 dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.o
 dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.o
 dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/build.make
 dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/administrador/Documents/eye-detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Linking CXX static library libdlib.a"
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && $(CMAKE_COMMAND) -P CMakeFiles/dlib.dir/cmake_clean_target.cmake
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dlib.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Linking CXX static library libdlib.a"
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && $(CMAKE_COMMAND) -P CMakeFiles/dlib.dir/cmake_clean_target.cmake
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dlib.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 dlib_build/CMakeFiles/dlib.dir/build: dlib_build/libdlib.a
@@ -1995,10 +2100,10 @@ dlib_build/CMakeFiles/dlib.dir/build: dlib_build/libdlib.a
 .PHONY : dlib_build/CMakeFiles/dlib.dir/build
 
 dlib_build/CMakeFiles/dlib.dir/clean:
-	cd /home/administrador/Documents/eye-detection/build/dlib_build && $(CMAKE_COMMAND) -P CMakeFiles/dlib.dir/cmake_clean.cmake
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build && $(CMAKE_COMMAND) -P CMakeFiles/dlib.dir/cmake_clean.cmake
 .PHONY : dlib_build/CMakeFiles/dlib.dir/clean
 
 dlib_build/CMakeFiles/dlib.dir/depend:
-	cd /home/administrador/Documents/eye-detection/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/administrador/Documents/eye-detection /home/administrador/Documents/dlib-19.7/dlib /home/administrador/Documents/eye-detection/build /home/administrador/Documents/eye-detection/build/dlib_build /home/administrador/Documents/eye-detection/build/dlib_build/CMakeFiles/dlib.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/marcelo/Documentos/tesis/EyeDetectioDlibC- /home/marcelo/Documentos/dlib-19.23/dlib /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build/CMakeFiles/dlib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : dlib_build/CMakeFiles/dlib.dir/depend
 

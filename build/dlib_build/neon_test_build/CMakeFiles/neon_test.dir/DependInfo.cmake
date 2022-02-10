@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/administrador/Documents/dlib-19.7/dlib/cmake_utils/test_for_neon/neon_test.cpp" "/home/administrador/Documents/eye-detection/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/neon_test.cpp.o"
+  "/home/marcelo/Documentos/dlib-19.23/dlib/cmake_utils/test_for_neon/neon_test.cpp" "/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/neon_test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

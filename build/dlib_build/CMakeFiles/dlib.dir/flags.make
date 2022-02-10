@@ -3,15 +3,15 @@
 
 # compile C with /bin/x86_64-linux-gnu-gcc-9
 # compile CXX with /bin/x86_64-linux-gnu-g++-9
-C_FLAGS = -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT
+C_FLAGS = -g   -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT
 
 C_DEFINES = -DDLIB_JPEG_STATIC
 
-C_INCLUDES = -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib 
+C_INCLUDES = -I/home/marcelo/Documentos/dlib-19.23/dlib/external/libpng -I/home/marcelo/Documentos/dlib-19.23/dlib/external/zlib 
 
-CXX_FLAGS =  -Wreturn-type -g   -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -std=gnu++11
+CXX_FLAGS = -g   -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -Wreturn-type
 
 CXX_DEFINES = -DDLIB_JPEG_STATIC
 
-CXX_INCLUDES = -I/home/administrador/Documents/dlib-19.7/dlib/external/libpng -I/home/administrador/Documents/dlib-19.7/dlib/external/zlib 
+CXX_INCLUDES = -I/home/marcelo/Documentos/dlib-19.23/dlib/external/libpng -I/home/marcelo/Documentos/dlib-19.23/dlib/external/zlib 
 

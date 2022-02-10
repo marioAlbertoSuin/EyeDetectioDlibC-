@@ -1,4 +1,4 @@
-# Install script for directory: /home/administrador/Documents/dlib-19.7/dlib/cmake_utils/test_for_neon
+# Install script for directory: /home/marcelo/Documentos/dlib-19.23/dlib/cmake_utils/test_for_neon
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/administrador/Documents/eye-detection/build/dlib_build/neon_test_build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dlib_build/neon_test_build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
