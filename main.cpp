@@ -61,7 +61,7 @@ void filtroHM(string nombre)
     {
 
         //median hibrid filtering
-        HibridMedianfilter Firsttest("resul/" + nombre + ".bmp", "resul/" + nombre + "filter.bmp");
+        Medianfilter Firsttest("resul/" + nombre + ".bmp", "resul/" + nombre + "filter.bmp");
         Firsttest.applyfilter(tam_ventana);
 
         unsigned char *ima;  // originalFile
@@ -144,31 +144,25 @@ void cutImage_eyes(const std::string &path, int LeftEyep1_x, int LeftEyep1_y, in
     
     
 
-    const std::array<dlib::dpoint, 4> &ptsOjosCompletos = 
-    {{dpoint(LeftEyep1_x -15, LeftEyep1_y - 15), 
-    dpoint(RigthEyep2_x + 7, RigthEyep2_y + 15), 
-    dpoint(LeftEyep1_x - 15, LeftEyep1_y + 15), 
-    dpoint(RigthEyep2_x + 20, RigthEyep2_y - 15)}};
-
-    
+  
     /*
     int h1 =(RigthEyep2_y+15)-(RigthEyep1_y-15);
     int w1 =(RigthEyep2_x+15)-(RigthEyep1_x-15);
     resul2.set_size(w1, h1);
     */
-    int h =(LeftEyep2_y)-(LeftEyep1_y);
-    int w =(LeftEyep2_x)-(LeftEyep1_x);
-    
+    int h =(LeftEyep2_y-LeftEyep1_y)+20;
+    int w =(LeftEyep2_x-LeftEyep1_x)+20;
+    cout <<"\n h: "<< h<<"\t w: "<<w<<"\n";
     //corte de los ojos
-    resul.set_size(w, h);
+    resul.set_size(h, w);
     array2d<rgb_pixel> &crop_img = resul ;
     //array2d<rgb_pixel> &crop_img2 = resul2;
     
     const std::array<dlib::dpoint, 4> &pts = 
     {{dpoint(LeftEyep1_x - 15, LeftEyep1_y - 15), 
-    dpoint(LeftEyep2_x + 7, LeftEyep2_y + 15), 
+    dpoint(LeftEyep2_x + 15, LeftEyep2_y + 15), 
     dpoint(LeftEyep1_x - 15, LeftEyep1_y + 15), 
-    dpoint(LeftEyep2_x + 20, LeftEyep2_y - 15)}};
+    dpoint(LeftEyep2_x + 30, LeftEyep2_y - 30)}};
 
     dlib::extract_image_4points(img, crop_img, pts);
     save_bmp(crop_img, "resul/" + nombre + ".bmp");
@@ -241,9 +235,9 @@ inline std::vector<image_window::overlay_line> Extraccion_puntos_ojos(
                 }
                 
                 LeftEyep1_x = d.part(37).x();
-                LeftEyep1_y = d.part(37).y();
+                LeftEyep1_y = d.part(38).y();
                 LeftEyep2_x = d.part(40).x();
-                LeftEyep2_y = d.part(40).y();
+                
 
                 lines.push_back(image_window::overlay_line(d.part(36), d.part(41), color));
 
@@ -262,6 +256,8 @@ inline std::vector<image_window::overlay_line> Extraccion_puntos_ojos(
                 RigthEyep1_y = d.part(43).y();
                 RigthEyep2_x = d.part(46).x();
                 RigthEyep2_y = d.part(46).y();
+
+                LeftEyep2_y = d.part(42).y();
 
                 lines.push_back(image_window::overlay_line(d.part(42), d.part(47), color));
                 try
@@ -341,8 +337,8 @@ int main(int argc, char **argv)
                     cout << "number of parts: " << shape.num_parts() << endl;
                     cout << "pixel 37:  " << shape.part(37) << endl;
                     cout << "pixel 40:  " << shape.part(40) << endl;
-                    cout << "pixel 43:  " << shape.part(43) << endl;
-                    cout << "pixel 46: " << shape.part(46) << endl;
+                    cout << "pixel 38:  " << shape.part(38) << endl;
+                    cout << "pixel 42: " << shape.part(42) << endl;
                     // You get the idea, you can get all the face part locations if
                     // you want them.  Here we just store them in shapes so we can
                     // put them on the screen.
@@ -359,7 +355,7 @@ int main(int argc, char **argv)
             }
 
             cout << "Hit enter to process the next image..." << endl;
-            //cin.get();
+            cin.get();
         }
     }
     catch (exception &e)
