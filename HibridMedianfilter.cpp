@@ -105,8 +105,7 @@ int Medianfilter::applyfilter(unsigned int k)
 	unsigned int width = *(int*)&imageheaderData[4];
 	unsigned int height = *(int*)&imageheaderData[8];
 
-	std::cout <<"\n width: "<<width<<"\t height: "<<height<<"\t filesize: \n";
-	std::cout <<"\n"<< fileSize - offset<<" - \t"<<width*height * 3<<"\n";
+
 	//Validating the main header against image header information
 	unsigned int pixelDataSize = fileSize - offset;
 	if (pixelDataSize != width*height * 3)

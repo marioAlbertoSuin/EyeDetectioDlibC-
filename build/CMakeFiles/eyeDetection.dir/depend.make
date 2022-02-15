@@ -707,8 +707,24 @@ CMakeFiles/eyeDetection.dir/main.cpp.o: /home/marcelo/Documentos/dlib-19.23/dlib
 CMakeFiles/eyeDetection.dir/main.cpp.o: ../HibridMedianfilter.h
 CMakeFiles/eyeDetection.dir/main.cpp.o: ../array.h
 CMakeFiles/eyeDetection.dir/main.cpp.o: ../bmp.h
+CMakeFiles/eyeDetection.dir/main.cpp.o: ../functions/PrintImg.h
+CMakeFiles/eyeDetection.dir/main.cpp.o: ../functions/correccion_pupila.h
+CMakeFiles/eyeDetection.dir/main.cpp.o: ../functions/double_functions.h
+CMakeFiles/eyeDetection.dir/main.cpp.o: ../functions/int_functions.h
+CMakeFiles/eyeDetection.dir/main.cpp.o: ../functions/nombre_etiqueta.h
+CMakeFiles/eyeDetection.dir/main.cpp.o: ../functions/stb_image.h
+CMakeFiles/eyeDetection.dir/main.cpp.o: ../functions/stb_image_resize.h
+CMakeFiles/eyeDetection.dir/main.cpp.o: ../functions/stb_image_write.h
+CMakeFiles/eyeDetection.dir/main.cpp.o: ../includes.h
 CMakeFiles/eyeDetection.dir/main.cpp.o: ../main.cpp
 CMakeFiles/eyeDetection.dir/main.cpp.o: ../memcount.h
+CMakeFiles/eyeDetection.dir/main.cpp.o: ../normalizacion/interp2.h
+CMakeFiles/eyeDetection.dir/main.cpp.o: ../normalizacion/normaliseiris.h
+CMakeFiles/eyeDetection.dir/main.cpp.o: ../segmentacion/adjgamma.h
+CMakeFiles/eyeDetection.dir/main.cpp.o: ../segmentacion/canny.h
+CMakeFiles/eyeDetection.dir/main.cpp.o: ../segmentacion/circle_hough.h
+CMakeFiles/eyeDetection.dir/main.cpp.o: ../segmentacion/hysthresh.h
+CMakeFiles/eyeDetection.dir/main.cpp.o: ../segmentacion/nonmaxsup.h
 CMakeFiles/eyeDetection.dir/main.cpp.o: ../system_metrics.h
 
 CMakeFiles/eyeDetection.dir/memcount.cpp.o: ../memcount.cpp

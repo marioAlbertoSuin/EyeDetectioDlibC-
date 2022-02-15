@@ -10,7 +10,7 @@ enable_testing()
 include(../../dlib-19.23/dlib/cmake)
 include_directories(${PROJECT_SOURCE_DIR})
 
-add_executable(eyeDetection main.cpp bmp.cpp HibridMedianfilter.cpp array.cpp system_metrics.cpp memcount.cpp)
+add_executable(eyeDetection main.cpp  bmp.cpp HibridMedianfilter.cpp array.cpp system_metrics.cpp memcount.cpp)
 
 
 find_package(dlib REQUIRED)

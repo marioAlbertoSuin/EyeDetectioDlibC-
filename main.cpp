@@ -18,6 +18,8 @@
 #include "system_metrics.h"
 #include "memcount.h"
 #include <omp.h>
+#include "includes.h"
+
 
 unsigned long tid;
 
@@ -28,11 +30,13 @@ int tam_ventana = 3;
 // FUNCION PARA CALCULAR CALIDAD DE IMAGENES
 pair<double, double> calculatePSNR(unsigned char *in, unsigned char *out, int nr, int nc);
 
+//----------------------------------------------------------------------------------------
+
 // ----------------------------------------------------------------------------------------
 // ESCRIBIR METRICAS CSV
-void writePerfMetricsFilter(ofstream &file, int i, string filename, double cpu, int mem, double time, double ms, double pr, int ventana)
+void writePerfMetricsFilter(ofstream &file, string filename, double cpu, int mem, double time, double ms, double pr, int ventana)
 {
-    file << i << "," << filename << "," << cpu << "," << mem << "," << time << "," << ms << "," << pr << "," << ventana << endl;
+    file << filename << "," << cpu << "," << mem << "," << time << "," << ms << "," << pr << "," << ventana << endl;
 }
 
 void writePerfMetricsShape(ofstream &file, int i, string filename, double cpu, int mem, double time)
@@ -40,12 +44,27 @@ void writePerfMetricsShape(ofstream &file, int i, string filename, double cpu, i
     file << i << "," << filename << "," << cpu << "," << mem << "," << time << endl;
 }
 
+
+//-----------------------------------------------------------------------------------------
+// OBTENER NOMBRE IMAGENES
+string tokenize(string q)
+{
+
+    std::string token1 = q.erase(0, q.find("/") + 1);
+    std::string token2 = token1.substr(0, token1.find("."));
+    return token2;
+}
+
+
 //-----------------------------------------------------------------------------------------
 // FILTRO HIBIRIDO MEDIA
 
-void filtroHM(string nombre)
+void filtroHM(string nom)
 {
+    
+    string nombre=tokenize(nom);
     systemMetrics performance("perf");
+    performance.resetCounters();
     ofstream metrics;
 
     if (true)
@@ -56,10 +75,9 @@ void filtroHM(string nombre)
     {
         metrics.open("metricsFilter.csv"); // Append
     }
-    performance.resetCounters();
-    try
-    {
-
+    
+  
+        
         //median hibrid filtering
         Medianfilter Firsttest("resul/" + nombre + ".bmp", "resul/" + nombre + "filter.bmp");
         Firsttest.applyfilter(tam_ventana);
@@ -105,22 +123,10 @@ void filtroHM(string nombre)
         double cpu = performance.getCpuPercent();
         int mem = getRamUsage();
         double totalSeconds = performance.getDurationInMiliseconds();
-        writePerfMetricsFilter(metrics, 1, nombre, cpu, mem, totalSeconds, retvalData.first, retvalData.second, tam_ventana);
+        writePerfMetricsFilter(metrics, nom, cpu, mem, totalSeconds, retvalData.first, retvalData.second, tam_ventana);
         metrics.close();
-    }
-    catch (const std::exception &)
-    {
-    }
-}
-
-//-----------------------------------------------------------------------------------------
-// OBTENER NOMBRE IMAGENES
-string tokenize(string q)
-{
-
-    std::string token1 = q.erase(0, q.find("/") + 1);
-    std::string token2 = token1.substr(0, token1.find("."));
-    return token2;
+    
+    
 }
 
 // ----------------------------------------------------------------------------------------
@@ -135,48 +141,29 @@ void cutImage_eyes(const std::string &path, int LeftEyep1_x, int LeftEyep1_y, in
     load_image(img, path);
     //imagenes de salida
     array2d<rgb_pixel> resul;
-    //array2d<rgb_pixel> eyes;
-    //array2d<rgb_pixel> resul2;
-    
-    //int h1 =(RigthEyep2_y+25)-(LeftEyep1_y);
-    //int w1 =(RigthEyep2_x+40)-(LeftEyep1_x);
-    //
-    
-    
-
   
-    /*
-    int h1 =(RigthEyep2_y+15)-(RigthEyep1_y-15);
-    int w1 =(RigthEyep2_x+15)-(RigthEyep1_x-15);
-    resul2.set_size(w1, h1);
-    */
-    int h =(LeftEyep2_y-LeftEyep1_y)+20;
-    int w =(LeftEyep2_x-LeftEyep1_x)+20;
-    cout <<"\n h: "<< h<<"\t w: "<<w<<"\n";
+    int h=(LeftEyep2_y-LeftEyep1_y)+(100-((LeftEyep2_y-LeftEyep1_y)%100));
+    int w =(LeftEyep2_x-LeftEyep1_x)+(100-((LeftEyep2_x-LeftEyep1_x)%100));
+    
     //corte de los ojos
     resul.set_size(h, w);
     array2d<rgb_pixel> &crop_img = resul ;
-    //array2d<rgb_pixel> &crop_img2 = resul2;
+   
     
     const std::array<dlib::dpoint, 4> &pts = 
-    {{dpoint(LeftEyep1_x - 15, LeftEyep1_y - 15), 
-    dpoint(LeftEyep2_x + 15, LeftEyep2_y + 15), 
-    dpoint(LeftEyep1_x - 15, LeftEyep1_y + 15), 
+    {{dpoint(LeftEyep1_x - 30, LeftEyep1_y - 30), 
+    dpoint(LeftEyep2_x + 30, LeftEyep2_y + 30), 
+    dpoint(LeftEyep1_x - 30, LeftEyep1_y + 30), 
     dpoint(LeftEyep2_x + 30, LeftEyep2_y - 30)}};
 
-    dlib::extract_image_4points(img, crop_img, pts);
+    extract_image_4points(img, crop_img, pts);
+    //escala de grices
+    //array2d<unsigned char> img_gray;
+    //array2d<unsigned char> Salidaimg_gray;
+    //assign_image(img_gray, crop_img);
     save_bmp(crop_img, "resul/" + nombre + ".bmp");
     
-    /*
-    const std::array<dlib::dpoint, 4> &pts1 = 
-    {{dpoint(RigthEyep1_x - 10, RigthEyep1_y - 10), 
-    dpoint(RigthEyep2_x + 10, RigthEyep2_y + 10), 
-    dpoint(RigthEyep1_x - 20, RigthEyep1_y + 27), 
-    dpoint(RigthEyep2_x + 20, RigthEyep2_y - 27)}};
-
-    dlib::extract_image_4points(img, crop_img2, pts1);
-    save_bmp(crop_img2, "resul/Rigth" + nombre + ".bmp");
-    */
+ 
 }
 
 // ----------------------------------------------------------------------------------------
@@ -344,19 +331,188 @@ int main(int argc, char **argv)
                     // put them on the screen.
                     shapes.push_back(shape);
                 }
-            
+       
             //ojos
+            
             win.clear_overlay();
             win.set_image(img);
             win.add_overlay(Extraccion_puntos_ojos(shapes, argv[i]));
-            string nombre = tokenize(argv[i]);
-            filtroHM(nombre);
+
+
+            
+            
+            chip_details();
+            try{
+                filtroHM(argv[i]);
+            }catch(const std::exception &){
 
             }
 
+            
+            }
+            /*
+            string nombre = tokenize(argv[i]);
+            array2d<rgb_pixel> image;
+            
+            load_image(image,"resul/"+nombre+"filter.bmp");
+            array2d<unsigned char> gaussianbur;
+            gaussian_blur(image,gaussianbur);
+            array2d<short> horz_gradient,vert_gradient;
+            array2d<unsigned char> edge_image;
+            sobel_edge_detector(gaussianbur,horz_gradient,vert_gradient);
+            suppress_non_maximum_edges(horz_gradient,vert_gradient,edge_image);
+            
+            save_bmp(edge_image,"resul/"+nombre+"edges.nmp");
+            */
+   
             cout << "Hit enter to process the next image..." << endl;
             cin.get();
         }
+    PrintImg print;
+    int id_user = 0;
+    DIR *dir;
+    struct dirent *diread;
+    const char *path = "/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/resul/";
+
+    if ((dir = opendir(path)) != nullptr) {
+        while ((diread = readdir(dir)) != nullptr) {
+
+            std::string name_file = diread->d_name;
+            if (name_file != "." && name_file != "..") {
+                std::string val=path+name_file;
+                int imgRow,imgCol;
+                float *auximg;
+                Matrix img3;
+
+                std::cout<<name_file<<std::endl;
+                loadImage2(val.c_str(),imgRow,imgCol,auximg,img3);
+                id_user = nombre_ubiris(name_file.c_str()); 
+                
+                int outrow=imgRow,outcol=imgCol;
+                scaling(outrow,outcol,400);
+                Matrix img=imgResize(auximg,imgRow,imgCol,outrow,outcol);
+                Matrix mat_gradient=newDoubleMatrix(outrow,outcol);
+                Matrix mat_or=newDoubleMatrix(outrow,outcol);
+                
+                //ubiris session1 2.3,1.5,0.34,0.27
+                //ubiris session2 2.2,1.5,0.29,0.24
+                //casia lamp 2.2,1.5,0.23,0.19
+                //personal 2.01,2.3,0.24,0.18
+                double g=2.2; double borde=1.5; double histmax=0.34; double histmin=0.27;
+
+                canny(img,mat_gradient,mat_or,outrow,outcol,1,1,1);
+                adjgamma(mat_gradient,outrow,outcol,g);           
+                Matrix i4=nonmaxsup(mat_gradient,outrow,outcol, mat_or,outrow,outcol, borde); 
+                IntMatrix final=hysthresh(i4,outrow,outcol,histmax,histmin);  
+                
+    
+
+                 //ubiris sesion1 y session2 rmin 88 rmax 105
+                 //casia lamp rmin 55  rmax 77
+                 //personal rmin 15 rmax 45
+                int r_min = 88;
+                int r_max = 105;
+ 
+    
+                IntVector pcoor=detectar_circulo(final,outrow,outcol,r_min,r_max,0.1);
+                
+                /* escalar el radio*/
+                //int raux=pcoor[2];
+                int rx, ry,r;
+                resizeExternalCoor(rx,ry,r,imgCol,outcol,imgRow,outrow,pcoor);
+      
+                //---------------
+                deleteDoubleMatrix(mat_gradient,outrow);
+                deleteDoubleMatrix(mat_or,outrow);
+                deleteDoubleMatrix(i4,outrow);
+                deleteIntMatrix(final,outrow);
+
+                int fila = pcoor[1];//x
+                int columna = pcoor[0];//y
+                int radio = pcoor[2];//r
+                int fil_col = radio * 2;
+                scaling(outrow,outcol,400);
+                Matrix img2=imgResize(auximg,imgRow,imgCol,outrow,outcol);
+                Matrix mat_ojo = newDoubleMatrix(fil_col,fil_col);
+                int conti = 0;
+                int contj = 0;
+                for (int i = fila-radio; i < fila+radio; ++i)
+                {
+                    for (int j = columna-radio; j < columna+radio; ++j)
+                    {
+                        mat_ojo[conti][contj] = img2[i][j];
+                        contj++;
+                    }contj=0;conti++;
+                }
+
+                deleteDoubleMatrix(img2,outrow);
+
+                Matrix mat_gradient2=newDoubleMatrix(fil_col,fil_col);
+                Matrix mat_or2=newDoubleMatrix(fil_col,fil_col);
+
+                 //--ubiris session1 y session2 3.4, 1.5 0.34,0.27
+                 //casia lamp 2.2,1.5,0.34,0.27
+                 //prsonal ojo 3.5,1.5 , 0.34,0.27
+                double g2=3.4; double borde2=1.5; double histmax2=0.34; double histmin2=0.27;
+                canny(mat_ojo,mat_gradient2,mat_or2,fil_col,fil_col,1,1,1,2);
+                adjgamma(mat_gradient2,fil_col,fil_col,g2);  
+                Matrix i42=nonmaxsup(mat_gradient2,fil_col,fil_col, mat_or2,fil_col,fil_col, borde2); 
+                IntMatrix final2=hysthresh(i42,fil_col,fil_col,histmax2, histmin2); 
+
+                //----------------------
+                //ubiris session1 y sssion2 rmin=radio*0.18 rmax=radio*0.20
+                //casia lamp rmin=radio*0.18 rmax=radio*0.18
+                int r_min2 = round(radio*0.18);
+                int r_max2 = radio-round(radio*0.2);
+                IntVector pcoor2=detectar_circulo(final2,fil_col,fil_col,r_min2,r_max2,0.20,1);
+ 
+                int rx2,ry2,r2;
+                resizeInternalCoor( rx2,ry2,r2,imgCol,outcol,imgRow,outrow,pcoor2,columna, fila,radio); 
+ 
+
+               
+                Matrix gausfilter=newDoubleMatrix(5,5);
+                gausfilter[0][0]=0.0121;gausfilter[0][1]=0.0261;gausfilter[0][2]=0.0337;gausfilter[0][3]=0.0261;gausfilter[0][4]=0.0121;
+                gausfilter[1][0]=0.0261;gausfilter[1][1]=0.0561;gausfilter[1][2]=0.0724;gausfilter[1][3]=0.0561;gausfilter[1][4]=0.0261;
+                gausfilter[2][0]=0.0337;gausfilter[2][1]=0.0724;gausfilter[2][2]=0.0935;gausfilter[2][3]=0.0724;gausfilter[2][4]=0.0337;
+                gausfilter[3][0]=0.0261;gausfilter[3][1]=0.0561;gausfilter[3][2]=0.0724;gausfilter[3][3]=0.0561;gausfilter[3][4]=0.0261;
+                gausfilter[4][0]=0.0121;gausfilter[4][1]=0.0261;gausfilter[4][2]=0.0337;gausfilter[4][3]=0.0261;gausfilter[4][4]=0.0121;
+                Matrix img4=filter2(img3,gausfilter,imgRow,imgCol,5);
+                deleteDoubleMatrix(gausfilter,5);
+               
+                 correctSegmentation(rx,ry,rx2, ry2, r2);
+
+                 paintCircle(img4,imgRow, imgCol, rx, ry,rx2,ry2, r, r2);
+                 print.PrintImgs(img4,imgRow,imgCol,name_file.c_str());
+
+
+
+                //-----------
+                //fase de normalizacion
+                int nrow=20,nrcol=240;
+                Matrix normalize=normaliseiris(img4,imgRow,imgCol,rx,ry,r,rx2,ry2,r2,nrow,nrcol);
+                //----fin fase
+
+                //-----fase extraccion de caracteristicas- codificacion
+            
+           
+                //-----------------------------------------------------
+
+                delete[]auximg; 
+                auximg=nullptr; 
+                deleteIntVector(pcoor2);
+                deleteIntVector(pcoor);
+                deleteDoubleMatrix(normalize,nrow);
+                deleteDoubleMatrix(img3,imgRow);
+
+                deleteDoubleMatrix(mat_gradient2,fil_col);
+                deleteDoubleMatrix(mat_or2,fil_col);
+                deleteDoubleMatrix(i42,fil_col);
+                deleteIntMatrix(final2,fil_col);
+
+            }
+        }
+    }
     }
     catch (exception &e)
     {
@@ -390,3 +546,4 @@ pair<double, double> calculatePSNR(unsigned char *in, unsigned char *out, int nr
 
     return make_pair(MSE, PSNR);
 }
+

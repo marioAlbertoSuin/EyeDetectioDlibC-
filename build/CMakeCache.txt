@@ -686,10 +686,10 @@ X11_XRes_INCLUDE_PATH:PATH=X11_XRes_INCLUDE_PATH-NOTFOUND
 X11_XRes_LIB:FILEPATH=X11_XRes_LIB-NOTFOUND
 
 //Path to a file.
-X11_XShm_INCLUDE_PATH:PATH=X11_XShm_INCLUDE_PATH-NOTFOUND
+X11_XShm_INCLUDE_PATH:PATH=/usr/include
 
 //Path to a file.
-X11_XSync_INCLUDE_PATH:PATH=X11_XSync_INCLUDE_PATH-NOTFOUND
+X11_XSync_INCLUDE_PATH:PATH=/usr/include
 
 //Path to a file.
 X11_Xaccessrules_INCLUDE_PATH:PATH=X11_Xaccessrules_INCLUDE_PATH-NOTFOUND
@@ -728,10 +728,10 @@ X11_Xdmcp_INCLUDE_PATH:PATH=/usr/include
 X11_Xdmcp_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libXdmcp.so
 
 //Path to a file.
-X11_Xext_INCLUDE_PATH:PATH=X11_Xext_INCLUDE_PATH-NOTFOUND
+X11_Xext_INCLUDE_PATH:PATH=/usr/include
 
 //Path to a library.
-X11_Xext_LIB:FILEPATH=X11_Xext_LIB-NOTFOUND
+X11_Xext_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libXext.so
 
 //Path to a file.
 X11_Xfixes_INCLUDE_PATH:PATH=X11_Xfixes_INCLUDE_PATH-NOTFOUND
@@ -791,7 +791,7 @@ X11_Xrender_INCLUDE_PATH:PATH=X11_Xrender_INCLUDE_PATH-NOTFOUND
 X11_Xrender_LIB:FILEPATH=X11_Xrender_LIB-NOTFOUND
 
 //Path to a file.
-X11_Xshape_INCLUDE_PATH:PATH=X11_Xshape_INCLUDE_PATH-NOTFOUND
+X11_Xshape_INCLUDE_PATH:PATH=/usr/include
 
 //Path to a file.
 X11_Xss_INCLUDE_PATH:PATH=X11_Xss_INCLUDE_PATH-NOTFOUND
@@ -833,7 +833,7 @@ X11_Xxf86vm_INCLUDE_PATH:PATH=X11_Xxf86vm_INCLUDE_PATH-NOTFOUND
 X11_Xxf86vm_LIB:FILEPATH=X11_Xxf86vm_LIB-NOTFOUND
 
 //Path to a file.
-X11_dpms_INCLUDE_PATH:PATH=X11_dpms_INCLUDE_PATH-NOTFOUND
+X11_dpms_INCLUDE_PATH:PATH=/usr/include
 
 //Path to a file.
 X11_xkbfile_INCLUDE_PATH:PATH=X11_xkbfile_INCLUDE_PATH-NOTFOUND
@@ -869,7 +869,7 @@ dlib_BINARY_DIR:STATIC=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/dl
 dlib_DIR:PATH=/usr/local/lib/cmake/dlib
 
 //Dependencies for the target
-dlib_LIB_DEPENDS:STATIC=general;-lpthread;general;/usr/lib/x86_64-linux-gnu/libX11.so;
+dlib_LIB_DEPENDS:STATIC=general;-lpthread;general;/usr/lib/x86_64-linux-gnu/libX11.so;general;/usr/lib/x86_64-linux-gnu/libXext.so;
 
 //Value Computed by CMake
 dlib_SOURCE_DIR:STATIC=/home/marcelo/Documentos/dlib-19.23/dlib
@@ -1418,7 +1418,7 @@ SVNCOMMAND-ADVANCED:INTERNAL=1
 X11_ICE_INCLUDE_PATH-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: X11_ICE_LIB
 X11_ICE_LIB-ADVANCED:INTERNAL=1
-//Have library /usr/lib/x86_64-linux-gnu/libX11.so
+//Have library /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
 X11_LIB_X11_SOLO:INTERNAL=1
 //ADVANCED property for variable: X11_SM_INCLUDE_PATH
 X11_SM_INCLUDE_PATH-ADVANCED:INTERNAL=1

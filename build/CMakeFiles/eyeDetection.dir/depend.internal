@@ -708,8 +708,24 @@ CMakeFiles/eyeDetection.dir/main.cpp.o
  /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/HibridMedianfilter.h
  /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/array.h
  /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/bmp.h
+ /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/functions/PrintImg.h
+ /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/functions/correccion_pupila.h
+ /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/functions/double_functions.h
+ /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/functions/int_functions.h
+ /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/functions/nombre_etiqueta.h
+ /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/functions/stb_image.h
+ /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/functions/stb_image_resize.h
+ /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/functions/stb_image_write.h
+ /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/includes.h
  /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/main.cpp
  /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/memcount.h
+ /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/normalizacion/interp2.h
+ /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/normalizacion/normaliseiris.h
+ /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/segmentacion/adjgamma.h
+ /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/segmentacion/canny.h
+ /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/segmentacion/circle_hough.h
+ /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/segmentacion/hysthresh.h
+ /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/segmentacion/nonmaxsup.h
  /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/system_metrics.h
 CMakeFiles/eyeDetection.dir/memcount.cpp.o
  /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/memcount.cpp

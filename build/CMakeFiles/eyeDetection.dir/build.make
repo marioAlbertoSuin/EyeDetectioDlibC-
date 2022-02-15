@@ -156,6 +156,7 @@ eyeDetection: CMakeFiles/eyeDetection.dir/memcount.cpp.o
 eyeDetection: CMakeFiles/eyeDetection.dir/build.make
 eyeDetection: dlib_build/libdlib.a
 eyeDetection: /usr/lib/x86_64-linux-gnu/libX11.so
+eyeDetection: /usr/lib/x86_64-linux-gnu/libXext.so
 eyeDetection: CMakeFiles/eyeDetection.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable eyeDetection"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/eyeDetection.dir/link.txt --verbose=$(VERBOSE)

@@ -1,21 +1,21 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
 Change Dir: /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_86d34/fast && /usr/bin/make -f CMakeFiles/cmTC_86d34.dir/build.make CMakeFiles/cmTC_86d34.dir/build
+Run Build Command(s):/usr/bin/make cmTC_1703b/fast && /usr/bin/make -f CMakeFiles/cmTC_1703b.dir/build.make CMakeFiles/cmTC_1703b.dir/build
 make[1]: se entra en el directorio '/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_86d34.dir/src.c.o
-/bin/x86_64-linux-gnu-gcc-9   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_86d34.dir/src.c.o   -c /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_86d34
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86d34.dir/link.txt --verbose=1
-/bin/x86_64-linux-gnu-gcc-9  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_86d34.dir/src.c.o  -o cmTC_86d34 
-/usr/bin/ld: CMakeFiles/cmTC_86d34.dir/src.c.o: en la función `main':
+Building C object CMakeFiles/cmTC_1703b.dir/src.c.o
+/bin/x86_64-linux-gnu-gcc-9   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_1703b.dir/src.c.o   -c /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_1703b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1703b.dir/link.txt --verbose=1
+/bin/x86_64-linux-gnu-gcc-9  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_1703b.dir/src.c.o  -o cmTC_1703b 
+/usr/bin/ld: CMakeFiles/cmTC_1703b.dir/src.c.o: en la función `main':
 src.c:(.text+0x46): referencia a `pthread_create' sin definir
 /usr/bin/ld: src.c:(.text+0x52): referencia a `pthread_detach' sin definir
 /usr/bin/ld: src.c:(.text+0x63): referencia a `pthread_join' sin definir
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_86d34.dir/build.make:87: cmTC_86d34] Error 1
+make[1]: *** [CMakeFiles/cmTC_1703b.dir/build.make:87: cmTC_1703b] Error 1
 make[1]: se sale del directorio '/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_86d34/fast] Error 2
+make: *** [Makefile:121: cmTC_1703b/fast] Error 2
 
 
 Source file was:
@@ -41,56 +41,56 @@ int main(void)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_c7181/fast && /usr/bin/make -f CMakeFiles/cmTC_c7181.dir/build.make CMakeFiles/cmTC_c7181.dir/build
+Run Build Command(s):/usr/bin/make cmTC_854f0/fast && /usr/bin/make -f CMakeFiles/cmTC_854f0.dir/build.make CMakeFiles/cmTC_854f0.dir/build
 make[1]: se entra en el directorio '/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c7181.dir/CheckFunctionExists.c.o
-/bin/x86_64-linux-gnu-gcc-9   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_c7181.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_c7181
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7181.dir/link.txt --verbose=1
-/bin/x86_64-linux-gnu-gcc-9  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_c7181.dir/CheckFunctionExists.c.o  -o cmTC_c7181  -lpthreads 
+Building C object CMakeFiles/cmTC_854f0.dir/CheckFunctionExists.c.o
+/bin/x86_64-linux-gnu-gcc-9   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_854f0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_854f0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_854f0.dir/link.txt --verbose=1
+/bin/x86_64-linux-gnu-gcc-9  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_854f0.dir/CheckFunctionExists.c.o  -o cmTC_854f0  -lpthreads 
 /usr/bin/ld: no se puede encontrar -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_c7181.dir/build.make:87: cmTC_c7181] Error 1
+make[1]: *** [CMakeFiles/cmTC_854f0.dir/build.make:87: cmTC_854f0] Error 1
 make[1]: se sale del directorio '/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_c7181/fast] Error 2
+make: *** [Makefile:121: cmTC_854f0/fast] Error 2
 
 
 
 Determining if the function cblas_ddot exists failed with the following output:
 Change Dir: /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_efa54/fast && /usr/bin/make -f CMakeFiles/cmTC_efa54.dir/build.make CMakeFiles/cmTC_efa54.dir/build
+Run Build Command(s):/usr/bin/make cmTC_7a147/fast && /usr/bin/make -f CMakeFiles/cmTC_7a147.dir/build.make CMakeFiles/cmTC_7a147.dir/build
 make[1]: se entra en el directorio '/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_efa54.dir/CheckFunctionExists.c.o
-/bin/x86_64-linux-gnu-gcc-9   -DCHECK_FUNCTION_EXISTS=cblas_ddot   -o CMakeFiles/cmTC_efa54.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_efa54
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_efa54.dir/link.txt --verbose=1
-/bin/x86_64-linux-gnu-gcc-9  -DCHECK_FUNCTION_EXISTS=cblas_ddot    -rdynamic CMakeFiles/cmTC_efa54.dir/CheckFunctionExists.c.o  -o cmTC_efa54 
-/usr/bin/ld: CMakeFiles/cmTC_efa54.dir/CheckFunctionExists.c.o: en la función `main':
+Building C object CMakeFiles/cmTC_7a147.dir/CheckFunctionExists.c.o
+/bin/x86_64-linux-gnu-gcc-9   -DCHECK_FUNCTION_EXISTS=cblas_ddot   -o CMakeFiles/cmTC_7a147.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7a147
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a147.dir/link.txt --verbose=1
+/bin/x86_64-linux-gnu-gcc-9  -DCHECK_FUNCTION_EXISTS=cblas_ddot    -rdynamic CMakeFiles/cmTC_7a147.dir/CheckFunctionExists.c.o  -o cmTC_7a147 
+/usr/bin/ld: CMakeFiles/cmTC_7a147.dir/CheckFunctionExists.c.o: en la función `main':
 CheckFunctionExists.c:(.text+0x14): referencia a `cblas_ddot' sin definir
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_efa54.dir/build.make:87: cmTC_efa54] Error 1
+make[1]: *** [CMakeFiles/cmTC_7a147.dir/build.make:87: cmTC_7a147] Error 1
 make[1]: se sale del directorio '/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_efa54/fast] Error 2
+make: *** [Makefile:121: cmTC_7a147/fast] Error 2
 
 
 
 Determining if the function sgemm_ exists failed with the following output:
 Change Dir: /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_31c1c/fast && /usr/bin/make -f CMakeFiles/cmTC_31c1c.dir/build.make CMakeFiles/cmTC_31c1c.dir/build
+Run Build Command(s):/usr/bin/make cmTC_7e523/fast && /usr/bin/make -f CMakeFiles/cmTC_7e523.dir/build.make CMakeFiles/cmTC_7e523.dir/build
 make[1]: se entra en el directorio '/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_31c1c.dir/CheckFunctionExists.c.o
-/bin/x86_64-linux-gnu-gcc-9   -DCHECK_FUNCTION_EXISTS=sgemm_   -o CMakeFiles/cmTC_31c1c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_31c1c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31c1c.dir/link.txt --verbose=1
-/bin/x86_64-linux-gnu-gcc-9  -DCHECK_FUNCTION_EXISTS=sgemm_    -rdynamic CMakeFiles/cmTC_31c1c.dir/CheckFunctionExists.c.o  -o cmTC_31c1c 
-/usr/bin/ld: CMakeFiles/cmTC_31c1c.dir/CheckFunctionExists.c.o: en la función `main':
+Building C object CMakeFiles/cmTC_7e523.dir/CheckFunctionExists.c.o
+/bin/x86_64-linux-gnu-gcc-9   -DCHECK_FUNCTION_EXISTS=sgemm_   -o CMakeFiles/cmTC_7e523.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7e523
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e523.dir/link.txt --verbose=1
+/bin/x86_64-linux-gnu-gcc-9  -DCHECK_FUNCTION_EXISTS=sgemm_    -rdynamic CMakeFiles/cmTC_7e523.dir/CheckFunctionExists.c.o  -o cmTC_7e523 
+/usr/bin/ld: CMakeFiles/cmTC_7e523.dir/CheckFunctionExists.c.o: en la función `main':
 CheckFunctionExists.c:(.text+0x14): referencia a `sgemm_' sin definir
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_31c1c.dir/build.make:87: cmTC_31c1c] Error 1
+make[1]: *** [CMakeFiles/cmTC_7e523.dir/build.make:87: cmTC_7e523] Error 1
 make[1]: se sale del directorio '/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_31c1c/fast] Error 2
+make: *** [Makefile:121: cmTC_7e523/fast] Error 2
 
 
 
