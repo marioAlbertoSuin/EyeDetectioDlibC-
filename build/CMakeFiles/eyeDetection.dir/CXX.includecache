@@ -7672,18 +7672,6 @@ string
 ../error.h
 /home/marcelo/Documentos/dlib-19.23/dlib/error.h
 
-/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/HibridMedianfilter.h
-iostream
--
-fstream
-/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/fstream
-string
-/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/string
-
-/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/array.h
-
-/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/bmp.h
-
 /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/functions/PrintImg.h
 
 /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/functions/correccion_pupila.h
@@ -7778,6 +7766,8 @@ math.h
 assert.h
 -
 
+/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/hybridmedianfilter.h
+
 /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/includes.h
 iostream
 -
@@ -7831,8 +7821,6 @@ dlib/image_transforms.h
 -
 dlib/image_transforms/interpolation.h
 -
-HibridMedianfilter.h
-/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/HibridMedianfilter.h
 stdio.h
 -
 cstdio
@@ -7841,20 +7829,18 @@ vector
 -
 cmath
 -
-array.h
-/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/array.h
-bmp.h
-/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/bmp.h
 stdlib.h
 -
-system_metrics.h
-/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/system_metrics.h
-memcount.h
-/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/memcount.h
 omp.h
 -
 includes.h
 /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/includes.h
+system_metrics.h
+/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/system_metrics.h
+memcount.h
+/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/memcount.h
+hybridmedianfilter.h
+/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/hybridmedianfilter.h
 
 /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/memcount.h
 

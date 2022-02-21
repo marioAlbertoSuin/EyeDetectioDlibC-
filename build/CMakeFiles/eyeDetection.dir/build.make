@@ -70,48 +70,9 @@ CMakeFiles/eyeDetection.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/eyeDetection.dir/main.cpp.s"
 	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/main.cpp -o CMakeFiles/eyeDetection.dir/main.cpp.s
 
-CMakeFiles/eyeDetection.dir/bmp.cpp.o: CMakeFiles/eyeDetection.dir/flags.make
-CMakeFiles/eyeDetection.dir/bmp.cpp.o: ../bmp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/eyeDetection.dir/bmp.cpp.o"
-	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/eyeDetection.dir/bmp.cpp.o -c /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/bmp.cpp
-
-CMakeFiles/eyeDetection.dir/bmp.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/eyeDetection.dir/bmp.cpp.i"
-	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/bmp.cpp > CMakeFiles/eyeDetection.dir/bmp.cpp.i
-
-CMakeFiles/eyeDetection.dir/bmp.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/eyeDetection.dir/bmp.cpp.s"
-	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/bmp.cpp -o CMakeFiles/eyeDetection.dir/bmp.cpp.s
-
-CMakeFiles/eyeDetection.dir/HibridMedianfilter.cpp.o: CMakeFiles/eyeDetection.dir/flags.make
-CMakeFiles/eyeDetection.dir/HibridMedianfilter.cpp.o: ../HibridMedianfilter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/eyeDetection.dir/HibridMedianfilter.cpp.o"
-	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/eyeDetection.dir/HibridMedianfilter.cpp.o -c /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/HibridMedianfilter.cpp
-
-CMakeFiles/eyeDetection.dir/HibridMedianfilter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/eyeDetection.dir/HibridMedianfilter.cpp.i"
-	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/HibridMedianfilter.cpp > CMakeFiles/eyeDetection.dir/HibridMedianfilter.cpp.i
-
-CMakeFiles/eyeDetection.dir/HibridMedianfilter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/eyeDetection.dir/HibridMedianfilter.cpp.s"
-	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/HibridMedianfilter.cpp -o CMakeFiles/eyeDetection.dir/HibridMedianfilter.cpp.s
-
-CMakeFiles/eyeDetection.dir/array.cpp.o: CMakeFiles/eyeDetection.dir/flags.make
-CMakeFiles/eyeDetection.dir/array.cpp.o: ../array.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/eyeDetection.dir/array.cpp.o"
-	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/eyeDetection.dir/array.cpp.o -c /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/array.cpp
-
-CMakeFiles/eyeDetection.dir/array.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/eyeDetection.dir/array.cpp.i"
-	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/array.cpp > CMakeFiles/eyeDetection.dir/array.cpp.i
-
-CMakeFiles/eyeDetection.dir/array.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/eyeDetection.dir/array.cpp.s"
-	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/array.cpp -o CMakeFiles/eyeDetection.dir/array.cpp.s
-
 CMakeFiles/eyeDetection.dir/system_metrics.cpp.o: CMakeFiles/eyeDetection.dir/flags.make
 CMakeFiles/eyeDetection.dir/system_metrics.cpp.o: ../system_metrics.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/eyeDetection.dir/system_metrics.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/eyeDetection.dir/system_metrics.cpp.o"
 	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/eyeDetection.dir/system_metrics.cpp.o -c /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/system_metrics.cpp
 
 CMakeFiles/eyeDetection.dir/system_metrics.cpp.i: cmake_force
@@ -124,7 +85,7 @@ CMakeFiles/eyeDetection.dir/system_metrics.cpp.s: cmake_force
 
 CMakeFiles/eyeDetection.dir/memcount.cpp.o: CMakeFiles/eyeDetection.dir/flags.make
 CMakeFiles/eyeDetection.dir/memcount.cpp.o: ../memcount.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/eyeDetection.dir/memcount.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/eyeDetection.dir/memcount.cpp.o"
 	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/eyeDetection.dir/memcount.cpp.o -c /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/memcount.cpp
 
 CMakeFiles/eyeDetection.dir/memcount.cpp.i: cmake_force
@@ -135,30 +96,39 @@ CMakeFiles/eyeDetection.dir/memcount.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/eyeDetection.dir/memcount.cpp.s"
 	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/memcount.cpp -o CMakeFiles/eyeDetection.dir/memcount.cpp.s
 
+CMakeFiles/eyeDetection.dir/hybridmedianfilter.cpp.o: CMakeFiles/eyeDetection.dir/flags.make
+CMakeFiles/eyeDetection.dir/hybridmedianfilter.cpp.o: ../hybridmedianfilter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/eyeDetection.dir/hybridmedianfilter.cpp.o"
+	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/eyeDetection.dir/hybridmedianfilter.cpp.o -c /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/hybridmedianfilter.cpp
+
+CMakeFiles/eyeDetection.dir/hybridmedianfilter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/eyeDetection.dir/hybridmedianfilter.cpp.i"
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/hybridmedianfilter.cpp > CMakeFiles/eyeDetection.dir/hybridmedianfilter.cpp.i
+
+CMakeFiles/eyeDetection.dir/hybridmedianfilter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/eyeDetection.dir/hybridmedianfilter.cpp.s"
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcelo/Documentos/tesis/EyeDetectioDlibC-/hybridmedianfilter.cpp -o CMakeFiles/eyeDetection.dir/hybridmedianfilter.cpp.s
+
 # Object files for target eyeDetection
 eyeDetection_OBJECTS = \
 "CMakeFiles/eyeDetection.dir/main.cpp.o" \
-"CMakeFiles/eyeDetection.dir/bmp.cpp.o" \
-"CMakeFiles/eyeDetection.dir/HibridMedianfilter.cpp.o" \
-"CMakeFiles/eyeDetection.dir/array.cpp.o" \
 "CMakeFiles/eyeDetection.dir/system_metrics.cpp.o" \
-"CMakeFiles/eyeDetection.dir/memcount.cpp.o"
+"CMakeFiles/eyeDetection.dir/memcount.cpp.o" \
+"CMakeFiles/eyeDetection.dir/hybridmedianfilter.cpp.o"
 
 # External object files for target eyeDetection
 eyeDetection_EXTERNAL_OBJECTS =
 
 eyeDetection: CMakeFiles/eyeDetection.dir/main.cpp.o
-eyeDetection: CMakeFiles/eyeDetection.dir/bmp.cpp.o
-eyeDetection: CMakeFiles/eyeDetection.dir/HibridMedianfilter.cpp.o
-eyeDetection: CMakeFiles/eyeDetection.dir/array.cpp.o
 eyeDetection: CMakeFiles/eyeDetection.dir/system_metrics.cpp.o
 eyeDetection: CMakeFiles/eyeDetection.dir/memcount.cpp.o
+eyeDetection: CMakeFiles/eyeDetection.dir/hybridmedianfilter.cpp.o
 eyeDetection: CMakeFiles/eyeDetection.dir/build.make
 eyeDetection: dlib_build/libdlib.a
 eyeDetection: /usr/lib/x86_64-linux-gnu/libX11.so
 eyeDetection: /usr/lib/x86_64-linux-gnu/libXext.so
 eyeDetection: CMakeFiles/eyeDetection.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable eyeDetection"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/marcelo/Documentos/tesis/EyeDetectioDlibC-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable eyeDetection"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/eyeDetection.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

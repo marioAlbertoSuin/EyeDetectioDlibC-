@@ -523,17 +523,12 @@ void paintCircle(Matrix &img,int row, int col, int x, int y,int x2, int y2, int 
 		int xdash1=round(r1*cos(i));
 		int ydash1=round(r1*sin(i));
 
-		int xdash2=round(r2*cos(i));
-		int ydash2=round(r2*sin(i));
 
 		if (((x+xdash1)<col)&&((x+xdash1)>0)&&((y+ydash1)<row)&&((y+ydash1)>0)){
 			img[y+ydash1][x+xdash1]=double(100);
 		}
 
 
-		if (((x2+xdash2)<col)&&((x2+xdash2)>0)&&((y2+ydash2)<row)&&((y2+ydash2)>0)){
-			img[y2+ydash2][x2+xdash2]=double(100);
-		}
 	}
 
 }

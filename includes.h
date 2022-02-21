@@ -11,9 +11,11 @@
 #include "normalizacion/normaliseiris.h"
 
 #include "segmentacion/canny.h"
+
 #include "segmentacion/adjgamma.h"
 #include "segmentacion/nonmaxsup.h"
 #include "segmentacion/hysthresh.h"
 #include "segmentacion/circle_hough.h"
+
 
 #include "functions/PrintImg.h"

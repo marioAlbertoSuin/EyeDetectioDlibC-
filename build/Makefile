@@ -533,86 +533,32 @@ dlib/fast:
 	$(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/build
 .PHONY : dlib/fast
 
-HibridMedianfilter.o: HibridMedianfilter.cpp.o
+hybridmedianfilter.o: hybridmedianfilter.cpp.o
 
-.PHONY : HibridMedianfilter.o
-
-# target to build an object file
-HibridMedianfilter.cpp.o:
-	$(MAKE) -f CMakeFiles/eyeDetection.dir/build.make CMakeFiles/eyeDetection.dir/HibridMedianfilter.cpp.o
-.PHONY : HibridMedianfilter.cpp.o
-
-HibridMedianfilter.i: HibridMedianfilter.cpp.i
-
-.PHONY : HibridMedianfilter.i
-
-# target to preprocess a source file
-HibridMedianfilter.cpp.i:
-	$(MAKE) -f CMakeFiles/eyeDetection.dir/build.make CMakeFiles/eyeDetection.dir/HibridMedianfilter.cpp.i
-.PHONY : HibridMedianfilter.cpp.i
-
-HibridMedianfilter.s: HibridMedianfilter.cpp.s
-
-.PHONY : HibridMedianfilter.s
-
-# target to generate assembly for a file
-HibridMedianfilter.cpp.s:
-	$(MAKE) -f CMakeFiles/eyeDetection.dir/build.make CMakeFiles/eyeDetection.dir/HibridMedianfilter.cpp.s
-.PHONY : HibridMedianfilter.cpp.s
-
-array.o: array.cpp.o
-
-.PHONY : array.o
+.PHONY : hybridmedianfilter.o
 
 # target to build an object file
-array.cpp.o:
-	$(MAKE) -f CMakeFiles/eyeDetection.dir/build.make CMakeFiles/eyeDetection.dir/array.cpp.o
-.PHONY : array.cpp.o
+hybridmedianfilter.cpp.o:
+	$(MAKE) -f CMakeFiles/eyeDetection.dir/build.make CMakeFiles/eyeDetection.dir/hybridmedianfilter.cpp.o
+.PHONY : hybridmedianfilter.cpp.o
 
-array.i: array.cpp.i
+hybridmedianfilter.i: hybridmedianfilter.cpp.i
 
-.PHONY : array.i
-
-# target to preprocess a source file
-array.cpp.i:
-	$(MAKE) -f CMakeFiles/eyeDetection.dir/build.make CMakeFiles/eyeDetection.dir/array.cpp.i
-.PHONY : array.cpp.i
-
-array.s: array.cpp.s
-
-.PHONY : array.s
-
-# target to generate assembly for a file
-array.cpp.s:
-	$(MAKE) -f CMakeFiles/eyeDetection.dir/build.make CMakeFiles/eyeDetection.dir/array.cpp.s
-.PHONY : array.cpp.s
-
-bmp.o: bmp.cpp.o
-
-.PHONY : bmp.o
-
-# target to build an object file
-bmp.cpp.o:
-	$(MAKE) -f CMakeFiles/eyeDetection.dir/build.make CMakeFiles/eyeDetection.dir/bmp.cpp.o
-.PHONY : bmp.cpp.o
-
-bmp.i: bmp.cpp.i
-
-.PHONY : bmp.i
+.PHONY : hybridmedianfilter.i
 
 # target to preprocess a source file
-bmp.cpp.i:
-	$(MAKE) -f CMakeFiles/eyeDetection.dir/build.make CMakeFiles/eyeDetection.dir/bmp.cpp.i
-.PHONY : bmp.cpp.i
+hybridmedianfilter.cpp.i:
+	$(MAKE) -f CMakeFiles/eyeDetection.dir/build.make CMakeFiles/eyeDetection.dir/hybridmedianfilter.cpp.i
+.PHONY : hybridmedianfilter.cpp.i
 
-bmp.s: bmp.cpp.s
+hybridmedianfilter.s: hybridmedianfilter.cpp.s
 
-.PHONY : bmp.s
+.PHONY : hybridmedianfilter.s
 
 # target to generate assembly for a file
-bmp.cpp.s:
-	$(MAKE) -f CMakeFiles/eyeDetection.dir/build.make CMakeFiles/eyeDetection.dir/bmp.cpp.s
-.PHONY : bmp.cpp.s
+hybridmedianfilter.cpp.s:
+	$(MAKE) -f CMakeFiles/eyeDetection.dir/build.make CMakeFiles/eyeDetection.dir/hybridmedianfilter.cpp.s
+.PHONY : hybridmedianfilter.cpp.s
 
 main.o: main.cpp.o
 
@@ -736,15 +682,9 @@ help:
 	@echo "... ContinuousTest"
 	@echo "... ContinuousSubmit"
 	@echo "... dlib"
-	@echo "... HibridMedianfilter.o"
-	@echo "... HibridMedianfilter.i"
-	@echo "... HibridMedianfilter.s"
-	@echo "... array.o"
-	@echo "... array.i"
-	@echo "... array.s"
-	@echo "... bmp.o"
-	@echo "... bmp.i"
-	@echo "... bmp.s"
+	@echo "... hybridmedianfilter.o"
+	@echo "... hybridmedianfilter.i"
+	@echo "... hybridmedianfilter.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
